@@ -28,8 +28,8 @@ section {
 
 /* Buttons & CTAs */
 .btn-primary {
-    background-color: #0a5ca0;
-    border-color: #0a5ca0;
+    background-color: #00bfa5;
+    border-color: #00bfa5;
     padding: 10px 25px;
     font-weight: 600;
     border-radius: 30px;
@@ -357,3 +357,93 @@ section {
         margin-top: 15px;
     }
 }
+/* -------------------Meet Jack */
+.about-image-container {
+  position: relative;
+}
+
+.about-image {
+  transition: all 0.3s ease;
+  border: 5px solid white;
+  max-height: 500px;
+}
+
+.about-quote {
+  position: relative;
+  background-color: #5a7b9c; /* Calmer, deeper blue */
+  color: white;
+  padding: 1.25rem;
+  border-radius: 8px;
+  margin-top: -1.5rem;
+  margin-left: 1rem;
+  margin-right: -1rem;
+  z-index: 2;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-quote p {
+  font-style: italic;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.qualification-container {
+  padding: 0.5rem;
+}
+
+.qualification-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.qualification-list li {
+  display: flex;
+  margin-bottom: 0.75rem;
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.qualification-list li:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.qualification-icon {
+  font-size: 1.5rem;
+  margin-right: 0.75rem;
+  min-width: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.qualification-content {
+  flex: 1;
+}
+
+.qualification-content p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  color: #4a4a4a;
+}
+
+.section-title .lead {
+  font-size: 1.1rem;
+  color: #5a7b9c; /* Matching calmer blue */
+}
+
+@media (max-width: 767.98px) {
+  .about-quote {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .qualification-list li {
+    padding: 0.4rem;
+    margin-bottom: 0.6rem;
+  }
+}
+/* End of CSS */

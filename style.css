@@ -1,13 +1,20 @@
 /* General Styles */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Nunito", sans-serif;
     color: #333;
     overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, .navbar-brand {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "League Spartan", sans-serif;
     font-weight: 700;
+}
+.bg-brand-blue{
+    background-color: #0a5ca0;
+}
+
+.brand-blue{
+    color: #0a5ca0;
 }
 
 section {
@@ -57,6 +64,22 @@ section {
 }
 
 /* Navigation */
+.nav-text-responsive {
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+ .nav-text-responsive {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+ .nav-text-responsive {
+    font-size: 1.5rem;
+  }
+}
+
 .navbar {
     padding: 15px 0;
     transition: all 0.3s ease;

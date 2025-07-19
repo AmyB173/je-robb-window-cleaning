@@ -74,6 +74,24 @@
                     <h2>Trustworthy, local window cleaner - regular window cleans, fascia cleaning and gutter emptying
                         in Swindon and surrounding areas.</h2>
                     <a href="#contact" class="btn btn-primary btn-lg mt-4">Get a Free Quote</a>
+                    <!-- Rotating Testimonial -->
+<div class="hero-testimonial">
+    <div class="testimonial-carousel" id="testimonialCarousel">
+        
+        <div class="testimonial-slide active">
+            <p class="testimonial-text">"Very thorough cleaning, windows looked amazing! Great customer service too. Would highly recommend." - Jill<span class="testimonial-stars">⭐⭐⭐⭐⭐</span></p>
+        </div>
+        <div class="testimonial-slide">
+            <p class="testimonial-text">"Jack was brilliant from start to finish. He completed the job really thoroughly taking time to attend to the details. Really pleased with the result would absolutely recommend 100%." - Julianna<span class="testimonial-stars">⭐⭐⭐⭐⭐</span></p>
+        </div>
+        <div class="testimonial-slide">
+            <p class="testimonial-text">"Absolutely amazing work and service from Jack, his communication before the job was great and he left my windows sparkling clean. Jack will definitely be cleaning my windows again." - Tendai<span class="testimonial-stars">⭐⭐⭐⭐⭐</span></p>
+        </div>
+        <div class="testimonial-slide ">
+            <p class="testimonial-text">"Absolutely fantastic service! Windows are sparkling clean, best they’ve looked in years. Professional, punctual, and thorough. Highly recommended!" - Chibuikem<span class="testimonial-stars">⭐⭐⭐⭐⭐</span></p>
+        </div>
+    </div>
+</div>
                 </div>
             </div>
         </div>
@@ -481,6 +499,20 @@
                 navbar.classList.remove('navbar-scrolled');
             }
         });
+    // Rotating testimonials
+function rotateTestimonials() {
+    const slides = document.querySelectorAll('.testimonial-slide');
+    let currentSlide = 0;
+    
+    setInterval(() => {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add('active');
+    }, 4000); // Change every 4 seconds
+}
+
+// Initialize testimonial rotation when page loads
+document.addEventListener('DOMContentLoaded', rotateTestimonials);
     </script>
 </body>
 

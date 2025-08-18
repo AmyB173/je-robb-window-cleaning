@@ -327,7 +327,6 @@
               </div>
             </div>
           </div>
-
         </div>
         <div class="row mt-4">
           <div class="col text-center">
@@ -444,6 +443,15 @@
                   class="form-control"
                   id="name"
                   placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="address"
+                  placeholder="Your Address"
                   required
                 />
               </div>
@@ -646,6 +654,7 @@
 
           const templateParams = {
             name: document.getElementById("name").value,
+            address: document.getElementById("address").value,
             email: document.getElementById("email").value,
             phone: document.getElementById("phone").value,
             service: document.getElementById("service").value,

@@ -12,7 +12,7 @@ include 'includes/header.php';
           <h1 class="section-title mb-2">Terms and Conditions</h1>
           <p class="text-muted mb-4">JE Robb Window Cleaning &middot; Last updated: February 2026</p>
 
-          <p style="font-size: 1.05rem; line-height: 1.7; color: #444;">Jack has brilliant relationships with his customers, and in over two years of running JE Robb Window Cleaning, problems are incredibly rare. These terms exist to keep things clear and fair for everyone. Most of it is common sense, but it's good to have it written down.</p>
+          <p style="font-size: 1.05rem; line-height: 1.7; color: #444;">Jack has brilliant relationships with his customers, and in all the years of running JE Robb Window Cleaning, problems are incredibly rare. These terms exist to keep things clear and fair for everyone. Most of it is common sense, but it's good to have it written down.</p>
 
           <!-- ============================================
                SUMMARY BOX

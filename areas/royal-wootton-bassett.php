@@ -14,7 +14,7 @@ include '../includes/header.php';
   "description": "Professional window cleaning in Royal Wootton Bassett, Wiltshire. Regular cleans, fascia cleaning and gutter emptying.",
   "url": "https://www.jerobb.co.uk/areas/royal-wootton-bassett.php",
   "telephone": "+447442249440",
-  "email": "jerobb.windowcleaning@gmail.com",
+  "email": "windowcleaning@jerobb.co.uk",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Swindon",
@@ -510,7 +510,7 @@ include '../includes/header.php';
           <div class="col-lg-6 text-center">
             <p class="small mb-0" style="color: rgba(255,255,255,0.6);">
               You can also reach Jack on <a href="tel:07442249440" class="text-white">07442 249440</a>
-              or email <a href="mailto:jerobb.windowcleaning@gmail.com" class="text-white">jerobb.windowcleaning@gmail.com</a>
+              or email <a href="mailto:windowcleaning@jerobb.co.uk" class="text-white">windowcleaning@jerobb.co.uk</a>
             </p>
           </div>
         </div>

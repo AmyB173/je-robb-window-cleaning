@@ -50,11 +50,11 @@ include 'includes/header.php';
         <p class="hero-eyebrow">Professional Window Cleaning Across Swindon &amp; Wiltshire</p>
         <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Swindon</h1>
         <p class="hero-desc-split">
-          Spotless windows, clean fascias, and clear gutters - done properly, every time.
+          Jack provides regular window cleaning, fascia cleaning and gutter emptying for homes across Swindon and surrounding areas. Over 100 happy customers already trust him to keep their properties looking their best, with the same friendly face turning up every time.
         </p>
-        <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-3 mb-4">Message Jack for a Free Quote</a>
+        <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Message Jack for a Free Quote</a>
 
-        <div class="d-flex align-items-center mb-3 mt-2">
+        <div class="d-flex align-items-center mb-3">
           <img src="/assets/images/jack.png"
             alt="Jack from JE Robb Window Cleaning"
             class="hero-jack-thumb rounded-circle me-3" />

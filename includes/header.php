@@ -65,7 +65,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/#about-me-section">About Jack</a>
             </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="areasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Areas
               </a>
@@ -80,7 +80,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/blog/">Blog</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link btn btn-primary nav-cta" href="/#contact">Get a Quote</a>
             </li>

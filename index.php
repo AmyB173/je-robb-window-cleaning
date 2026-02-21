@@ -171,7 +171,7 @@ include 'includes/header.php';
       <div class="col-md-6 col-lg-4 mb-4">
         <div class="testimonial-card p-4 rounded-4 shadow-sm h-100">
           <div class="mb-2"><span style="color: #ffd700;">⭐⭐⭐⭐⭐</span></div>
-          <p class="testimonial-card-text">"Brilliant job cleaning our windows in an efficient tidy manner, <strong>he takes pride in his work, the window frames look cleaner than they have been for ages.</stron>"</p>
+          <p class="testimonial-card-text">"Brilliant job cleaning our windows in an efficient tidy manner, <strong>he takes pride in his work, the window frames look cleaner than they have been for ages.</strong>"</p>
           <p class="testimonial-card-author fw-semibold mb-0">- Alfred Western</p>
         </div>
       </div>
@@ -427,13 +427,15 @@ include 'includes/header.php';
     <div class="row justify-content-center">
       <div class="col-lg-6">
         <form id="contactForm" class="contact-form">
+          <input type="hidden" id="email" name="email" value="" />
+          <input type="hidden" id="message" name="message" value="Enquiry from homepage" />
           <div class="mb-3">
             <label for="name" class="visually-hidden">Your Name</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required />
           </div>
           <div class="mb-3">
-            <label for="postcode" class="visually-hidden">Your Postcode</label>
-            <input type="text" class="form-control" id="postcode" name="postcode" placeholder="Your Postcode" required />
+            <label for="address" class="visually-hidden">Your Postcode</label>
+            <input type="text" class="form-control" id="address" name="address" placeholder="Your Postcode" required />
           </div>
           <div class="mb-3">
             <label for="phone" class="visually-hidden">Your Phone Number</label>

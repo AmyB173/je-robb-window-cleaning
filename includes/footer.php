@@ -56,13 +56,15 @@
     contactForm.addEventListener("submit", function(event) {
       event.preventDefault();
 
+      const getVal = (id) => { const el = document.getElementById(id); return el ? el.value : ""; };
+
       const templateParams = {
-        name: document.getElementById("name").value,
-        address: document.getElementById("address").value,
-        email: document.getElementById("email").value,
-        phone: document.getElementById("phone").value,
-        service: document.getElementById("service").value,
-        message: document.getElementById("message").value,
+        name: getVal("name"),
+        address: getVal("address"),
+        email: getVal("email"),
+        phone: getVal("phone"),
+        service: getVal("service"),
+        message: getVal("message"),
       };
 
       emailjs
@@ -120,8 +122,6 @@
     rotateSlides(".testimonial-slide", 6000);
     rotateSlides(".snippet-slide", 5000);
   });
-
-  document.addEventListener("DOMContentLoaded", rotateTestimonials);
 </script>
 
 </body>

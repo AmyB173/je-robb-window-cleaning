@@ -54,7 +54,7 @@ include '../includes/header.php';
         <div class="row align-items-center py-4 py-lg-5">
           <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
             <h1>Window Cleaning in Royal Wootton Bassett</h1>
-            <p class="area-hero-subtitle text-lg-start">Reliable, friendly window cleaning for homes and businesses in Royal Wootton Bassett - serving the town and surrounding villages.</p>
+            <p class="area-hero-subtitle text-lg-start">Reliable, friendly window cleaning for homes across Royal Wootton Bassett and the surrounding villages. Jack already cleans for customers around the town <!-- [JACK TO CONFIRM] mention specific estates e.g. "from Templars Firs to Lime Kiln" --> and is always happy to add new properties to his regular round.</p>
             <a href="#contact" class="btn btn-hero btn-lg mt-2 mb-4">Get a Free Quote</a>
 
             <div class="d-flex align-items-center mb-3">
@@ -66,13 +66,29 @@ include '../includes/header.php';
               </span>
             </div>
 
+            <!--
+              VARIATION NOTE: Use a different selection/order of snippets on each area page.
+              The footer JS rotates .snippet-slide elements automatically.
+              RWB uses Anna, Alfred, Dan. Other pages should use different combos from:
+              Janet, Amit, Amanda, Julianna, Sophie, Charlotte, Dan, Anna, Alfred
+            -->
             <div class="hero-snippet">
-              <p class="snippet-text">"Reliable, thorough and efficient, helpful and friendly. Highly recommend." <span class="snippet-author">- Anna</span> <span class="snippet-stars">⭐⭐⭐⭐⭐</span></p>
+              <div class="snippet-carousel" id="snippetCarousel">
+                <div class="snippet-slide active">
+                  <p class="snippet-text">"Reliable, thorough, efficient and friendly" <span class="snippet-author">- Anna</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
+                </div>
+                <div class="snippet-slide">
+                  <p class="snippet-text">"He takes pride in his work - cleaner than they've been for ages" <span class="snippet-author">- Alfred</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
+                </div>
+                <div class="snippet-slide">
+                  <p class="snippet-text">"Very glad I found him. Will use permanently" <span class="snippet-author">- Dan</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
+                </div>
+              </div>
             </div>
             <a href="https://www.google.com/search?q=je+robb+window+cleaning#lrd=0x25478cddcb9565d3:0x9af176d9df19a689,1"
               target="_blank" rel="noopener"
               class="hero-google-link small mt-2 d-inline-block">
-              Rated 5★ on Google - Read our reviews
+              Rated 5&#9733; on Google - Read our reviews
             </a>
           </div>
           <div class="col-lg-6 d-flex flex-column align-items-center">
@@ -88,22 +104,28 @@ include '../includes/header.php';
     </section>
 
     <!-- Trust Ticker Bar -->
+    <!--
+      VARIATION NOTE: Vary the order and selection of ticker items per area page.
+      RWB leads with "Independent & Local" and includes "Over 100 Regular Customers".
+      Other pages can lead with different items or swap in alternatives like
+      "Fully Insured", "No Contract Required", etc.
+    -->
     <div class="trust-ticker">
       <div class="trust-ticker-track">
         <div class="trust-ticker-content">
-          <span><i class="fas fa-star"></i> 5-Star Rated on Google</span>
-          <span><i class="fas fa-user-check"></i> Same Person Every Time</span>
           <span><i class="fas fa-map-marker-alt"></i> Independent &amp; Local</span>
-          <span><i class="fas fa-shield-alt"></i> Someone You Can Trust Around Your Home</span>
+          <span><i class="fas fa-star"></i> 5-Star Rated on Google</span>
+          <span><i class="fas fa-users"></i> Over 100 Regular Customers</span>
+          <span><i class="fas fa-user-check"></i> Same Person Every Time</span>
           <span><i class="fas fa-heart"></i> A Window Cleaner Who Cares</span>
           <span><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</span>
           <span><i class="fas fa-comments"></i> Great Communication</span>
           <span><i class="fas fa-hand-holding-heart"></i> Supporting a Small Local Business</span>
           <!-- Duplicate for seamless loop -->
-          <span><i class="fas fa-star"></i> 5-Star Rated on Google</span>
-          <span><i class="fas fa-user-check"></i> Same Person Every Time</span>
           <span><i class="fas fa-map-marker-alt"></i> Independent &amp; Local</span>
-          <span><i class="fas fa-shield-alt"></i> Someone You Can Trust Around Your Home</span>
+          <span><i class="fas fa-star"></i> 5-Star Rated on Google</span>
+          <span><i class="fas fa-users"></i> Over 100 Regular Customers</span>
+          <span><i class="fas fa-user-check"></i> Same Person Every Time</span>
           <span><i class="fas fa-heart"></i> A Window Cleaner Who Cares</span>
           <span><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</span>
           <span><i class="fas fa-comments"></i> Great Communication</span>
@@ -112,7 +134,40 @@ include '../includes/header.php';
       </div>
     </div>
 
+    <!--
+      VARIATION NOTE: On this page, a testimonial comes BEFORE the about section.
+      On other area pages, vary the section order. For example:
+      - Swindon: About > Services > Testimonials > FAQ
+      - Wroughton: Testimonial > About > FAQ > Services
+      - Highworth: About > FAQ > Testimonials > Services
+      This structural variation helps signal to Google that these aren't templated pages.
+    -->
+
+    <!-- Early Testimonial (social proof high up the page) -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="testimonial-card p-4 rounded-4 shadow-sm">
+              <div class="mb-2"><span style="color: #ffd700;">&#11088;&#11088;&#11088;&#11088;&#11088;</span></div>
+              <p class="testimonial-card-text">"Jack has cleaned my parents' windows several times now and <strong>they are hugely impressed</strong>. Jack is reliable, thorough and efficient, helpful and friendly. Highly recommend."</p>
+              <p class="testimonial-card-author fw-semibold mb-0">- Anna Cairns</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- About + Jack -->
+    <!--
+      VARIATION NOTE: Each area page should emphasise a DIFFERENT aspect of Jack's service.
+      RWB focuses on: communication and the personal touch (messages the day before, knows customers by name).
+      Other pages could lead with:
+      - Pure water system and how it works (technical angle)
+      - His 10+ years in the trade (experience angle)
+      - Satisfaction guarantee (risk-free angle)
+      - Supporting a small local business (community angle)
+    -->
     <section class="py-5">
       <div class="container">
         <div class="row align-items-center">
@@ -124,19 +179,28 @@ include '../includes/header.php';
             />
           </div>
           <div class="col-lg-8">
-            <h2 class="section-title">Your Local Window Cleaner in Royal Wootton Bassett</h2>
-            <p class="lead mt-3">Jack provides professional window cleaning throughout Royal Wootton Bassett and the surrounding area. Whether you're in the town centre or one of the nearby villages, you can count on a punctual, thorough clean at a competitive price. Jack uses a pure water fed pole system which delivers a streak-free finish without ladders on your property, and without any harsh chemicals.</p>
-            <p>Based just 5 miles west of Swindon, Jack offers regular domestic window cleaning, one-off cleans, fascia cleaning, and gutter emptying across Royal Wootton Bassett and the surrounding villages.</p>
-            <p>As a sole trader, you'll always get Jack - not a different operative each time. He'll message you the day before your clean so you know when to expect him, and he takes pride in doing a thorough, careful job every visit.</p>
+            <h2 class="section-title">Your Window Cleaner in Royal Wootton Bassett</h2>
+            <p class="lead mt-3">Jack provides regular window cleaning for homes throughout Royal Wootton Bassett. As a one-man business with over 100 customers across Swindon and the surrounding towns, he's built his reputation on doing a proper job and being someone people are happy to have around their property. Every one of his Google reviews is five stars - and that matters more than any sales pitch.</p>
+            <!-- [JACK TO CONFIRM] Does Jack have specific RWB customers? If so, replace the generic line below with something like:
+            "He already cleans regularly for homes around Templars Firs, Lime Kiln, and the High Street area..." -->
+            <p>Jack already works in Royal Wootton Bassett as part of his regular round, so adding new customers in the area is straightforward. He'll message you the day before every clean so you always know when to expect him, and because he's a sole trader, you'll always get the same person turning up - not a different face each time.</p>
+            <p>His pure water fed pole system reaches first and second floor windows from the ground without ladders on your property. It leaves glass spotless without any chemicals, and frames and sills get cleaned as part of every visit.</p>
           </div>
         </div>
 
         <div class="row mt-5">
           <div class="col-lg-10 mx-auto">
-            <h3 style="color: #0a5ca0;">About Window Cleaning in Royal Wootton Bassett</h3>
-            <p>Royal Wootton Bassett is a historic market town just west of Swindon, known for its High Street, the Town Hall, and the strong sense of community. With a mix of period cottages in the town centre and modern estates on the outskirts - including developments off Coped Hall and around Templars Firs - there's a wide variety of properties that benefit from regular window cleaning. Stone-built homes and older sash windows need careful handling, while newer builds often have hard-to-reach first-floor windows that are perfect for Jack's water-fed pole system.</p>
+            <h3 style="color: #0a5ca0;">Window Cleaning for Royal Wootton Bassett Homes</h3>
+            <!--
+              This is the KEY differentiation section. This content must be genuinely
+              specific to Royal Wootton Bassett and not reusable on other pages.
+              [JACK TO CONFIRM] the details below - adjust anything that isn't accurate.
+            -->
+            <p>Royal Wootton Bassett has a real mix of properties, from the older stone and brick cottages along the High Street and around the church, to the larger modern estates off Coped Hall and around Templars Firs. Each type needs a slightly different approach. Older sash windows and stone surrounds benefit from the gentle pure water clean Jack uses - no harsh chemicals that could damage paintwork or stonework. The newer estates often have a lot of first-floor glass that's difficult to reach, which is where the water-fed pole system really earns its keep.</p>
+            <p>Being a market town just off the M4, properties in Royal Wootton Bassett tend to pick up road dust and grime quite quickly, especially on the main road side. Regular cleaning every 8 weeks keeps on top of this and stops dirt building up on frames and seals - which helps your windows last longer as well as look better.</p>
+            <!-- [JACK TO CONFIRM] Any other local details? e.g. new developments being built, nearby farms causing dust, anything specific to RWB that a local would recognise -->
             <div class="text-center mt-4">
-              <a href="#contact" class="btn btn-primary btn-lg">Book a free quote</a>
+              <a href="#contact" class="btn btn-primary btn-lg">Get a free quote in Royal Wootton Bassett</a>
             </div>
           </div>
         </div>
@@ -144,11 +208,18 @@ include '../includes/header.php';
     </section>
 
     <!-- Services -->
+    <!--
+      VARIATION NOTE: Vary the SERVICE ORDER and DESCRIPTIONS per area page.
+      RWB leads with domestic window cleaning (most relevant for this market town).
+      A page targeting a commercial area could lead with Commercial.
+      Descriptions are reworded from the homepage - keep varying these per page.
+    -->
     <section class="py-5 bg-light">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-4">
-            <h2 class="section-title">Services Available in Royal Wootton Bassett</h2>
+            <h2 class="section-title">What Jack Can Help With</h2>
+            <p class="section-subtitle">All services available in Royal Wootton Bassett and surrounding villages</p>
           </div>
         </div>
         <div class="row">
@@ -158,8 +229,8 @@ include '../includes/header.php';
                 <img src="/assets/images/picture-window.jpg" alt="Window cleaning in Royal Wootton Bassett" class="service-card-img" />
               </div>
               <div class="service-card-body">
-                <h3>Window Cleaning</h3>
-                <p>Exterior and interior cleaning using pure water technology - streak-free results every time.</p>
+                <h3>Regular Window Cleaning</h3>
+                <p>Exterior and interior cleans, typically every 8 weeks. Pure water technology for a streak-free finish that lasts.</p>
               </div>
             </div>
           </div>
@@ -169,8 +240,8 @@ include '../includes/header.php';
                 <img src="/assets/images/fascia-clean.jpg" alt="Fascia cleaning in Royal Wootton Bassett" class="service-card-img" />
               </div>
               <div class="service-card-body">
-                <h3>Fascia Cleaning</h3>
-                <p>Restore the look of your property's fascias, soffits and gutters.</p>
+                <h3>Fascia &amp; Soffit Cleaning</h3>
+                <p>White uPVC fascias looking grey or streaky? Jack can bring them back to bright white and keep them that way.</p>
               </div>
             </div>
           </div>
@@ -180,8 +251,8 @@ include '../includes/header.php';
                 <img src="/assets/images/gutter-empty.jpg" alt="Gutter emptying in Royal Wootton Bassett" class="service-card-img" />
               </div>
               <div class="service-card-body">
-                <h3>Gutter Emptying</h3>
-                <p>Prevent water damage with a thorough gutter clearing service.</p>
+                <h3>Gutter Clearing</h3>
+                <p>Blocked gutters cause damp and water damage. A thorough clear-out keeps your home protected, especially heading into autumn and winter.</p>
               </div>
             </div>
           </div>
@@ -191,8 +262,8 @@ include '../includes/header.php';
                 <img src="/assets/images/bespoke.jpg" alt="Commercial window cleaning in Royal Wootton Bassett" class="service-card-img" />
               </div>
               <div class="service-card-body">
-                <h3>Commercial</h3>
-                <p>Bespoke cleaning solutions for local businesses and offices.</p>
+                <h3>Shops &amp; Businesses</h3>
+                <p>Clean windows make a good first impression. Jack works with local businesses to keep their frontage looking its best.</p>
               </div>
             </div>
           </div>
@@ -205,28 +276,113 @@ include '../includes/header.php';
       </div>
     </section>
 
-    <!-- Testimonials -->
+    <!-- FAQ Section -->
+    <!--
+      VARIATION NOTE: FAQs are a strong differentiator between area pages.
+      Each page should have 3-5 questions, at least 2 of which are specific to that area.
+      This also captures long-tail search queries like
+      "how much does window cleaning cost in Royal Wootton Bassett"
+    -->
     <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="section-title text-center mb-4">Common Questions</h2>
+
+            <div class="accordion" id="faqAccordion">
+              <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                <h3 class="accordion-header">
+                  <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                    How much does window cleaning cost in Royal Wootton Bassett?
+                  </button>
+                </h3>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body text-muted">
+                    Every property is different, so Jack gives a personalised quote based on the number of windows, the size of your home, and access. Most 3-bed homes in Royal Wootton Bassett work out to be very affordable on an 8-weekly cycle. There's no contract and no obligation - just drop Jack a message for a free quote.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                    Does Jack already work in Royal Wootton Bassett?
+                  </button>
+                </h3>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body text-muted">
+                    <!-- [JACK TO CONFIRM] Adjust this to reflect reality - which day does he do RWB? -->
+                    Yes. Royal Wootton Bassett is part of Jack's regular round, so he's already in the area on a regular basis. New customers in the area slot in easily alongside his existing ones.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                    How often should I get my windows cleaned?
+                  </button>
+                </h3>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body text-muted">
+                    Most of Jack's customers have their windows cleaned every 8 weeks, which keeps them looking consistently good and stops dirt from building up on frames and seals. Jack's happy to chat through what works best for your home.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                    Do I need to be home when Jack cleans?
+                  </button>
+                </h3>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body text-muted">
+                    Not usually. Jack messages you the day before so you know when to expect him. As long as he can access the windows (side gates unlocked, cars moved if needed), he can clean while you're out and let you know when he's finished. Payment is handled online so there's no need to have cash ready.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                    What if it rains after my windows are cleaned?
+                  </button>
+                </h3>
+                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body text-muted">
+                    Rain after a pure water clean is actually fine. Because there's no detergent or chemical residue left on the glass, rainwater just runs off without leaving marks. It's one of the big advantages of the system Jack uses over traditional methods. And in the unlikely event you're not happy with anything after a clean, Jack will come back and sort it at no extra charge.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Testimonial -->
+    <section class="py-5 bg-light">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-4">
-            <h2 class="section-title">What Customers Say</h2>
-            <p class="section-subtitle">Real reviews from customers in and around Royal Wootton Bassett</p>
+            <h2 class="section-title">What Customers Say About Jack</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6 col-lg-5 mb-4">
             <div class="testimonial-card p-4 rounded-4 shadow-sm h-100">
-              <div class="mb-2"><span style="color: #ffd700;">⭐⭐⭐⭐⭐</span></div>
-              <p class="testimonial-card-text">"Jack has cleaned my parents' windows several times now and <strong>they are hugely impressed</strong>. Jack is reliable, thorough and efficient, helpful and friendly. Highly recommend."</p>
-              <p class="testimonial-card-author fw-semibold mb-0">- Anna Cairns</p>
+              <div class="mb-2"><span style="color: #ffd700;">&#11088;&#11088;&#11088;&#11088;&#11088;</span></div>
+              <p class="testimonial-card-text">"Brilliant job cleaning our windows in an efficient tidy manner, <strong>he takes pride in his work, the window frames look cleaner than they have been for ages.</strong>"</p>
+              <p class="testimonial-card-author fw-semibold mb-0">- Alfred Western</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 mb-4">
             <div class="testimonial-card p-4 rounded-4 shadow-sm h-100">
-              <div class="mb-2"><span style="color: #ffd700;">⭐⭐⭐⭐⭐</span></div>
-              <p class="testimonial-card-text">"Brilliant job cleaning our windows in an efficient tidy manner, <strong>he takes pride in his work, the window frames look cleaner than they have been for ages.</strong>"</p>
-              <p class="testimonial-card-author fw-semibold mb-0">- Alfred Western</p>
+              <div class="mb-2"><span style="color: #ffd700;">&#11088;&#11088;&#11088;&#11088;&#11088;</span></div>
+              <p class="testimonial-card-text">"Punctual, professional, reasonably priced and the quality of your work really stood out. <strong>I appreciate your attention to detail and the care you took around the property.</strong>"</p>
+              <p class="testimonial-card-author fw-semibold mb-0">- Amit Sawlani</p>
             </div>
           </div>
         </div>
@@ -242,12 +398,12 @@ include '../includes/header.php';
     </section>
 
     <!-- Nearby Areas -->
-    <section class="py-5 bg-light">
+    <section class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-4">
-            <h2 class="section-title">Also Covering Nearby Areas</h2>
-            <p class="section-subtitle">Jack covers Royal Wootton Bassett and the surrounding towns and villages.</p>
+            <h2 class="section-title">Nearby Areas Jack Covers</h2>
+            <p class="section-subtitle">Royal Wootton Bassett is part of Jack's regular round across Swindon and the surrounding towns.</p>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -279,7 +435,7 @@ include '../includes/header.php';
         <div class="row">
           <div class="col-12 text-center mb-4">
             <h2 class="section-title text-white">Get a Free Quote in Royal Wootton Bassett</h2>
-            <p class="section-subtitle" style="color: rgba(255,255,255,0.6);">I'll get back to you within 24 hours</p>
+            <p class="section-subtitle" style="color: rgba(255,255,255,0.6);">Jack typically replies within a few hours</p>
           </div>
         </div>
 
@@ -292,7 +448,7 @@ include '../includes/header.php';
               </div>
               <h3 class="mb-2">Message Jack on WhatsApp</h3>
               <p class="text-muted mb-1">The quickest way to get your free quote.</p>
-              <p class="text-muted small mb-4">Usually replies within a few hours</p>
+              <p class="text-muted small mb-4">No obligation, no hard sell</p>
               <a href="https://wa.me/447442249440?text=Hi%20Jack,%20I'd%20like%20a%20quote%20for%20window%20cleaning%20in%20Royal%20Wootton%20Bassett"
                  target="_blank" rel="noopener"
                  class="btn btn-lg px-5 py-3 fw-semibold text-white rounded-pill"
@@ -361,5 +517,59 @@ include '../includes/header.php';
 
       </div>
     </section>
+
+    <!-- FAQ Schema -->
+    <!--
+      This gives Google the FAQ rich results (expandable questions in search).
+      Each area page should have DIFFERENT questions to avoid duplicate schema.
+    -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does window cleaning cost in Royal Wootton Bassett?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every property is different, so Jack gives a personalised quote based on the number of windows, the size of your home, and access. Most 3-bed homes in Royal Wootton Bassett work out to be very affordable on an 8-weekly cycle. There's no contract and no obligation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Jack already work in Royal Wootton Bassett?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Royal Wootton Bassett is part of Jack's regular round, so he's already in the area on a regular basis. New customers in the area slot in easily alongside his existing ones."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should I get my windows cleaned?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most of Jack's customers have their windows cleaned every 8 weeks, which keeps them looking consistently good and stops dirt from building up on frames and seals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to be home when Jack cleans?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not usually. Jack messages you the day before so you know when to expect him. As long as he can access the windows, he can clean while you're out and let you know when he's finished. Payment is handled online."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if it rains after my windows are cleaned?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rain after a pure water clean is fine. Because there's no detergent or chemical residue left on the glass, rainwater just runs off without leaving marks. And in the unlikely event you're not happy with anything after a clean, Jack will come back and sort it at no extra charge."
+          }
+        }
+      ]
+    }
+    </script>
 
 <?php include '../includes/footer.php'; ?>

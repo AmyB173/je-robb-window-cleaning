@@ -7,7 +7,7 @@
  */
 $page_title       = 'How Often Should You Have Your Windows Cleaned?';
 $page_description = 'Most homeowners wonder how regularly they need a professional window clean. Jack at JE Robb explains the factors that affect how often you should book a clean.';
-$page_canonical   = 'https://www.jerobb.co.uk/blog/how-often-should-you-have-your-windows-cleaned.php';
+$page_canonical   = 'https://www.jerobb.co.uk/blog/how-often-should-you-have-your-windows-cleaned';
 $post_date        = '1 February 2025';
 $post_author      = 'Jack Robb';
 include '../includes/header.php';

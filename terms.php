@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Terms and Conditions';
 $page_description = 'Terms and conditions for JE Robb Window Cleaning services in Swindon and surrounding areas.';
-$page_canonical = 'https://www.jerobb.co.uk/terms.php';
+$page_canonical = 'https://www.jerobb.co.uk/terms';
 include 'includes/header.php';
 ?>
 
@@ -144,7 +144,7 @@ include 'includes/header.php';
           <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">13. Your Data and Privacy</h3>
           <p>Jack collects and stores your name, address and phone number solely for the purpose of providing the window cleaning service and communicating with you about your cleans. Jack does not collect or store your payment card details - all payments are processed securely through Stripe.</p>
           <p>Your personal information will not be shared with any third parties, except where required by law or where necessary to process payments through Stripe (which has its own privacy policy).</p>
-          <p>If you would like Jack to delete your data at any time, please get in touch. For full details, please see our <a href="/privacy-policy.php">Privacy Policy</a>.</p>
+          <p>If you would like Jack to delete your data at any time, please get in touch. For full details, please see our <a href="/privacy-policy">Privacy Policy</a>.</p>
 
           <!-- 14. Changes to These Terms -->
           <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">14. Changes to These Terms</h3>

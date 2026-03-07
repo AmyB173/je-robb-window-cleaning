@@ -8,8 +8,8 @@
       </div>
       <div class="col-md-6 text-end">
         <div class="footer-links">
-          <a href="/privacy-policy.php">Privacy Policy</a>
-          <a href="/terms.php">Terms of Service</a>
+          <a href="/privacy-policy">Privacy Policy</a>
+          <a href="/terms">Terms of Service</a>
           <a href="/sitemap.xml">Sitemap</a>
         </div>
       </div>

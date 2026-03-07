@@ -70,12 +70,12 @@
                 Areas
               </a>
               <ul class="dropdown-menu" aria-labelledby="areasDropdown">
-                <li><a class="dropdown-item" href="/areas/royal-wootton-bassett.php">Royal Wootton Bassett</a></li>
-                <li><a class="dropdown-item" href="/areas/wroughton.php">Wroughton</a></li>
-                <li><a class="dropdown-item" href="/areas/highworth.php">Highworth</a></li>
-                <li><a class="dropdown-item" href="/areas/purton.php">Purton</a></li>
-                <li><a class="dropdown-item" href="/areas/cricklade.php">Cricklade</a></li>
-                <li><a class="dropdown-item" href="/areas/lydiard-millicent.php">Lydiard Millicent</a></li>
+                <li><a class="dropdown-item" href="/areas/royal-wootton-bassett">Royal Wootton Bassett</a></li>
+                <li><a class="dropdown-item" href="/areas/wroughton">Wroughton</a></li>
+                <li><a class="dropdown-item" href="/areas/highworth">Highworth</a></li>
+                <li><a class="dropdown-item" href="/areas/purton">Purton</a></li>
+                <li><a class="dropdown-item" href="/areas/cricklade">Cricklade</a></li>
+                <li><a class="dropdown-item" href="/areas/lydiard-millicent">Lydiard Millicent</a></li>
               </ul>
             </li>
             <li class="nav-item">

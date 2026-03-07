@@ -1,7 +1,7 @@
 <?php
 $page_title = "Window Cleaning Royal Wootton Bassett | Wiltshire";
 $page_description = "Professional window cleaning in Royal Wootton Bassett, Wiltshire. Local, reliable service from Jack - free quotes, fascia cleaning and gutter emptying available.";
-$page_canonical = "https://www.jerobb.co.uk/areas/royal-wootton-bassett.php";
+$page_canonical = "https://www.jerobb.co.uk/areas/royal-wootton-bassett";
 include '../includes/header.php';
 ?>
 
@@ -12,7 +12,7 @@ include '../includes/header.php';
   "@type": "LocalBusiness",
   "name": "JE Robb Window Cleaning - Royal Wootton Bassett",
   "description": "Professional window cleaning in Royal Wootton Bassett, Wiltshire. Regular cleans, fascia cleaning and gutter emptying.",
-  "url": "https://www.jerobb.co.uk/areas/royal-wootton-bassett.php",
+  "url": "https://www.jerobb.co.uk/areas/royal-wootton-bassett",
   "telephone": "+447442249440",
   "email": "windowcleaning@jerobb.co.uk",
   "address": {
@@ -408,22 +408,22 @@ include '../includes/header.php';
         </div>
         <div class="row justify-content-center">
           <div class="col-6 col-md-3 mb-3 text-center">
-            <a href="/areas/swindon.php" class="btn btn-outline-primary w-100">Swindon</a>
+            <a href="/areas/swindon" class="btn btn-outline-primary w-100">Swindon</a>
           </div>
           <div class="col-6 col-md-3 mb-3 text-center">
-            <a href="/areas/wroughton.php" class="btn btn-outline-primary w-100">Wroughton</a>
+            <a href="/areas/wroughton" class="btn btn-outline-primary w-100">Wroughton</a>
           </div>
           <div class="col-6 col-md-3 mb-3 text-center">
-            <a href="/areas/lydiard-millicent.php" class="btn btn-outline-primary w-100">Lydiard Millicent</a>
+            <a href="/areas/lydiard-millicent" class="btn btn-outline-primary w-100">Lydiard Millicent</a>
           </div>
           <div class="col-6 col-md-3 mb-3 text-center">
-            <a href="/areas/purton.php" class="btn btn-outline-primary w-100">Purton</a>
+            <a href="/areas/purton" class="btn btn-outline-primary w-100">Purton</a>
           </div>
           <div class="col-6 col-md-3 mb-3 text-center">
-            <a href="/areas/cricklade.php" class="btn btn-outline-primary w-100">Cricklade</a>
+            <a href="/areas/cricklade" class="btn btn-outline-primary w-100">Cricklade</a>
           </div>
           <div class="col-6 col-md-3 mb-3 text-center">
-            <a href="/areas/highworth.php" class="btn btn-outline-primary w-100">Highworth</a>
+            <a href="/areas/highworth" class="btn btn-outline-primary w-100">Highworth</a>
           </div>
         </div>
       </div>

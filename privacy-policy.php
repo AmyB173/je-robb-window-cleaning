@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Privacy Policy';
 $page_description = 'Privacy policy for JE Robb Window Cleaning. How Jack collects, uses and protects your personal information.';
-$page_canonical = 'https://www.jerobb.co.uk/privacy-policy.php';
+$page_canonical = 'https://www.jerobb.co.uk/privacy-policy';
 include 'includes/header.php';
 ?>
 

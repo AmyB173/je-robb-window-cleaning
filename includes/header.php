@@ -19,7 +19,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/style.css" />
@@ -34,8 +34,8 @@
             <a class="navbar-brand title" href="/">
               <img src="/assets/images/logo.png" height="60" class="p-1" alt="JE Robb Window Cleaning logo" />
             </a>
-            <p class="nav-text-responsive brand-blue text-center pt-2 mb-0 fw-bold" style="font-family:'League Spartan',sans-serif;">
-              JE ROBB WINDOW CLEANING
+            <p class="nav-text-responsive brand-blue text-center pt-2 mb-0 fw-bold navbar-title">
+              JE Robb Window Cleaning
             </p>
           </div>
         </div>

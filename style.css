@@ -66,6 +66,13 @@ box-shadow: 0 5px 15px rgba(252, 195, 26, 0.4);
 }
 
 /* Navigation */
+/* Navbar brand title*/
+.navbar-title {
+    font-family: "Raleway", sans-serif !important;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+}
+
 .nav-text-responsive {
   font-size: 1rem;
 }

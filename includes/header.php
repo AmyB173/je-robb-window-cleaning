@@ -10,35 +10,19 @@
     <?php endif; ?>
     <link rel="icon" type="image/x-icon" href="/assets/images/logo.webp" />
 
-    <!-- Preconnect hints for third-party origins -->
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome 6 (Free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet" />
 
-    <!-- Google Fonts (loaded normally) -->
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" />
-
-    <!-- Custom CSS (loads immediately - small file, site-critical) -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="/style.css" />
-
-    <!-- Bootstrap CSS (deferred) -->
-    <link rel="stylesheet" media="print" onload="this.media='all'"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
-    <noscript>
-      <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
-    </noscript>
-
-    <!-- Font Awesome (deferred) -->
-    <link rel="stylesheet" media="print" onload="this.media='all'"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-    <noscript>
-      <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-    </noscript>
-
   </head>
 
   <body>

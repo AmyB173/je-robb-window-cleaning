@@ -55,7 +55,7 @@ include 'includes/header.php';
         <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Message Jack for a Free Quote</a>
 
         <div class="d-flex align-items-center mb-3">
-          <img src="/assets/images/jack.png"
+          <img src="/assets/images/jack.webp"
             alt="Jack from JE Robb Window Cleaning"
             class="hero-jack-thumb rounded-circle me-3" />
           <span style="color: rgba(255,255,255,0.85); font-size: 0.95rem;">
@@ -287,7 +287,7 @@ include 'includes/header.php';
           <!-- Photo -->
           <div class="col-md-5 mb-4 mb-md-0">
             <div class="about-image-container">
-              <img src="/assets/images/jack.png" alt="Jack - Window Cleaning Specialist in Swindon" class="img-fluid rounded shadow about-image p-3" />
+              <img src="/assets/images/jack.webp" alt="Jack - Window Cleaning Specialist in Swindon" class="img-fluid rounded shadow about-image p-3" />
             </div>
           </div>
           <!-- Story + Selling Points -->

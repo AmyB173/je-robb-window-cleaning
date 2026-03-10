@@ -8,7 +8,7 @@
     <?php if (isset($page_canonical)): ?>
     <link rel="canonical" href="<?php echo htmlspecialchars($page_canonical); ?>" />
     <?php endif; ?>
-    <link rel="icon" type="image/x-icon" href="/assets/images/logo.png" />
+    <link rel="icon" type="image/x-icon" href="/assets/images/logo.webp" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -32,7 +32,7 @@
         <div class="row d-flex flex-row">
           <div class="col d-flex flex-row align-items-center justify-content-center">
             <a class="navbar-brand title" href="/">
-              <img src="/assets/images/logo.png" height="60" class="p-1" alt="JE Robb Window Cleaning logo" />
+              <img src="/assets/images/logo.webp" height="60" class="p-1" alt="JE Robb Window Cleaning logo" />
             </a>
             <p class="nav-text-responsive brand-blue text-center pt-2 mb-0 fw-bold navbar-title">
               JE Robb Window Cleaning

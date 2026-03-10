@@ -58,7 +58,7 @@ include '../includes/header.php';
             <a href="#contact" class="btn btn-hero btn-lg mt-2 mb-4">Get a Free Quote</a>
 
             <div class="d-flex align-items-center mb-3">
-              <img src="/assets/images/jack.png"
+              <img src="/assets/images/jack.webp"
                 alt="Jack from JE Robb Window Cleaning"
                 class="hero-jack-thumb rounded-circle me-3" />
               <span style="color: rgba(255,255,255,0.85); font-size: 0.95rem;">
@@ -173,7 +173,7 @@ include '../includes/header.php';
         <div class="row align-items-center">
           <div class="col-lg-4 mb-4 mb-lg-0 text-center">
             <img
-              src="/assets/images/jack.png"
+              src="/assets/images/jack.webp"
               alt="Jack from JE Robb Window Cleaning"
               class="area-jack-photo img-fluid rounded-4 shadow"
             />

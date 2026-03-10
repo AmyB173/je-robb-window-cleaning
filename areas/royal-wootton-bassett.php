@@ -93,7 +93,7 @@ include '../includes/header.php';
           </div>
           <div class="col-lg-6 d-flex flex-column align-items-center">
             <img
-              src="/assets/images/royal-wootton-basset.jpg"
+              src="/assets/images/royal-wootton-basset.webp"
               alt="Royal Wootton Bassett, Wiltshire"
               class="area-hero-img img-fluid rounded-4"
             />
@@ -226,7 +226,7 @@ include '../includes/header.php';
           <div class="col-md-6 col-lg-3 mb-4">
             <div class="service-card-photo">
               <div class="service-card-img-wrap">
-                <img src="/assets/images/picture-window.jpg" alt="Window cleaning in Royal Wootton Bassett" class="service-card-img" />
+                <img src="/assets/images/picture-window.webp" alt="Window cleaning in Royal Wootton Bassett" class="service-card-img" />
               </div>
               <div class="service-card-body">
                 <h3>Regular Window Cleaning</h3>
@@ -237,7 +237,7 @@ include '../includes/header.php';
           <div class="col-md-6 col-lg-3 mb-4">
             <div class="service-card-photo">
               <div class="service-card-img-wrap">
-                <img src="/assets/images/fascia-clean.jpg" alt="Fascia cleaning in Royal Wootton Bassett" class="service-card-img" />
+                <img src="/assets/images/fascia-clean.webp" alt="Fascia cleaning in Royal Wootton Bassett" class="service-card-img" />
               </div>
               <div class="service-card-body">
                 <h3>Fascia &amp; Soffit Cleaning</h3>
@@ -248,7 +248,7 @@ include '../includes/header.php';
           <div class="col-md-6 col-lg-3 mb-4">
             <div class="service-card-photo">
               <div class="service-card-img-wrap">
-                <img src="/assets/images/gutter-empty.jpg" alt="Gutter emptying in Royal Wootton Bassett" class="service-card-img" />
+                <img src="/assets/images/gutter-empty.webp" alt="Gutter emptying in Royal Wootton Bassett" class="service-card-img" />
               </div>
               <div class="service-card-body">
                 <h3>Gutter Clearing</h3>
@@ -259,7 +259,7 @@ include '../includes/header.php';
           <div class="col-md-6 col-lg-3 mb-4">
             <div class="service-card-photo">
               <div class="service-card-img-wrap">
-                <img src="/assets/images/bespoke.jpg" alt="Commercial window cleaning in Royal Wootton Bassett" class="service-card-img" />
+                <img src="/assets/images/bespoke.webp" alt="Commercial window cleaning in Royal Wootton Bassett" class="service-card-img" />
               </div>
               <div class="service-card-body">
                 <h3>Shops &amp; Businesses</h3>

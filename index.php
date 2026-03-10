@@ -95,7 +95,7 @@ include 'includes/header.php';
       </div>
       <!-- Image Side -->
       <div class="col-lg-6 hero-image-col d-flex align-items-center justify-content-center mt-4 mt-lg-0 pb-5 pb-lg-0">
-        <img src="/assets/images/skylight.jpg" alt="Jack from JE Robb Window Cleaning in Swindon" class="hero-split-img img-fluid rounded-4" />
+        <img src="/assets/images/skylight.webp" alt="Jack from JE Robb Window Cleaning in Swindon" class="hero-split-img img-fluid rounded-4" />
       </div>
     </div>
   </div>
@@ -203,7 +203,7 @@ include 'includes/header.php';
       <div class="col-sm-6 col-lg-3 mb-4">
         <div class="service-card-photo">
           <div class="service-card-img-wrap">
-            <img src="/assets/images/picture-window.jpg" alt="Window cleaning service in Swindon" class="service-card-img" />
+            <img src="/assets/images/picture-window.webp" alt="Window cleaning service in Swindon" class="service-card-img" />
           </div>
           <div class="service-card-body">
             <h3>Exterior &amp; Interior Window Cleaning</h3>
@@ -214,7 +214,7 @@ include 'includes/header.php';
       <div class="col-sm-6 col-lg-3 mb-4">
         <div class="service-card-photo">
           <div class="service-card-img-wrap">
-            <img src="/assets/images/fascia-clean.jpg" alt="Fascia cleaning service in Swindon" class="service-card-img" />
+            <img src="/assets/images/fascia-clean.webp" alt="Fascia cleaning service in Swindon" class="service-card-img" />
           </div>
           <div class="service-card-body">
             <h3>Fascia Cleaning</h3>
@@ -225,7 +225,7 @@ include 'includes/header.php';
       <div class="col-sm-6 col-lg-3 mb-4">
         <div class="service-card-photo">
           <div class="service-card-img-wrap">
-            <img src="/assets/images/gutter-empty.jpg" alt="Gutter emptying service in Swindon" class="service-card-img" />
+            <img src="/assets/images/gutter-empty.webp" alt="Gutter emptying service in Swindon" class="service-card-img" />
           </div>
           <div class="service-card-body">
             <h3>Gutter Emptying</h3>
@@ -236,7 +236,7 @@ include 'includes/header.php';
       <div class="col-sm-6 col-lg-3 mb-4">
         <div class="service-card-photo">
           <div class="service-card-img-wrap">
-            <img src="/assets/images/bespoke.jpg" alt="Commercial window cleaning in Swindon" class="service-card-img" />
+            <img src="/assets/images/bespoke.webp" alt="Commercial window cleaning in Swindon" class="service-card-img" />
           </div>
           <div class="service-card-body">
             <h3>Commercial Cleaning</h3>

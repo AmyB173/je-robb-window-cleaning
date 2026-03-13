@@ -1,6 +1,6 @@
 <?php
 $page_title = 'Terms and Conditions';
-$page_description = 'Terms and conditions for JE Robb Window Cleaning services in Swindon and surrounding areas.';
+$page_description = 'Terms and conditions for J E Robb Window Cleaning services in Swindon and surrounding areas.';
 $page_canonical = 'https://www.jerobb.co.uk/terms';
 include 'includes/header.php';
 ?>
@@ -10,9 +10,9 @@ include 'includes/header.php';
         <div class="col-lg-8 py-5">
 
           <h1 class="section-title mb-2">Terms and Conditions</h1>
-          <p class="text-muted mb-4">JE Robb Window Cleaning &middot; Last updated: February 2026</p>
+          <p class="text-muted mb-4">J E Robb Window Cleaning &middot; Last updated: February 2026</p>
 
-          <p style="font-size: 1.05rem; line-height: 1.7; color: #444;">Jack has brilliant relationships with his customers, and in all the years of running JE Robb Window Cleaning, problems are incredibly rare. These terms exist to keep things clear and fair for everyone. Most of it is common sense, but it's good to have it written down.</p>
+          <p style="font-size: 1.05rem; line-height: 1.7; color: #444;">Jack has brilliant relationships with his customers, and in all the years of running J E Robb Window Cleaning, problems are incredibly rare. These terms exist to keep things clear and fair for everyone. Most of it is common sense, but it's good to have it written down.</p>
 
           <!-- ============================================
                SUMMARY BOX
@@ -46,7 +46,7 @@ include 'includes/header.php';
 
           <!-- 1. About Us -->
           <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">1. About Us</h3>
-          <p>JE Robb Window Cleaning is a sole trader business operated by Jack Robb, providing window cleaning and related exterior cleaning services in Swindon, Wiltshire and surrounding areas.</p>
+          <p>J E Robb Window Cleaning is a sole trader business operated by Jack Robb, providing window cleaning and related exterior cleaning services in Swindon, Wiltshire and surrounding areas.</p>
           <p>You can contact Jack by:</p>
           <ul>
             <li>Phone: <a href="tel:07442249440">07442 249440</a></li>
@@ -56,7 +56,7 @@ include 'includes/header.php';
 
           <!-- 2. Services -->
           <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">2. Services</h3>
-          <p>JE Robb Window Cleaning provides the following services:</p>
+          <p>J E Robb Window Cleaning provides the following services:</p>
           <ul>
             <li>Exterior and interior window cleaning using a pure water fed pole system</li>
             <li>Fascia and soffit cleaning</li>
@@ -137,7 +137,7 @@ include 'includes/header.php';
           <p>Please do not ask Jack to carry out any work that he considers unsafe. He reserves the right to decline to clean any window or area that cannot be accessed safely.</p>
 
           <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">12. Photographs of Completed Work</h3>
-          <p>Jack regularly photographs completed cleans to share on social media and the JE Robb Window Cleaning website. These photos showcase the quality of his work and help potential customers see what to expect.</p>
+          <p>Jack regularly photographs completed cleans to share on social media and the J E Robb Window Cleaning website. These photos showcase the quality of his work and help potential customers see what to expect.</p>
           <p>Photos typically show windows, frames, fascias or the exterior of the property. Jack will not include identifiable people in any published photograph without first asking their permission. If you would prefer that Jack does not photograph your property, just let him know and he will respect your wishes. Any previously published photos of your property will be removed on request.</p>
 
           <!-- 13. Your Data and Privacy -->

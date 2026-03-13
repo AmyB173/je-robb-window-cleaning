@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><?php echo isset($page_title) ? htmlspecialchars($page_title) . ' | JE Robb Window Cleaning' : 'JE Robb | Professional Window Cleaning Swindon'; ?></title>
+    <title><?php echo isset($page_title) ? htmlspecialchars($page_title) . ' | J E Robb Window Cleaning' : 'J E Robb | Professional Window Cleaning Swindon'; ?></title>
     <meta name="description" content="<?php echo isset($page_description) ? htmlspecialchars($page_description) : 'Trustworthy, local window cleaner offering regular window cleans, fascia cleaning and gutter emptying in Swindon and surrounding areas.'; ?>" />
     <?php if (isset($page_canonical)): ?>
     <link rel="canonical" href="<?php echo htmlspecialchars($page_canonical); ?>" />
@@ -32,10 +32,10 @@
         <div class="row d-flex flex-row">
           <div class="col d-flex flex-row align-items-center justify-content-center">
             <a class="navbar-brand title" href="/">
-              <img src="/assets/images/logo.webp" height="60" class="p-1" alt="JE Robb Window Cleaning logo" />
+              <img src="/assets/images/logo.webp" height="60" class="p-1" alt="J E Robb Window Cleaning logo" />
             </a>
             <p class="nav-text-responsive brand-blue text-center pt-2 mb-0 fw-bold navbar-title">
-              JE Robb Window Cleaning
+              J E Robb Window Cleaning
             </p>
           </div>
         </div>

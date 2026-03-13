@@ -1,6 +1,6 @@
 <?php
 $page_title = 'Window Cleaning Tips & Advice | Swindon';
-$page_description = 'Window cleaning tips, local guides and advice for homeowners in Swindon and surrounding areas from JE Robb Window Cleaning.';
+$page_description = 'Window cleaning tips, local guides and advice for homeowners in Swindon and surrounding areas from J E Robb Window Cleaning.';
 $page_canonical = 'https://www.jerobb.co.uk/blog/';
 include '../includes/header.php';
 

@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <p class="mb-1">&copy; <?php echo date('Y'); ?> JE Robb Window Cleaning. All rights reserved.</p>
+        <p class="mb-1">&copy; <?php echo date('Y'); ?> J E Robb Window Cleaning. All rights reserved.</p>
         <p class="mb-0 small">Professional window cleaning in Swindon &amp; surrounding areas.</p>
       </div>
       <div class="col-md-6 text-end">

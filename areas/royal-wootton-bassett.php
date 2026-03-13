@@ -10,7 +10,7 @@ include '../includes/header.php';
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "JE Robb Window Cleaning - Royal Wootton Bassett",
+  "name": "J E Robb Window Cleaning - Royal Wootton Bassett",
   "description": "Professional window cleaning in Royal Wootton Bassett, Wiltshire. Regular cleans, fascia cleaning and gutter emptying.",
   "url": "https://www.jerobb.co.uk/areas/royal-wootton-bassett",
   "telephone": "+447442249440",
@@ -59,7 +59,7 @@ include '../includes/header.php';
 
             <div class="d-flex align-items-center mb-3">
               <img src="/assets/images/jack.webp"
-                alt="Jack from JE Robb Window Cleaning"
+                alt="Jack from J E Robb Window Cleaning"
                 class="hero-jack-thumb rounded-circle me-3" />
               <span style="color: rgba(255,255,255,0.85); font-size: 0.95rem;">
                 <strong class="text-white">Jack Robb</strong> · Owner &amp; Window Cleaner
@@ -174,7 +174,7 @@ include '../includes/header.php';
           <div class="col-lg-4 mb-4 mb-lg-0 text-center">
             <img
               src="/assets/images/jack.webp"
-              alt="Jack from JE Robb Window Cleaning"
+              alt="Jack from J E Robb Window Cleaning"
               class="area-jack-photo img-fluid rounded-4 shadow"
             />
           </div>

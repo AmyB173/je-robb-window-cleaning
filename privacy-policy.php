@@ -1,6 +1,6 @@
 <?php
 $page_title = 'Privacy Policy';
-$page_description = 'Privacy policy for JE Robb Window Cleaning. How Jack collects, uses and protects your personal information.';
+$page_description = 'Privacy policy for J E Robb Window Cleaning. How Jack collects, uses and protects your personal information.';
 $page_canonical = 'https://www.jerobb.co.uk/privacy-policy';
 include 'includes/header.php';
 ?>
@@ -10,7 +10,7 @@ include 'includes/header.php';
         <div class="col-lg-8 py-5">
 
           <h1 class="section-title mb-2">Privacy Policy</h1>
-          <p class="text-muted mb-4">JE Robb Window Cleaning &middot; Last updated: February 2026</p>
+          <p class="text-muted mb-4">J E Robb Window Cleaning &middot; Last updated: February 2026</p>
 
           <p style="font-size: 1.05rem; line-height: 1.7; color: #444;">Jack takes your privacy seriously, but he also believes privacy policies shouldn't require a law degree to read. This page explains what information Jack collects, why he collects it, and what he does with it. The short answer: only what's needed to clean your windows and stay in touch with you.</p>
 
@@ -39,7 +39,7 @@ include 'includes/header.php';
 
           <!-- 1. Who We Are -->
           <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">1. Who We Are</h3>
-          <p>JE Robb Window Cleaning is a sole trader business operated by Jack Robb, based in Swindon, Wiltshire. Jack is the data controller for any personal information collected through this website and through the provision of his window cleaning services.</p>
+          <p>J E Robb Window Cleaning is a sole trader business operated by Jack Robb, based in Swindon, Wiltshire. Jack is the data controller for any personal information collected through this website and through the provision of his window cleaning services.</p>
           <p>If you have any questions about this privacy policy or how your data is handled, you can contact Jack at:</p>
           <ul>
             <li>Phone: <a href="tel:07442249440">07442 249440</a></li>
@@ -83,7 +83,7 @@ include 'includes/header.php';
 
           <!-- 5. Photographs of Completed Work -->
           <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">5. Photographs of Completed Work</h3>
-          <p>Jack regularly photographs completed cleans to share on social media (such as Facebook and Google Business) and on the JE Robb Window Cleaning website. These photos are used to showcase the quality of his work and help potential customers see what to expect.</p>
+          <p>Jack regularly photographs completed cleans to share on social media (such as Facebook and Google Business) and on the J E Robb Window Cleaning website. These photos are used to showcase the quality of his work and help potential customers see what to expect.</p>
           <p>Photos will typically show windows, frames, fascias or the exterior of the property. Jack will not include identifiable people in any published photograph without first asking their permission.</p>
           <p>If you would prefer that Jack does not photograph your property, just let him know and he will respect your wishes. You can opt out at any time, and any previously published photos of your property will be removed on request.</p>
           <p>The legal basis for this is legitimate interests (promoting the business). Jack balances this against your rights by ensuring photos do not identify individuals without consent, and by offering an easy opt-out.</p>
@@ -139,7 +139,7 @@ include 'includes/header.php';
 
           <!-- 11. Children's Privacy -->
           <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">11. Children's Privacy</h3>
-          <p>JE Robb Window Cleaning services are aimed at adults. Jack does not knowingly collect personal information from children under the age of 16. If you believe a child has provided personal information through the website, please contact Jack so it can be removed.</p>
+          <p>J E Robb Window Cleaning services are aimed at adults. Jack does not knowingly collect personal information from children under the age of 16. If you believe a child has provided personal information through the website, please contact Jack so it can be removed.</p>
 
 
           <!-- 12. Changes to This Policy -->

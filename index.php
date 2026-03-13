@@ -9,7 +9,7 @@ include 'includes/header.php';
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "JE Robb Window Cleaning",
+    "name": "J E Robb Window Cleaning",
     "description": "Trustworthy, local window cleaner offering regular window cleans, fascia cleaning and gutter emptying in Swindon and surrounding areas.",
     "url": "https://www.jerobb.co.uk/",
     "telephone": "+447442249440",
@@ -56,7 +56,7 @@ include 'includes/header.php';
 
         <div class="d-flex align-items-center mb-3">
           <img src="/assets/images/jack.webp"
-            alt="Jack from JE Robb Window Cleaning"
+            alt="Jack from J E Robb Window Cleaning"
             class="hero-jack-thumb rounded-circle me-3" />
           <span style="color: rgba(255,255,255,0.85); font-size: 0.95rem;">
             <strong class="text-white">Jack Robb</strong> · Owner &amp; Window Cleaner
@@ -95,7 +95,7 @@ include 'includes/header.php';
       </div>
       <!-- Image Side -->
       <div class="col-lg-6 hero-image-col d-flex align-items-center justify-content-center mt-4 mt-lg-0 pb-5 pb-lg-0">
-        <img src="/assets/images/skylight.webp" alt="Jack from JE Robb Window Cleaning in Swindon" class="hero-split-img img-fluid rounded-4" />
+        <img src="/assets/images/skylight.webp" alt="Jack from J E Robb Window Cleaning in Swindon" class="hero-split-img img-fluid rounded-4" />
       </div>
     </div>
   </div>
@@ -294,7 +294,7 @@ include 'includes/header.php';
           <div class="col-md-7">
             <div class="p-4">
               <p class="mb-4" style="color: rgba(255,255,255,0.9); font-size: 1.05rem; line-height: 1.7;">
-                After over 10 years in the window cleaning trade, I set up JE Robb Window Cleaning two years ago. I wanted to work for myself doing something I could take real pride in, outdoors and on my own terms. I've built a round of regular customers across Swindon who I know by name, and they know me. I'm a local business owner who cares about doing a proper job, and I treat every property the way I'd want mine treated.
+                After over 10 years in the window cleaning trade, I set up J E Robb Window Cleaning two years ago. I wanted to work for myself doing something I could take real pride in, outdoors and on my own terms. I've built a round of regular customers across Swindon who I know by name, and they know me. I'm a local business owner who cares about doing a proper job, and I treat every property the way I'd want mine treated.
               </p>
 
               <!-- Combined selling points -->

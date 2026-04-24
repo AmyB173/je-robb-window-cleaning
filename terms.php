@@ -17,8 +17,8 @@ include 'includes/header.php';
           <!-- ============================================
                SUMMARY BOX
                ============================================ -->
-          <div class="p-4 rounded-4 mb-5" style="background: #f0f7ff; border-left: 4px solid #0a5ca0;">
-            <h2 style="font-size: 1.4rem; color: #0a5ca0; margin-bottom: 1rem;">The Short Version</h2>
+          <div class="p-4 rounded-4 mb-5" style="background: #f0f7ff; border-left: 4px solid #004aad;">
+            <h2 style="font-size: 1.4rem; color: #004aad; margin-bottom: 1rem;">The Short Version</h2>
             <p style="font-size: 0.95rem; line-height: 1.7; color: #444;">
               If you only read one part of this page, make it this bit:
             </p>
@@ -45,7 +45,7 @@ include 'includes/header.php';
           <p style="color: #666; font-size: 0.95rem;">Here's the detailed version. It's longer, but it's written in plain English and Jack's happy to answer any questions about it.</p>
 
           <!-- 1. About Us -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">1. About Us</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">1. About Us</h3>
           <p>J E Robb Window Cleaning is a sole trader business operated by Jack Robb, providing window cleaning and related exterior cleaning services in Swindon, Wiltshire and surrounding areas.</p>
           <p>You can contact Jack by:</p>
           <ul>
@@ -55,7 +55,7 @@ include 'includes/header.php';
           </ul>
 
           <!-- 2. Services -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">2. Services</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">2. Services</h3>
           <p>J E Robb Window Cleaning provides the following services:</p>
           <ul>
             <li>Exterior and interior window cleaning using a pure water fed pole system</li>
@@ -68,25 +68,25 @@ include 'includes/header.php';
           <p>Please note that some issues such as hard water staining, rust marks, UV discolouration of frames, or failed double-glazed units (where dirt is between the panes) are not something window cleaning can resolve. If your windows have any of these issues, Jack will let you know.</p>
 
           <!-- 3. Regular Service -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">3. Regular Service and One-Off Work</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">3. Regular Service and One-Off Work</h3>
           <p><strong>Window cleaning</strong> is a regular, ongoing service only. By accepting a quote and having your first clean, you are agreeing to an ongoing cleaning schedule. The standard cleaning frequency is every 8 weeks. In special circumstances, alternative frequencies may be agreed. One-off or single window cleans are not available.</p>
           <p><strong>Fascia, soffit and gutter work</strong> can be booked as a one-off or on an as-needed basis. Most customers have this done once or twice a year. These services can be added alongside your regular window clean or booked separately.</p>
           <p>There is no minimum number of cleans required for window cleaning and no fixed-term contract. You are free to cancel the service at any time (see section 8 below).</p>
 
           <!-- 4. Quotes and Pricing -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">4. Quotes and Pricing</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">4. Quotes and Pricing</h3>
           <p>Every customer receives a personalised quote based on the size of the property, the number of windows, and access. Quotes are provided free of charge and without obligation.</p>
           <p>By accepting a quote (verbally, by message, or by allowing Jack to carry out the first clean), you agree to the quoted price and these terms and conditions.</p>
           <p>Jack reserves the right to adjust pricing from time to time. You will always be given at least 8 weeks' notice of any price change. In practice, this means you will be informed at or before your current clean that the price will change from the next clean onwards.</p>
 
           <!-- 5. Payment -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">5. Payment</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">5. Payment</h3>
           <p>After each clean, Jack will send you a payment link via WhatsApp using Stripe, a secure online payment platform. Payment is due within 48 hours of the clean being completed.</p>
           <p>If you are unable to make payment within this timeframe, please let Jack know as soon as possible. Persistent non-payment may result in the suspension or cancellation of your cleaning service.</p>
           <p>Jack reserves the right to pursue any outstanding debts through appropriate means.</p>
 
           <!-- 6. Access and Your Responsibilities -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">6. Access and Your Responsibilities</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">6. Access and Your Responsibilities</h3>
           <p>Jack will message you the day before each clean so you know when to expect him. To allow the clean to be carried out, you are responsible for:</p>
           <ul>
             <li>Ensuring Jack can access all sides of the property that need cleaning (e.g. unlocking side gates, moving vehicles from driveways where necessary)</li>
@@ -99,25 +99,25 @@ include 'includes/header.php';
           <p>If interior window cleaning has been requested, you are responsible for clearing windowsills and moving any fragile or valuable items away from the windows before Jack arrives.</p>
 
           <!-- 7. Satisfaction Guarantee -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">7. Satisfaction Guarantee</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">7. Satisfaction Guarantee</h3>
           <p>Jack takes pride in every clean and wants you to be completely happy with the results. If for any reason you are not satisfied with the quality of a clean, please contact Jack within 24 hours. He will return and re-clean the affected areas at no additional charge.</p>
           <p>Complaints received after the 24-hour window may not be eligible for a free re-clean, as weather and other environmental factors can affect windows after cleaning.</p>
           <p>Please note that after a pure water clean, rain will not affect the results. Because no chemicals or detergents are used, rainwater runs off the glass without leaving marks.</p>
           <p>Jack cannot guarantee the removal of marks, stains or damage that are not caused by general dirt (see section 2).</p>
 
           <!-- 8. Cancellations and Skipping Cleans -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">8. Cancellations and Skipping Cleans</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">8. Cancellations and Skipping Cleans</h3>
           <p><strong>Cancelling the service:</strong> You may cancel the ongoing cleaning service at any time by letting Jack know by phone, WhatsApp, or email. There is no cancellation fee and no minimum notice period, though reasonable notice is appreciated so Jack can adjust his schedule.</p>
           <p><strong>Skipping a clean:</strong> Jack understands that sometimes the timing doesn't work out. You can skip one scheduled clean per year. Please let Jack know as early as possible so he can plan his round. Bear in mind that you don't usually need to be home for the clean, so skipping is rarely necessary as long as access is available.</p>
           <p>Requests to skip more than one clean per year may be accommodated at Jack's discretion, but the service is designed as a regular, ongoing arrangement. If you find you regularly need to skip cleans, it may be worth discussing whether the service is right for you.</p>
 
           <!-- 9. Scheduling and Weather -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">9. Scheduling and Weather</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">9. Scheduling and Weather</h3>
           <p>Jack aims to clean your windows on a consistent schedule (typically every 8 weeks). However, some flexibility of a few days either side may be necessary due to weather, holidays or other factors. Jack will always let you know the day before a clean is due.</p>
           <p>Window cleaning with pure water can be carried out in light rain without affecting results. In heavy rain, strong winds or other adverse weather conditions, Jack may postpone your clean to the next available day. You will be notified if this happens.</p>
 
           <!-- 10. Damage and Liability -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">10. Damage and Liability</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">10. Damage and Liability</h3>
           <p>Jack holds public liability insurance and takes great care when working on your property.</p>
           <p>However, Jack cannot accept responsibility for damage caused by pre-existing defects to your property. This includes, but is not limited to:</p>
           <ul>
@@ -132,26 +132,26 @@ include 'includes/header.php';
           <p>Jack will not clean any window or surface that he considers unsafe or likely to be damaged by cleaning. Safety is always the priority.</p>
 
           <!-- 11. Health and Safety -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">11. Health and Safety</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">11. Health and Safety</h3>
           <p>Jack takes health and safety seriously. The pure water fed pole system allows most windows to be cleaned safely from the ground without the need for ladders. Where ladders are required (for example, to access a flat roof), Jack will assess the risk and only proceed if it is safe to do so.</p>
           <p>Please do not ask Jack to carry out any work that he considers unsafe. He reserves the right to decline to clean any window or area that cannot be accessed safely.</p>
 
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">12. Photographs of Completed Work</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">12. Photographs of Completed Work</h3>
           <p>Jack regularly photographs completed cleans to share on social media and the J E Robb Window Cleaning website. These photos showcase the quality of his work and help potential customers see what to expect.</p>
           <p>Photos typically show windows, frames, fascias or the exterior of the property. Jack will not include identifiable people in any published photograph without first asking their permission. If you would prefer that Jack does not photograph your property, just let him know and he will respect your wishes. Any previously published photos of your property will be removed on request.</p>
 
           <!-- 13. Your Data and Privacy -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">13. Your Data and Privacy</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">13. Your Data and Privacy</h3>
           <p>Jack collects and stores your name, address and phone number solely for the purpose of providing the window cleaning service and communicating with you about your cleans. Jack does not collect or store your payment card details - all payments are processed securely through Stripe.</p>
           <p>Your personal information will not be shared with any third parties, except where required by law or where necessary to process payments through Stripe (which has its own privacy policy).</p>
           <p>If you would like Jack to delete your data at any time, please get in touch. For full details, please see our <a href="/privacy-policy">Privacy Policy</a>.</p>
 
           <!-- 14. Changes to These Terms -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">14. Changes to These Terms</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">14. Changes to These Terms</h3>
           <p>Jack may update these terms and conditions from time to time. Any significant changes will be communicated to existing customers. The latest version will always be available on this page.</p>
 
           <!-- 15. Governing Law -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">15. Governing Law</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">15. Governing Law</h3>
           <p>These terms and conditions are governed by the laws of England and Wales. Any disputes will be subject to the exclusive jurisdiction of the courts of England and Wales.</p>
 
           <!-- Contact -->

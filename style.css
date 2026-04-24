@@ -10,11 +10,11 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     font-weight: 700;
 }
 .bg-brand-blue{
-    background-color: #0a5ca0;
+    background-color: #004aad;
 }
 
 .brand-blue{
-    color: #0a5ca0;
+    color: #004aad;
 }
 
 section {
@@ -24,7 +24,7 @@ section {
 .section-title {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #0a5ca0;
+    color: #004aad;
 }
 
 .section-subtitle {
@@ -37,7 +37,7 @@ section {
 .btn-primary {
    background-color: #FCC31A;
     border-color: #FCC31A;
-    color: #072a4a;
+    color: #003580;
     padding: 10px 25px;
     font-weight: 600;
     border-radius: 30px;
@@ -48,7 +48,7 @@ section {
 .btn-primary:focus {
 background-color: #e5af17;
 border-color: #e5af17;
-color: #072a4a;
+color: #003580;
 transform: translateY(-2px);
 box-shadow: 0 5px 15px rgba(252, 195, 26, 0.4);
 }
@@ -98,7 +98,7 @@ box-shadow: 0 5px 15px rgba(252, 195, 26, 0.4);
 
 .navbar-brand {
     font-size: 1.5rem;
-    color: #0a5ca0;
+    color: #004aad;
 }
 
 .navbar-brand i {
@@ -113,7 +113,7 @@ box-shadow: 0 5px 15px rgba(252, 195, 26, 0.4);
 }
 
 .nav-link:hover {
-    color: #0a5ca0;
+    color: #004aad;
 }
 
 .nav-cta {
@@ -135,7 +135,7 @@ box-shadow: 0 5px 15px rgba(252, 195, 26, 0.4);
 
 /* Hero Section - Split Layout (Homepage) */
 .hero-split {
-    background: linear-gradient(135deg, #072a4a 0%, #0a5ca0 50%, #0e6db8 100%);
+    background: linear-gradient(135deg, #003580 0%, #004aad 50%, #1565C0 100%);
     position: relative;
     overflow: hidden;
     color: #fff;
@@ -177,7 +177,7 @@ box-shadow: 0 5px 15px rgba(252, 195, 26, 0.4);
 .btn-hero {
 background-color: #FCC31A;
 border-color: #FCC31A;
-color: #072a4a;
+color: #003580;
     padding: 14px 32px;
     font-weight: 700;
     font-size: 1.1rem;
@@ -189,7 +189,7 @@ color: #072a4a;
 .btn-hero:focus {
 background-color: #e5af17;
 border-color: #e5af17;
-color: #072a4a;
+color: #003580;
 transform: translateY(-2px);
 box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
@@ -289,7 +289,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: #0a5ca0;
+    background: #004aad;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -302,7 +302,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 .testimonial-arrow:hover {
-    background: #072a4a;
+    background: #003580;
 }
 
 .testimonial-arrow-prev {
@@ -350,7 +350,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: #0a5ca0;
+    background: #004aad;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -363,7 +363,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 .gallery-arrow:hover {
-    background: #072a4a;
+    background: #003580;
 }
 
 .gallery-arrow-prev {
@@ -407,7 +407,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 .testimonial-card-author {
-    color: #0a5ca0;
+    color: #004aad;
     font-size: 0.9rem;
 }
 
@@ -450,7 +450,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 .service-card-body h3 {
     font-size: 1.15rem;
     margin-bottom: 0.5rem;
-    color: #0a5ca0;
+    color: #004aad;
 }
 
 .service-card-body p {
@@ -484,7 +484,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #072a4a;
+    background-color: #003580;
     color: #fff;
     font-family: "League Spartan", sans-serif;
     font-weight: 700;
@@ -518,7 +518,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 .service-card .icon-box {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #0a5ca0, #0e6db8);
+    background: linear-gradient(135deg, #004aad, #1565C0);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -533,7 +533,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 
 .service-card h3 {
     font-size: 1.1rem;
-    color: #0a5ca0;
+    color: #004aad;
     margin-bottom: 0.5rem;
 }
 
@@ -596,7 +596,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 
 /* Section Backgrounds */
 .section-dark {
-    background: linear-gradient(135deg, #072a4a 0%, #0a5ca0 100%);
+    background: linear-gradient(135deg, #003580 0%, #004aad 100%);
     color: #fff;
 }
 
@@ -655,8 +655,8 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 .form-control:focus, .form-select:focus {
-    box-shadow: 0 0 0 3px rgba(10, 92, 160, 0.1);
-    border-color: #0a5ca0;
+    box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.1);
+    border-color: #004aad;
 }
 
 .contact-info {
@@ -668,7 +668,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 .contact-info h3 {
-    color: #0a5ca0;
+    color: #004aad;
     margin-bottom: 20px;
 }
 
@@ -678,7 +678,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 .contact-info i {
-    color: #0a5ca0;
+    color: #004aad;
     margin-right: 10px;
     width: 20px;
     text-align: center;
@@ -686,7 +686,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 
 /* Footer */
 .footer {
-    background-color: #0a5ca0;
+    background-color: #004aad;
     color: #fff;
 }
 
@@ -719,7 +719,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 .area-breadcrumb .breadcrumb-item a {
-    color: #0a5ca0;
+    color: #004aad;
     text-decoration: none;
 }
 
@@ -733,7 +733,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 
 /* Area Hero (split layout with town image) */
 .area-hero {
-    background: linear-gradient(135deg, #072a4a 0%, #0a5ca0 50%, #0e6db8 100%);
+    background: linear-gradient(135deg, #003580 0%, #004aad 50%, #1565C0 100%);
     color: #fff;
 }
 
@@ -775,7 +775,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 
 /* Trust Ticker Bar */
 .trust-ticker {
-    background-color: #072a4a;
+    background-color: #003580;
     overflow: hidden;
     padding: 12px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -941,7 +941,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 
 .about-quote {
   position: relative;
-  background: linear-gradient(135deg, #072a4a, #0a5ca0);
+  background: linear-gradient(135deg, #003580, #004aad);
   color: white;
   padding: 1.25rem;
   border-radius: 8px;
@@ -1134,7 +1134,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 .section-dark .form-select option {
-    background: #0a5ca0;
+    background: #004aad;
     color: #fff;
 }
 

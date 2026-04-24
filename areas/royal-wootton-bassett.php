@@ -190,7 +190,7 @@ include '../includes/header.php';
 
         <div class="row mt-5">
           <div class="col-lg-10 mx-auto">
-            <h3 style="color: #0a5ca0;">Window Cleaning for Royal Wootton Bassett Homes</h3>
+            <h3 style="color: #004aad;">Window Cleaning for Royal Wootton Bassett Homes</h3>
             <!--
               This is the KEY differentiation section. This content must be genuinely
               specific to Royal Wootton Bassett and not reusable on other pages.

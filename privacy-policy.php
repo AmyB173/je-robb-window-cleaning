@@ -17,8 +17,8 @@ include 'includes/header.php';
           <!-- ============================================
                SUMMARY BOX
                ============================================ -->
-          <div class="p-4 rounded-4 mb-5" style="background: #f0f7ff; border-left: 4px solid #0a5ca0;">
-            <h2 style="font-size: 1.4rem; color: #0a5ca0; margin-bottom: 1rem;">The Short Version</h2>
+          <div class="p-4 rounded-4 mb-5" style="background: #f0f7ff; border-left: 4px solid #004aad;">
+            <h2 style="font-size: 1.4rem; color: #004aad; margin-bottom: 1rem;">The Short Version</h2>
             <ul style="font-size: 0.95rem; line-height: 1.8; color: #444; padding-left: 1.25rem;">
               <li>Jack collects your name, address and phone number to provide his window cleaning service.</li>
               <li>Your information is never sold or shared with third parties for marketing purposes.</li>
@@ -38,7 +38,7 @@ include 'includes/header.php';
 
 
           <!-- 1. Who We Are -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">1. Who We Are</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">1. Who We Are</h3>
           <p>J E Robb Window Cleaning is a sole trader business operated by Jack Robb, based in Swindon, Wiltshire. Jack is the data controller for any personal information collected through this website and through the provision of his window cleaning services.</p>
           <p>If you have any questions about this privacy policy or how your data is handled, you can contact Jack at:</p>
           <ul>
@@ -49,7 +49,7 @@ include 'includes/header.php';
 
 
           <!-- 2. What Information Jack Collects -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">2. What Information Jack Collects</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">2. What Information Jack Collects</h3>
           <p>Jack collects the following personal information from customers:</p>
           <ul>
             <li><strong>Name</strong> - so he knows who he's working for</li>
@@ -62,7 +62,7 @@ include 'includes/header.php';
 
 
           <!-- 3. Why Jack Collects Your Information -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">3. Why Jack Collects Your Information</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">3. Why Jack Collects Your Information</h3>
           <p>Jack uses your personal information for the following purposes:</p>
           <ul>
             <li>Providing the window cleaning service (scheduling, access, communication)</li>
@@ -76,13 +76,13 @@ include 'includes/header.php';
 
 
           <!-- 4. Payment and Stripe -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">4. Payment and Stripe</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">4. Payment and Stripe</h3>
           <p>Payments are processed through Stripe, a secure online payment platform. When you pay via the Stripe link Jack sends you, your card details are entered directly into Stripe's secure system. Jack does not collect, store or have access to your full card details at any point. The Stripe dashboard shows Jack limited information (such as the card type and last 4 digits) for record-keeping purposes only.</p>
           <p>Stripe has its own privacy policy which you can read at <a href="https://stripe.com/gb/privacy" target="_blank" rel="noopener">stripe.com/gb/privacy</a>.</p>
 
 
           <!-- 5. Photographs of Completed Work -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">5. Photographs of Completed Work</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">5. Photographs of Completed Work</h3>
           <p>Jack regularly photographs completed cleans to share on social media (such as Facebook and Google Business) and on the J E Robb Window Cleaning website. These photos are used to showcase the quality of his work and help potential customers see what to expect.</p>
           <p>Photos will typically show windows, frames, fascias or the exterior of the property. Jack will not include identifiable people in any published photograph without first asking their permission.</p>
           <p>If you would prefer that Jack does not photograph your property, just let him know and he will respect your wishes. You can opt out at any time, and any previously published photos of your property will be removed on request.</p>
@@ -90,7 +90,7 @@ include 'includes/header.php';
 
 
           <!-- 6. Who Jack Shares Your Information With -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">6. Who Jack Shares Your Information With</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">6. Who Jack Shares Your Information With</h3>
           <p>Jack does not sell, rent or share your personal information with any third parties for marketing purposes. Your information may be shared with:</p>
           <ul>
             <li><strong>Stripe</strong> - for processing payments (see section 4)</li>
@@ -101,14 +101,14 @@ include 'includes/header.php';
 
 
           <!-- 7. How Long Jack Keeps Your Information -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">7. How Long Jack Keeps Your Information</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">7. How Long Jack Keeps Your Information</h3>
           <p>Jack keeps your contact details for as long as you are an active customer, and for a reasonable period afterwards in case you wish to restart the service.</p>
           <p>Financial records (invoices, payment records) are kept for at least 6 years as required by HMRC for tax purposes.</p>
           <p>If you cancel the service and would like your personal details removed, just let Jack know and he will delete everything that isn't required to be kept for legal or tax reasons.</p>
 
 
           <!-- 8. Your Rights -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">8. Your Rights</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">8. Your Rights</h3>
           <p>Under UK data protection law (UK GDPR), you have the right to:</p>
           <ul>
             <li><strong>Access</strong> - ask Jack what personal information he holds about you</li>
@@ -122,7 +122,7 @@ include 'includes/header.php';
 
 
           <!-- 9. Cookies -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">9. Cookies</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">9. Cookies</h3>
           <p>This website uses minimal cookies. These are small files stored on your device that help the website function properly.</p>
           <p>The website may use:</p>
           <ul>
@@ -133,17 +133,17 @@ include 'includes/header.php';
 
 
           <!-- 10. Third-Party Links -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">10. Third-Party Links</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">10. Third-Party Links</h3>
           <p>This website may contain links to external websites (such as Google Reviews, WhatsApp or Stripe). Jack is not responsible for the privacy practices of these third-party sites. You should review their own privacy policies before providing them with any personal information.</p>
 
 
           <!-- 11. Children's Privacy -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">11. Children's Privacy</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">11. Children's Privacy</h3>
           <p>J E Robb Window Cleaning services are aimed at adults. Jack does not knowingly collect personal information from children under the age of 16. If you believe a child has provided personal information through the website, please contact Jack so it can be removed.</p>
 
 
           <!-- 12. Changes to This Policy -->
-          <h3 style="font-size: 1.15rem; color: #0a5ca0; margin-top: 2rem;">12. Changes to This Policy</h3>
+          <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">12. Changes to This Policy</h3>
           <p>Jack may update this privacy policy from time to time. Any changes will be posted on this page with an updated date. Significant changes will be communicated to existing customers.</p>
 
 

@@ -314,7 +314,7 @@ include 'includes/header.php';
                 </div>
               </div>
               <div class="mt-3">
-                <a href="#contact" class="btn btn-light btn-lg rounded-pill px-4 fw-semibold" style="color: #0a5ca0;">Message Jack for a Free Quote</a>
+                <a href="#contact" class="btn btn-light btn-lg rounded-pill px-4 fw-semibold" style="color: #004aad;">Message Jack for a Free Quote</a>
               </div>
             </div>
           </div>

@@ -47,10 +47,10 @@ include 'includes/header.php';
     <div class="row align-items-center min-vh-hero">
       <!-- Text Side -->
       <div class="col-lg-6 hero-text-col py-5 mt-3 mt-lg-0">
-        <p class="hero-eyebrow">5-Star Rated &middot; 120+ Happy Customers</p>
+        <p class="hero-eyebrow">5-Star Rated &middot; 150+ Happy Customers</p>
         <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Swindon</h1>
         <p class="hero-desc-split">
-          Regular window cleaning, fascia cleaning and gutter emptying for homes across Swindon and Wiltshire. 120+ customers trust us to keep their property looking its best.
+          Regular window cleaning, fascia cleaning and gutter emptying for homes across Swindon and Wiltshire. 150+ customers trust Jack to keep their property looking its best.
         </p>
         <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Message Jack for a Free Quote</a>
 
@@ -90,7 +90,7 @@ include 'includes/header.php';
       </div>
       <!-- Image Side -->
       <div class="col-lg-6 hero-image-col d-flex align-items-center justify-content-center mt-4 mt-lg-0 pb-5 pb-lg-0">
-        <img src="/assets/images/before_after_hero.webp" alt="Jack from J E Robb Window Cleaning in Swindon" class="hero-split-img img-fluid rounded-4" />
+        <img src="/assets/images/before-after-hero-country.webp" alt="Jack from J E Robb Window Cleaning in Swindon" class="hero-split-img img-fluid rounded-4" />
       </div>
     </div>
   </div>

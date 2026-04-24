@@ -106,7 +106,7 @@ include '../includes/header.php';
     <!-- Trust Ticker Bar -->
     <!--
       VARIATION NOTE: Vary the order and selection of ticker items per area page.
-      RWB leads with "Independent & Local" and includes "Over 100 Regular Customers".
+      RWB leads with "Independent & Local" and includes "150+ Regular Customers".
       Other pages can lead with different items or swap in alternatives like
       "Fully Insured", "No Contract Required", etc.
     -->
@@ -115,7 +115,7 @@ include '../includes/header.php';
         <div class="trust-ticker-content">
           <span><i class="fas fa-map-marker-alt"></i> Independent &amp; Local</span>
           <span><i class="fas fa-star"></i> 5-Star Rated on Google</span>
-          <span><i class="fas fa-users"></i> Over 100 Regular Customers</span>
+          <span><i class="fas fa-users"></i> 150+ Regular Customers</span>
           <span><i class="fas fa-user-check"></i> Same Person Every Time</span>
           <span><i class="fas fa-heart"></i> A Window Cleaner Who Cares</span>
           <span><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</span>
@@ -124,7 +124,7 @@ include '../includes/header.php';
           <!-- Duplicate for seamless loop -->
           <span><i class="fas fa-map-marker-alt"></i> Independent &amp; Local</span>
           <span><i class="fas fa-star"></i> 5-Star Rated on Google</span>
-          <span><i class="fas fa-users"></i> Over 100 Regular Customers</span>
+          <span><i class="fas fa-users"></i> 150+ Regular Customers</span>
           <span><i class="fas fa-user-check"></i> Same Person Every Time</span>
           <span><i class="fas fa-heart"></i> A Window Cleaner Who Cares</span>
           <span><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</span>
@@ -180,7 +180,7 @@ include '../includes/header.php';
           </div>
           <div class="col-lg-8">
             <h2 class="section-title">Your Window Cleaner in Royal Wootton Bassett</h2>
-            <p class="lead mt-3">Jack provides regular window cleaning for homes throughout Royal Wootton Bassett. As a one-man business with over 100 customers across Swindon and the surrounding towns, he's built his reputation on doing a proper job and being someone people are happy to have around their property. Every one of his Google reviews is five stars - and that matters more than any sales pitch.</p>
+            <p class="lead mt-3">Jack provides regular window cleaning for homes throughout Royal Wootton Bassett. As a one-man business with 150+ customers across Swindon and the surrounding towns, he's built his reputation on doing a proper job and being someone people are happy to have around their property. Every one of his Google reviews is five stars - and that matters more than any sales pitch.</p>
             <!-- [JACK TO CONFIRM] Does Jack have specific RWB customers? If so, replace the generic line below with something like:
             "He already cleans regularly for homes around Templars Firs, Lime Kiln, and the High Street area..." -->
             <p>Jack already works in Royal Wootton Bassett as part of his regular round, so adding new customers in the area is straightforward. He'll message you the day before every clean so you always know when to expect him, and because he's a sole trader, you'll always get the same person turning up - not a different face each time.</p>

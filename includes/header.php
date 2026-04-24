@@ -19,7 +19,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/style.css" />
@@ -58,9 +58,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/#pricing">Pricing</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/#about-me-section">About Jack</a>

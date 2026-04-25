@@ -17,9 +17,6 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     color: #004aad;
 }
 
-section {
-    /* padding controlled per-section via Bootstrap py-5 utility */
-}
 
 .section-title {
     font-size: 2.5rem;
@@ -274,6 +271,12 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 /* Testimonial Carousel */
+#testimonials .position-relative,
+#gallery .position-relative {
+    overflow: hidden;
+    padding: 0 10px;
+}
+
 .testimonial-carousel-track {
     display: flex;
     gap: 1.5rem;
@@ -306,11 +309,11 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 .testimonial-arrow-prev {
-    left: -20px;
+    left: 5px;
 }
 
 .testimonial-arrow-next {
-    right: -20px;
+    right: 5px;
 }
 
 @media (max-width: 992px) {
@@ -367,11 +370,11 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 .gallery-arrow-prev {
-    left: -20px;
+    left: 5px;
 }
 
 .gallery-arrow-next {
-    right: -20px;
+    right: 5px;
 }
 
 @media (max-width: 992px) {
@@ -495,7 +498,8 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 
 @media (max-width: 768px) {
     .service-card-overlay-img {
-        height: 200px;
+        height: 280px;
+        object-position: center;
     }
 }
 

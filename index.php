@@ -199,26 +199,26 @@ include 'includes/header.php';
     <div class="row g-3">
       <div class="col-sm-6 col-lg-3">
         <div class="service-card-overlay">
-          <img src="/assets/images/picture-window.webp" alt="Window cleaning service in Swindon" class="service-card-overlay-img" />
+          <img src="/assets/images/clean-domestic-window.webp" alt="Window cleaning service in Swindon" class="service-card-overlay-img" />
           <div class="service-card-overlay-title">Window Cleaning</div>
         </div>
       </div>
       <div class="col-sm-6 col-lg-3">
         <div class="service-card-overlay">
-          <img src="/assets/images/fascia-clean.webp" alt="Fascia cleaning service in Swindon" class="service-card-overlay-img" />
+          <img src="/assets/images/clean-fascia-domestic.webp" alt="Fascia cleaning service in Swindon" class="service-card-overlay-img" />
           <div class="service-card-overlay-title">Fascia &amp; Soffit Cleaning</div>
         </div>
       </div>
       <div class="col-sm-6 col-lg-3">
         <div class="service-card-overlay">
-          <img src="/assets/images/gutter-empty.webp" alt="Gutter emptying service in Swindon" class="service-card-overlay-img" />
+          <img src="/assets/images/gutter-empty.webp" alt="Gutter emptying service in Swindon" class="service-card-overlay-img" style="object-position: center 80%;" />
           <div class="service-card-overlay-title">Gutter Emptying</div>
         </div>
       </div>
       <div class="col-sm-6 col-lg-3">
         <div class="service-card-overlay">
-          <img src="/assets/images/bespoke.webp" alt="Commercial window cleaning in Swindon" class="service-card-overlay-img" />
-          <div class="service-card-overlay-title">Commercial Cleaning</div>
+          <img src="/assets/images/greenhouse-full.webp" alt="Conservatory and greenhouse cleaning in Swindon" class="service-card-overlay-img" />
+          <div class="service-card-overlay-title">Conservatories and Greenhouses</div>
         </div>
       </div>
     </div>
@@ -241,19 +241,22 @@ include 'includes/header.php';
     <div class="position-relative">
       <div class="gallery-carousel-track" id="galleryTrack">
         <div class="gallery-carousel-slide">
-          <img src="/assets/images/before_after_hero.webp" alt="Window cleaning results" class="gallery-carousel-img rounded-3" />
+          <img src="/assets/images/before-after-greenhouse.webp" alt="Before and after greenhouse cleaning" class="gallery-carousel-img rounded-3" />
         </div>
         <div class="gallery-carousel-slide">
-          <img src="/assets/images/picture-window.webp" alt="Window cleaning results" class="gallery-carousel-img rounded-3" />
+          <img src="/assets/images/before-after-sills.webp" alt="Before and after window sill cleaning" class="gallery-carousel-img rounded-3" />
         </div>
         <div class="gallery-carousel-slide">
-          <img src="/assets/images/fascia-clean.webp" alt="Fascia cleaning results" class="gallery-carousel-img rounded-3" />
+          <img src="/assets/images/before_after_hero.webp" alt="Before and after window cleaning" class="gallery-carousel-img rounded-3" />
+        </div>
+        <div class="gallery-carousel-slide">
+          <img src="/assets/images/before-after-conservatory.webp" alt="Before and after conservatory cleaning" class="gallery-carousel-img rounded-3" />
+        </div>
+        <div class="gallery-carousel-slide">
+          <img src="/assets/images/before-after-window.webp" alt="Before and after window cleaning" class="gallery-carousel-img rounded-3" />
         </div>
         <div class="gallery-carousel-slide">
           <img src="/assets/images/gutter-empty.webp" alt="Gutter emptying results" class="gallery-carousel-img rounded-3" />
-        </div>
-        <div class="gallery-carousel-slide">
-          <img src="/assets/images/bespoke.webp" alt="Commercial cleaning results" class="gallery-carousel-img rounded-3" />
         </div>
       </div>
       <button class="gallery-arrow gallery-arrow-prev" id="galleryPrev" aria-label="Previous">&#8592;</button>

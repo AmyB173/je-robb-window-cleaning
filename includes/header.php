@@ -62,20 +62,21 @@
             <li class="nav-item">
               <a class="nav-link" href="/#about-me-section">About Jack</a>
             </li>
-            <!-- <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="areasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Areas
               </a>
               <ul class="dropdown-menu" aria-labelledby="areasDropdown">
                 <li><a class="dropdown-item" href="/areas/royal-wootton-bassett">Royal Wootton Bassett</a></li>
                 <li><a class="dropdown-item" href="/areas/wroughton">Wroughton</a></li>
+                <!-- <li><a class="dropdown-item" href="/areas/highworth">Highworth</a></li>
                 <li><a class="dropdown-item" href="/areas/highworth">Highworth</a></li>
                 <li><a class="dropdown-item" href="/areas/purton">Purton</a></li>
                 <li><a class="dropdown-item" href="/areas/cricklade">Cricklade</a></li>
-                <li><a class="dropdown-item" href="/areas/lydiard-millicent">Lydiard Millicent</a></li>
+                <li><a class="dropdown-item" href="/areas/lydiard-millicent">Lydiard Millicent</a></li> -->
               </ul>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="/blog/">Blog</a>
             </li> -->
             <li class="nav-item">

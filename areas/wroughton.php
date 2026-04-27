@@ -1,7 +1,7 @@
 <?php
-$page_title = "Window Cleaning Royal Wootton Bassett | J E Robb";
-$page_description = "Jack at J E Robb Window Cleaning covers Royal Wootton Bassett regularly. 5-star rated, 150+ happy customers. Free quote, no contract.";
-$page_canonical = "https://www.jerobb.co.uk/areas/royal-wootton-bassett";
+$page_title = "Window Cleaner Wroughton | Your Local Window Cleaner";
+$page_description = "Jack lives in Wroughton, so your window cleaner is also your neighbour. 5-star rated window cleaning, fascia and gutter work for homes across Wroughton and surrounding villages.";
+$page_canonical = "https://www.jerobb.co.uk/areas/wroughton";
 include '../includes/header.php';
 ?>
 
@@ -10,25 +10,25 @@ include '../includes/header.php';
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "J E Robb Window Cleaning - Royal Wootton Bassett",
-  "description": "Window cleaning in Royal Wootton Bassett from a reliable one-man business. Jack covers homes across the town and surrounding areas, offering regular window cleans, fascia cleaning and gutter emptying.",
-  "url": "https://www.jerobb.co.uk/areas/royal-wootton-bassett",
+  "name": "J E Robb Window Cleaning - Wroughton",
+  "description": "Window cleaning in Wroughton from a local one-man business. Jack lives in the village and cleans for homes across Wroughton, Wichelstowe, Chiseldon and the surrounding lanes.",
+  "url": "https://www.jerobb.co.uk/areas/wroughton",
   "telephone": "+447442249440",
   "email": "windowcleaning@jerobb.co.uk",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Royal Wootton Bassett",
+    "addressLocality": "Wroughton",
     "addressRegion": "Wiltshire",
     "addressCountry": "GB"
   },
   "areaServed": {
     "@type": "Place",
-    "name": "Royal Wootton Bassett, Wiltshire"
+    "name": "Wroughton, Wiltshire"
   },
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5",
-    "reviewCount": "42",
+    "reviewCount": "10",
     "bestRating": "5"
   },
   "priceRange": "££",
@@ -37,49 +37,42 @@ include '../includes/header.php';
 }
 </script>
 
-<!-- Breadcrumb -->
-<nav aria-label="breadcrumb" class="area-breadcrumb">
-  <div class="container">
-    <ol class="breadcrumb mb-0 py-2 small">
-      <li class="breadcrumb-item"><a href="/">Home</a></li>
-      <li class="breadcrumb-item">Areas</li>
-      <li class="breadcrumb-item active" aria-current="page">Royal Wootton Bassett</li>
-    </ol>
-  </div>
-</nav>
-
-<!-- Hero Section -->
+<!-- Hero Section (modelled on index split hero) -->
 <section id="home" class="hero-split">
   <div class="container">
     <div class="row align-items-center min-vh-hero">
       <!-- Text Side -->
       <div class="col-lg-6 hero-text-col py-5 mt-3 mt-lg-0">
-        <p class="hero-eyebrow">5-Star Rated &middot; 150+ Happy Customers</p>
-        <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Royal Wootton Bassett</h1>
+        <p class="hero-eyebrow">Your Neighbour &middot; Your Window Cleaner</p>
+        <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Wroughton</h1>
         <p class="hero-desc-split">
-          Jack already cleans for customers around the town and is happy to take on new properties nearby. Reliable, thorough and friendly - with every Google review at five stars.
+          Jack lives in Wroughton and already cleans for many happy customers on his round. Reliable, with a high attention to detail and a friendly service.
         </p>
         <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Message Jack for a Free Quote</a>
 
         <div class="d-flex align-items-center mb-3">
           <img src="/assets/images/jack.webp"
-            alt="Jack from J E Robb Window Cleaning"
+            alt="Jack from J E Robb Window Cleaning - based in Wroughton"
             class="hero-jack-thumb rounded-circle me-3" />
           <span style="color: rgba(255,255,255,0.85); font-size: 0.95rem;">
-            <strong class="text-white">Jack Robb</strong> · Owner &amp; Window Cleaner
+            <strong class="text-white">Jack Robb</strong> · Lives in Wroughton
           </span>
         </div>
 
+        <!-- Rotating Snippets - Wroughton uses Janet, Amanda, Sophie, Charlotte -->
         <div class="hero-snippet">
           <div class="snippet-carousel" id="snippetCarousel">
             <div class="snippet-slide active">
-              <p class="snippet-text">"Reliable, thorough, efficient and friendly" <span class="snippet-author">- Anna</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
+              <p class="snippet-text">"Crystal clear windows... 100% recommend" <span class="snippet-author">- Janet</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
             </div>
             <div class="snippet-slide">
-              <p class="snippet-text">"He takes pride in his work - cleaner than they've been for ages" <span class="snippet-author">- Alfred</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
+              <p class="snippet-text">"Fantastic job. Great communication, every time" <span class="snippet-author">- Amanda</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
             </div>
             <div class="snippet-slide">
-              <p class="snippet-text">"Very glad I found him. Will use permanently" <span class="snippet-author">- Dan</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
+              <p class="snippet-text">"Professional and great value for money" <span class="snippet-author">- Sophie</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
+            </div>
+            <div class="snippet-slide">
+              <p class="snippet-text">"Our windows are gleaming now!" <span class="snippet-author">- Charlotte</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
             </div>
           </div>
         </div>
@@ -91,12 +84,25 @@ include '../includes/header.php';
       </div>
       <!-- Image Side -->
       <div class="col-lg-6 hero-image-col d-flex flex-column align-items-center justify-content-center mt-4 mt-lg-0 pb-5 pb-lg-0">
-        <img src="/assets/images/royal-wootton-basset.webp" alt="Royal Wootton Bassett, Wiltshire" class="hero-split-img img-fluid rounded-4" />
-        <p class="area-img-credit">Photo: Wayland Smith, CC BY-SA 2.0, via Wikimedia Commons</p>
+        <img src="/assets/images/clean-domestic-window.webp" alt="Window cleaning in Wroughton" class="hero-split-img img-fluid rounded-4" />
+        <p class="area-img-credit">Wroughton, Wiltshire</p>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Static Trust Bar - replaces scrolling ticker. Items chosen for SEO + conversion. -->
+<div class="trust-static">
+  <div class="container">
+    <ul class="trust-static-list">
+      <li><i class="fas fa-map-marker-alt"></i> Lives in Wroughton</li>
+      <li><i class="fas fa-star"></i> 5-Star Rated on Google</li>
+      <li><i class="fas fa-search"></i> Obsessive Attention to Detail</li>
+      <li><i class="fas fa-user-check"></i> Same Person Every Time</li>
+      <li><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</li>
+    </ul>
+  </div>
+</div>
 
 <style>
 .trust-static {
@@ -147,49 +153,37 @@ include '../includes/header.php';
 }
 </style>
 
-<!-- Static Trust Bar -->
-<div class="trust-static">
-  <div class="container">
-    <ul class="trust-static-list">
-      <li><i class="fas fa-star"></i> 5-Star Rated on Google</li>
-      <li><i class="fas fa-map-marker-alt"></i> Regular Round in Royal Wootton Bassett</li>
-      <li><i class="fas fa-search"></i> Obsessive Attention to Detail</li>
-      <li><i class="fas fa-user-check"></i> Same Person Every Time</li>
-      <li><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</li>
-    </ul>
-  </div>
-</div>
-
-<!-- Early Testimonial -->
+<!-- Early Testimonial - Janet (matches index style, leads with crystal clear quote) -->
 <section class="py-5 bg-light">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8">
         <div class="testimonial-card p-4 p-md-5 rounded-4 shadow-sm text-center">
           <div class="mb-3"><span style="color: #ffd700; font-size: 1.2rem;">&#11088;&#11088;&#11088;&#11088;&#11088;</span></div>
-          <p class="testimonial-card-text" style="font-size: 1.15rem;">"Jack has cleaned my parents' windows several times now and <strong>they are hugely impressed</strong>. Reliable, thorough and efficient, helpful and friendly. Highly recommend."</p>
-          <p class="testimonial-card-author fw-semibold mb-0 mt-3">- Anna Cairns</p>
+          <p class="testimonial-card-text" style="font-size: 1.15rem;">"Excellent job of cleaning inside and out. <strong>Crystal clear windows when he'd finished and lovely clean white windowsills and surrounds.</strong> 100% recommend."</p>
+          <p class="testimonial-card-author fw-semibold mb-0 mt-3">- Janet McHugh</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- About Jack Section -->
+<!-- Meet Your Local Window Cleaner Section (green accent style from index) -->
+<!-- This is the heart of the page: detail + friendly + lives here, woven together -->
 <section id="about-jack" class="py-5 section-dark">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-11 col-lg-10">
         <div class="row align-items-center">
           <div class="col-md-4 mb-4 mb-md-0">
-            <img src="/assets/images/jack_rectangle.webp" alt="Jack Robb - J E Robb Window Cleaning" class="img-fluid rounded-4 shadow" />
+            <img src="/assets/images/jack_rectangle.webp" alt="Jack Robb - window cleaner who lives in Wroughton" class="img-fluid rounded-4 shadow" />
           </div>
           <div class="col-md-8">
             <div class="p-4">
-              <p class="hero-eyebrow" style="color: #fff; opacity: 0.9;">Regular Round · 5-Star Rated</p>
-              <h2 class="section-title text-white mb-3">Your Window Cleaner in Royal Wootton Bassett</h2>
+              <p class="hero-eyebrow" style="color: #fff; opacity: 0.9;">Your Local Window Cleaner</p>
+              <h2 class="section-title text-white mb-3">Jack Lives Here Too</h2>
               <p style="color: rgba(255,255,255,0.95); font-size: 1.1rem; line-height: 1.7;">
-                Jack runs J E Robb as a one-man business with 150+ regular customers across Swindon and the surrounding towns. Royal Wootton Bassett is part of his regular round, so new customers nearby slot in easily alongside his existing ones.
+                Jack lives in Wroughton with his partner and dogs. So when he comes to clean your windows, he's not driving in from miles away.
               </p>
               <div class="row mt-4">
                 <div class="col-sm-6 mb-3">
@@ -201,23 +195,23 @@ include '../includes/header.php';
                 </div>
                 <div class="col-sm-6 mb-3">
                   <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-user-check"></i></div>
-                    <h3>Same Person Every Time</h3>
-                    <p>Not a franchise. It's always Jack. He'll message you the day before every clean so you know when to expect him.</p>
+                    <div class="feature-icon"><i class="fas fa-mug-hot"></i></div>
+                    <h3>Easy to Have Around</h3>
+                    <p>Friendly, polite, and respectful of your home. The kind of person you're happy to see at the door.</p>
                   </div>
                 </div>
                 <div class="col-sm-6 mb-3">
                   <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-tint"></i></div>
-                    <h3>Pure Water, No Chemicals</h3>
-                    <p>Streak-free results with no detergents. Better for your windows, frames and the environment.</p>
+                    <div class="feature-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3>A Wroughton Local</h3>
+                    <p>Jack knows the village and his customers by name.</p>
                   </div>
                 </div>
                 <div class="col-sm-6 mb-3">
                   <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
-                    <h3>Satisfaction Guaranteed</h3>
-                    <p>Not happy? Jack will come back and sort it, no fuss, no charge.</p>
+                    <h3>Reputation Matters Here</h3>
+                    <p>Jack prides himself on doing an excellent, thorough job for his customers and is known locally for his attention to detail.</p>
                   </div>
                 </div>
               </div>
@@ -232,30 +226,30 @@ include '../includes/header.php';
   </div>
 </section>
 
-<!-- Local Knowledge Section -->
+<!-- Wroughton Properties / Local Knowledge Section -->
 <section class="py-5">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-10">
         <div class="text-center mb-4">
-          <h2 class="section-title">Window Cleaning Across Royal Wootton Bassett</h2>
-          <p class="section-subtitle">From the High Street to the newer estates</p>
+          <h2 class="section-title">Window Cleaning Across Wroughton</h2>
+          <p class="section-subtitle">From the village core to the lanes out toward Barbury</p>
         </div>
         <p style="font-size: 1.05rem; line-height: 1.8; color: #444;">
-          Royal Wootton Bassett has a real mix of properties - older stone and brick cottages along the High Street, terraced streets through the town centre, and larger modern estates off Coped Hall and around Templars Firs. Older sash windows and stone surrounds suit the gentle pure water clean Jack uses, with no chemicals that could mark paintwork or stonework. The newer estates often have first and second-floor glass that's awkward to reach any other way, which is where the water-fed pole system comes in - it reaches up to three storeys from the ground without ladders against your property.
+          Wroughton's a real mix - older cottages and stone properties around the High Street and the church, terraced rows along Markham Road and the Square, the bigger 70s and 80s estates off Inverary Road and Overbrook, and the newer builds out toward Wharf Road. <!-- [JACK TO CONFIRM] adjust street names / estates if these aren't quite right --> Each one has its own quirks, and after years of working the village, Jack knows them all.
         </p>
         <p style="font-size: 1.05rem; line-height: 1.8; color: #444;">
-          Being a market town just off the M4, properties in Royal Wootton Bassett can pick up road dust quickly, especially on the main road side. An 8-weekly clean keeps on top of it before dirt has a chance to bake onto frames and seals. Frames and sills are cleaned as part of every visit - not just the glass.
+          The pure water fed pole system reaches first and second-floor windows from the ground without leaning ladders against your property most of the time. That matters more than people realise - older Wroughton homes often have softer paintwork and stonework that ladders can mark, and many of the newer estates have a lot of glass at first floor that's awkward to reach any other way. Frames and sills get cleaned as part of every visit, and there are mostly no chemicals or detergents involved - just purified water that dries without leaving any marks. A regular 8-weekly clean keeps on top of it before it has a chance to bake on.
         </p>
         <div class="text-center mt-4">
-          <a href="#contact" class="btn btn-primary btn-lg">Get a free quote in Royal Wootton Bassett</a>
+          <a href="#contact" class="btn btn-primary btn-lg">Get a free quote in Wroughton</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- FAQ Section -->
+<!-- FAQ Section - Wroughton specific questions -->
 <section class="py-5 bg-light">
   <div class="container">
     <div class="row justify-content-center">
@@ -266,12 +260,12 @@ include '../includes/header.php';
           <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
             <h3 class="accordion-header">
               <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                How much does window cleaning cost in Royal Wootton Bassett?
+                Does Jack actually live in Wroughton?
               </button>
             </h3>
             <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-                Every property is different, so Jack gives a personalised quote based on the number of windows, the size of your home and access. There's no contract and no obligation - just message him for a quote.
+                Yes. Jack lives in Wroughton with his partner and dogs, so this is genuinely a local business. It also means new customers in the village slot in easily - he's already nearby on cleaning days, and there's no faff with travel time getting passed on to you.
               </div>
             </div>
           </div>
@@ -279,12 +273,12 @@ include '../includes/header.php';
           <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
             <h3 class="accordion-header">
               <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                Does Jack already work in Royal Wootton Bassett?
+                Will my conservatory roof get cleaned too?
               </button>
             </h3>
             <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-                Yes. Royal Wootton Bassett is part of Jack's regular round, so he's in the area often. New customers nearby slot in alongside his existing ones without any fuss.
+               Conservatory roofs can be included as a one-off clean or as part of the regular service depending on what you prefer. Let Jack know and he can give you the price both including and excluding the conservatory roof.
               </div>
             </div>
           </div>
@@ -292,12 +286,12 @@ include '../includes/header.php';
           <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
             <h3 class="accordion-header">
               <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
-                How often should I get my windows cleaned?
+                How much does window cleaning cost in Wroughton?
               </button>
             </h3>
             <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-                Most of Jack's customers go for an 8-weekly clean, which keeps on top of dirt building up on frames and seals. Happy to chat through what works best for your home.
+                Every property's different, so Jack quotes based on the size of your home, number of windows, and access. There is no generalised pricing because each property is so different. Message Jack for a free quote and he should get back to you in a few hours.
               </div>
             </div>
           </div>
@@ -305,12 +299,12 @@ include '../includes/header.php';
           <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
             <h3 class="accordion-header">
               <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
-                Do I need to be home when Jack cleans?
+                What if I'm not happy with the clean?
               </button>
             </h3>
             <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-                Not usually. Jack messages you the day before so you know when he's coming. As long as he can get to the windows (side gates unlocked, cars moved if needed), he can clean while you're out and let you know when he's done. Payment is online so no need for cash.
+                Let Jack know within 24 hours and he'll come straight back to sort it without question. In practice it almost never comes up, because Jack's checking his own work as he goes. But the guarantee's there, and given he lives in the village, it's not exactly hard for him to pop round.
               </div>
             </div>
           </div>
@@ -318,12 +312,25 @@ include '../includes/header.php';
           <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
             <h3 class="accordion-header">
               <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
-                What if it rains after my windows are cleaned?
+                Do you cover the lanes and farms outside the village?
               </button>
             </h3>
             <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-                Rain after a pure water clean is fine. There's no detergent or chemical residue on the glass, so rainwater just runs off without leaving marks. If something isn't right after a clean, Jack will come back and sort it.
+                Yes, plenty of customers are on the lanes out toward Hackpen, Barbury and the surrounding farms <!-- [JACK TO CONFIRM] -->. Rural properties pick up dust quickly from the surrounding fields, so regular cleans make a noticeable difference. Drop Jack a message with your postcode and he'll let you know.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                Do I need to be home when Jack cleans?
+              </button>
+            </h3>
+            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-muted">
+                Not usually. Jack messages the day before so you know he's coming, and as long as he can get to the windows (side gates open, cars moved if needed) he'll crack on while you're out and let you know when he's done. Payment's handled online so no need for cash.
               </div>
             </div>
           </div>
@@ -334,36 +341,36 @@ include '../includes/header.php';
   </div>
 </section>
 
-<!-- Services Section -->
+<!-- Services Section - dark gradient with photo overlay cards (matches index) -->
 <section id="services" class="py-5 section-dark">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-5">
-        <h2 class="section-title text-white">What Jack Cleans in Royal Wootton Bassett</h2>
+        <h2 class="section-title text-white">What Jack Cleans in Wroughton</h2>
       </div>
     </div>
     <div class="row g-3">
       <div class="col-sm-6 col-lg-3">
         <div class="service-card-overlay">
-          <img src="/assets/images/clean-domestic-window.webp" alt="Window cleaning in Royal Wootton Bassett" class="service-card-overlay-img" />
+          <img src="/assets/images/clean-domestic-window.webp" alt="Window cleaning Wroughton" class="service-card-overlay-img" />
           <div class="service-card-overlay-title">Window Cleaning</div>
         </div>
       </div>
       <div class="col-sm-6 col-lg-3">
         <div class="service-card-overlay">
-          <img src="/assets/images/clean-fascia-domestic.webp" alt="Fascia cleaning in Royal Wootton Bassett" class="service-card-overlay-img" />
+          <img src="/assets/images/clean-fascia-domestic.webp" alt="Fascia cleaning Wroughton" class="service-card-overlay-img" />
           <div class="service-card-overlay-title">Fascia &amp; Soffit Cleaning</div>
         </div>
       </div>
       <div class="col-sm-6 col-lg-3">
         <div class="service-card-overlay">
-          <img src="/assets/images/gutter-empty.webp" alt="Gutter emptying in Royal Wootton Bassett" class="service-card-overlay-img" style="object-position: center 80%;" />
+          <img src="/assets/images/gutter-empty.webp" alt="Gutter emptying Wroughton" class="service-card-overlay-img" style="object-position: center 80%;" />
           <div class="service-card-overlay-title">Gutter Emptying</div>
         </div>
       </div>
       <div class="col-sm-6 col-lg-3">
         <div class="service-card-overlay">
-          <img src="/assets/images/greenhouse-full.webp" alt="Conservatory and greenhouse cleaning in Royal Wootton Bassett" class="service-card-overlay-img" />
+          <img src="/assets/images/greenhouse-full.webp" alt="Conservatory and greenhouse cleaning Wroughton" class="service-card-overlay-img" />
           <div class="service-card-overlay-title">Conservatories and Greenhouses</div>
         </div>
       </div>
@@ -377,7 +384,7 @@ include '../includes/header.php';
   </div>
 </section>
 
-<!-- Second Testimonial Block -->
+<!-- Second Testimonial Block - Amit and Julianna for the detail/quality angle -->
 <section class="py-5 bg-light">
   <div class="container">
     <div class="row">
@@ -390,15 +397,15 @@ include '../includes/header.php';
       <div class="col-md-6 col-lg-5 mb-4">
         <div class="testimonial-card p-4 rounded-4 shadow-sm h-100">
           <div class="mb-2"><span style="color: #ffd700;">&#11088;&#11088;&#11088;&#11088;&#11088;</span></div>
-          <p class="testimonial-card-text">"Brilliant job cleaning our windows in an efficient tidy manner. <strong>He takes pride in his work, the window frames look cleaner than they have been for ages.</strong>"</p>
-          <p class="testimonial-card-author fw-semibold mb-0">- Alfred Western</p>
+          <p class="testimonial-card-text">"Punctual, professional, reasonably priced and the quality of your work really stood out. <strong>I appreciate your attention to detail and the care you took around the property.</strong>"</p>
+          <p class="testimonial-card-author fw-semibold mb-0">- Amit Sawlani</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-5 mb-4">
         <div class="testimonial-card p-4 rounded-4 shadow-sm h-100">
           <div class="mb-2"><span style="color: #ffd700;">&#11088;&#11088;&#11088;&#11088;&#11088;</span></div>
-          <p class="testimonial-card-text">"Punctual, professional, reasonably priced and the quality of your work really stood out. <strong>I appreciate your attention to detail and the care you took around the property.</strong>"</p>
-          <p class="testimonial-card-author fw-semibold mb-0">- Amit Sawlani</p>
+          <p class="testimonial-card-text">"Jack was brilliant from start to finish. Really prompt response, turned up when he said he would. <strong>He completed the job really thoroughly taking time to attend to the details.</strong>"</p>
+          <p class="testimonial-card-author fw-semibold mb-0">- Julianna Veares</p>
         </div>
       </div>
     </div>
@@ -419,38 +426,38 @@ include '../includes/header.php';
     <div class="row">
       <div class="col-12 text-center mb-4">
         <h2 class="section-title">Nearby Areas Jack Covers</h2>
-        <p class="section-subtitle">Royal Wootton Bassett is part of Jack's round across Swindon and the surrounding towns and villages.</p>
+        <p class="section-subtitle">Wroughton's home, but Jack's round stretches across Swindon and the surrounding towns and villages.</p>
       </div>
     </div>
     <div class="row justify-content-center">
       <div class="col-6 col-md-3 mb-3 text-center">
-        <a href="/areas/wroughton" class="btn btn-outline-primary w-100">Wroughton</a>
+        <a href="/areas/swindon" class="btn btn-outline-primary w-100">Swindon</a>
       </div>
       <div class="col-6 col-md-3 mb-3 text-center">
-        <a href="/areas/swindon" class="btn btn-outline-primary w-100">Swindon</a>
+        <a href="/areas/royal-wootton-bassett" class="btn btn-outline-primary w-100">Royal Wootton Bassett</a>
+      </div>
+      <div class="col-6 col-md-3 mb-3 text-center">
+        <a href="/areas/chiseldon" class="btn btn-outline-primary w-100">Chiseldon</a>
       </div>
       <div class="col-6 col-md-3 mb-3 text-center">
         <a href="/areas/highworth" class="btn btn-outline-primary w-100">Highworth</a>
       </div>
       <div class="col-6 col-md-3 mb-3 text-center">
-        <a href="/areas/purton" class="btn btn-outline-primary w-100">Purton</a>
-      </div>
-      <div class="col-6 col-md-3 mb-3 text-center">
-        <a href="/areas/cricklade" class="btn btn-outline-primary w-100">Cricklade</a>
-      </div>
-      <div class="col-6 col-md-3 mb-3 text-center">
         <a href="/areas/lydiard-millicent" class="btn btn-outline-primary w-100">Lydiard Millicent</a>
+      </div>
+      <div class="col-6 col-md-3 mb-3 text-center">
+        <a href="/areas/purton" class="btn btn-outline-primary w-100">Purton</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Contact -->
+<!-- Contact Section (matches index dark style) -->
 <section id="contact" class="py-5 section-dark">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
-        <h2 class="section-title text-white">Get a Free Quote in Royal Wootton Bassett</h2>
+        <h2 class="section-title text-white">Get a Free Quote in Wroughton</h2>
         <p class="section-subtitle" style="color: rgba(255,255,255,0.6);">Jack typically replies within a few hours</p>
       </div>
     </div>
@@ -465,7 +472,7 @@ include '../includes/header.php';
           <h3 class="mb-2">Message Jack on WhatsApp</h3>
           <p class="text-muted mb-1">The quickest way to get your free quote.</p>
           <p class="text-muted small mb-4">No obligation, no hard sell</p>
-          <a href="https://wa.me/447442249440?text=Hi%20Jack,%20I'd%20like%20a%20quote%20for%20window%20cleaning%20in%20Royal%20Wootton%20Bassett"
+          <a href="https://wa.me/447442249440?text=Hi%20Jack,%20I'd%20like%20a%20quote%20for%20window%20cleaning%20in%20Wroughton"
              target="_blank" rel="noopener"
              class="btn btn-lg px-5 py-3 fw-semibold text-white rounded-pill"
              style="background-color: #25D366; border-color: #25D366; font-size: 1.15rem;">
@@ -490,9 +497,9 @@ include '../includes/header.php';
     <div class="row justify-content-center">
       <div class="col-lg-6">
         <form id="contactForm" class="contact-form">
-          <input type="hidden" id="area" name="area" value="Royal Wootton Bassett" />
+          <input type="hidden" id="area" name="area" value="Wroughton" />
           <input type="hidden" id="email" name="email" value="" />
-          <input type="hidden" id="message" name="message" value="Enquiry from Royal Wootton Bassett page" />
+          <input type="hidden" id="message" name="message" value="Enquiry from Wroughton page" />
           <div class="mb-3">
             <label for="name" class="visually-hidden">Your Name</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required />
@@ -544,26 +551,42 @@ include '../includes/header.php';
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How much does window cleaning cost in Royal Wootton Bassett?",
+      "name": "Does Jack actually live in Wroughton?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Every property is different, so Jack gives a personalised quote based on the number of windows, the size of your home and access. There's no contract and no obligation."
+        "text": "Yes. Jack lives in Wroughton with his partner and dogs, so this is genuinely a local business. New customers in the village slot in easily as he's already nearby on cleaning days."
       }
     },
     {
       "@type": "Question",
-      "name": "Does Jack already work in Royal Wootton Bassett?",
+      "name": "Will my conservatory roof get cleaned too?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Royal Wootton Bassett is part of Jack's regular round, so he's in the area often. New customers nearby slot in alongside his existing ones."
+        "text": "Yes. Conservatory roofs and greenhouses are part of what Jack does. The pure water pole reaches across the roof from the ground without anyone climbing on the glass. Just mention it when you get your quote."
       }
     },
     {
       "@type": "Question",
-      "name": "How often should I get my windows cleaned?",
+      "name": "How much does window cleaning cost in Wroughton?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most of Jack's customers go for an 8-weekly clean, which keeps on top of dirt building up on frames and seals."
+        "text": "Every property is different, so Jack quotes based on the size of your home, number of windows, and access. There is no generalised pricing because each property is so different. Message Jack for a free quote and he should get back to you in a few hours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if I'm not happy with the clean?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Let Jack know within 24 hours and he'll come back to sort it without question. As Jack lives in Wroughton, it's easy for him to return promptly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you cover the lanes and farms outside Wroughton?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Jack has customers on the lanes around Wroughton including out toward Hackpen and Barbury, and the surrounding farms. Rural properties pick up dust quickly from the surrounding fields, so regular cleans make a noticeable difference."
       }
     },
     {
@@ -571,15 +594,7 @@ include '../includes/header.php';
       "name": "Do I need to be home when Jack cleans?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not usually. Jack messages you the day before. As long as he can get to the windows, he can clean while you're out and let you know when he's done. Payment is online."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if it rains after my windows are cleaned?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Rain after a pure water clean is fine. There's no detergent or chemical residue on the glass, so rainwater just runs off without leaving marks."
+        "text": "Not usually. Jack messages the day before so you know he's coming. As long as he can access the windows, he'll clean while you're out and let you know when he's done. Payment is handled online."
       }
     }
   ]

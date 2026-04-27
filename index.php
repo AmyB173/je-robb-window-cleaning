@@ -327,6 +327,42 @@ include 'includes/header.php';
   </div>
 </section>
 
+<!-- Areas We Cover Section -->
+<section id="areas" class="py-5 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        <h2 class="section-title">Areas We Cover</h2>
+        <p class="lead text-muted mx-auto" style="max-width: 640px;">Jack's regular round covers Swindon and the surrounding towns and villages. <strong style="font-weight: 700;">Not sure if Jack covers your area?</strong> Just message him - if it's nearby, he'll probably be happy to add you to his round.</p>
+      </div>
+    </div>
+    <div class="row g-3 mb-4">
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Swindon</span></div>
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Old Town</span></div>
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Stratton</span></div>
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Wroughton</span></div>
+      <div class="col-6 col-md-4"><a href="/areas/royal-wootton-bassett" class="d-block text-center py-2 rounded-pill fw-medium text-decoration-none" style="background: #e8f0fb; color: #004aad;">Royal Wootton Bassett</a></div>
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Highworth</span></div>
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Cricklade</span></div>
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Purton</span></div>
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Lydiard Millicent</span></div>
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Chiseldon</span></div>
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Wanborough</span></div>
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Marlborough</span></div>
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Aldbourne</span></div>
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Lyneham</span></div>
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Shrivenham</span></div>
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Fairford</span></div>
+      <div class="col-6 col-md-4"><span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;">Lechlade</span></div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="#contact" class="btn btn-primary btn-lg">Message Jack for a Free Quote</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Contact Section -->
 <section id="contact" class="py-5 section-dark">
   <div class="container">

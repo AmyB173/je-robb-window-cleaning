@@ -1,3 +1,4 @@
+<?php define('GOOGLE_MAPS_URL', 'https://www.google.com/maps?cid=11164835629351151241'); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

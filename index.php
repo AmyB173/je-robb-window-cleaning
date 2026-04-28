@@ -1,6 +1,6 @@
 <?php
 $page_title = 'Window Cleaner Swindon | Reliable Local Window Cleaning Service';
-$page_description = '5-star rated window cleaner in Swindon. Regular cleans, fascia and gutters. Same person every time. Message Jack for a free quote - most replied to within a few hours.';
+$page_description = '5-star rated window cleaner in Swindon. Regular cleans, fascia and gutters. Same person every time. Message me for a free quote - most replied to within a few hours.';
 $page_canonical = 'https://www.jerobb.co.uk/';
 include 'includes/header.php';
 ?>
@@ -37,7 +37,7 @@ include 'includes/header.php';
     },
     "priceRange": "££",
     "openingHours": "Mo-Fr 08:00-18:00",
-    "sameAs": ["https://www.google.com/maps/place/JE+Robb+Window+Cleaning/?cid=0x9af176d9df19a689"]
+    "sameAs": ["<?= GOOGLE_MAPS_URL ?>"]
   }
 </script>
 
@@ -50,9 +50,9 @@ include 'includes/header.php';
         <p class="hero-eyebrow">5-Star Rated &middot; 150+ Happy Customers</p>
         <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Swindon</h1>
         <p class="hero-desc-split">
-          Regular window cleaning, fascia cleaning and gutter emptying for homes across Swindon and Wiltshire. 150+ customers trust Jack to keep their property looking its best.
+          Regular window cleaning, fascia cleaning and gutter emptying for homes across Swindon and Wiltshire. 150+ customers trust me to keep their property looking its best.
         </p>
-        <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Message Jack for a Free Quote</a>
+        <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Get a Free Quote</a>
 
         <div class="d-flex align-items-center mb-3">
           <img src="/assets/images/jack.webp"
@@ -182,7 +182,7 @@ include 'includes/header.php';
           class="btn btn-outline-primary rounded-pill px-4 me-2">
           <i class="fab fa-google me-1"></i> Read all reviews on Google
         </a>
-        <a href="#contact" class="btn btn-primary btn-lg">Message Jack for a Free Quote</a>
+        <a href="#contact" class="btn btn-primary btn-lg">Get a Free Quote</a>
       </div>
     </div>
   </div>
@@ -224,7 +224,7 @@ include 'includes/header.php';
     </div>
     <div class="row mt-4">
       <div class="col text-center">
-        <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-4">Message Jack for a Free Quote</a>
+        <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-4">Get a Free Quote</a>
       </div>
     </div>
   </div>
@@ -235,7 +235,7 @@ include 'includes/header.php';
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
-        <h2 class="section-title">See Our Work</h2>
+        <h2 class="section-title">See My Work</h2>
       </div>
     </div>
     <div class="position-relative">
@@ -265,14 +265,14 @@ include 'includes/header.php';
     <div class="row mt-4">
       <div class="col text-center">
         <p class="text-muted small">Every home gets a personalised quote.</p>
-        <a href="#contact" class="btn btn-primary btn-lg">Message Jack for a Free Quote</a>
+        <a href="#contact" class="btn btn-primary btn-lg">Get a Free Quote</a>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Meet Jack Section -->
-<section id="about-me-section" class="py-5 section-accent">
+<section id="about-me-section" class="py-5 section-dark">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-11 col-lg-10">
@@ -282,16 +282,16 @@ include 'includes/header.php';
           </div>
           <div class="col-md-8">
             <div class="p-4">
-              <h2 class="section-title text-white mb-3">Meet Jack</h2>
+              <h2 class="section-title text-white mb-3">About Me</h2>
               <p style="color: rgba(255,255,255,0.9); font-size: 1.05rem; line-height: 1.7;">
-                With over 10 years in the trade, Jack set up J E Robb Window Cleaning to do things properly. He knows his customers by name, messages the day before every clean, and takes pride in every property he works on. Every Google review is five stars - and that's not by accident.
+                With over 10 years in the trade, I set up J E Robb Window Cleaning to do things properly. I know my customers by name, message the day before every clean, and take pride in every property I work on. Every Google review is five stars - and that's not by accident.
               </p>
               <div class="row mt-3">
                 <div class="col-sm-6 mb-3">
                   <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-smile"></i></div>
                     <h3>Same Person Every Time</h3>
-                    <p>You'll always know who's coming. Jack messages you the day before, every time.</p>
+                    <p>You'll always know who's coming. I message you the day before, every time.</p>
                   </div>
                 </div>
                 <div class="col-sm-6 mb-3">
@@ -312,12 +312,12 @@ include 'includes/header.php';
                   <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
                     <h3>Satisfaction Guaranteed</h3>
-                    <p>Not happy? Jack will come back and sort it, no fuss, no charge.</p>
+                    <p>Not happy? I'll come back and sort it, no fuss, no charge.</p>
                   </div>
                 </div>
               </div>
               <div class="mt-3">
-                <a href="#contact" class="btn btn-light btn-lg rounded-pill px-4 fw-semibold" style="color: #004aad;">Message Jack for a Free Quote</a>
+                <a href="#contact" class="btn btn-light btn-lg rounded-pill px-4 fw-semibold" style="color: #004aad;">Get a Free Quote</a>
               </div>
             </div>
           </div>
@@ -332,8 +332,8 @@ include 'includes/header.php';
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
-        <h2 class="section-title">Areas We Cover</h2>
-        <p class="lead text-muted mx-auto" style="max-width: 640px;">Jack's regular round covers Swindon and the surrounding towns and villages. <strong style="font-weight: 700;">Not sure if Jack covers your area?</strong> Just message him - if it's nearby, he'll probably be happy to add you to his round.</p>
+        <h2 class="section-title">Areas I Cover</h2>
+        <p class="lead text-muted mx-auto" style="max-width: 640px;">My regular round covers Swindon and the surrounding towns and villages. <strong style="font-weight: 700;">Not sure if I cover your area?</strong> Just message me - if it's nearby, I'll probably be happy to add you to my round.</p>
       </div>
     </div>
     <div class="row g-3 mb-4">
@@ -357,7 +357,7 @@ include 'includes/header.php';
     </div>
     <div class="row">
       <div class="col-12 text-center">
-        <a href="#contact" class="btn btn-primary btn-lg">Message Jack for a Free Quote</a>
+        <a href="#contact" class="btn btn-primary btn-lg">Get a Free Quote</a>
       </div>
     </div>
   </div>
@@ -379,7 +379,7 @@ include 'includes/header.php';
           <div class="mb-3">
             <i class="fab fa-whatsapp" style="font-size: 3rem; color: #25D366;"></i>
           </div>
-          <h3 class="mb-2">Message Jack on WhatsApp</h3>
+          <h3 class="mb-2">Message Me on WhatsApp</h3>
           <p class="text-muted mb-1">The quickest way to get your free quote.</p>
           <p class="text-muted small mb-4">Usually replies within a few hours</p>
           <a href="https://wa.me/447442249440?text=Hi%20Jack,%20I'd%20like%20to%20enquire%20about%20a%20window%20cleaning%20quote"
@@ -444,7 +444,7 @@ include 'includes/header.php';
     <div class="row justify-content-center mt-4">
       <div class="col-lg-6 text-center">
         <p class="small mb-0" style="color: rgba(255,255,255,0.6);">
-          You can also reach Jack on <a href="tel:07442249440" class="text-white">07442 249440</a>
+          You can also reach me on <a href="tel:07442249440" class="text-white">07442 249440</a>
           or email <a href="mailto:windowcleaning@jerobb.co.uk" class="text-white">windowcleaning@jerobb.co.uk</a>
         </p>
       </div>

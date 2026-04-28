@@ -33,7 +33,7 @@ include '../includes/header.php';
   },
   "priceRange": "££",
   "openingHours": "Mo-Fr 08:00-18:00",
-  "sameAs": ["https://www.google.com/maps/place/JE+Robb+Window+Cleaning/?cid=0x9af176d9df19a689"]
+  "sameAs": ["<?= GOOGLE_MAPS_URL ?>"]
 }
 </script>
 

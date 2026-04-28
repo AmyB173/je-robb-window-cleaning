@@ -1,6 +1,6 @@
 <?php
 $page_title = "Window Cleaner Wroughton | Your Local Window Cleaner";
-$page_description = "Jack lives in Wroughton, so your window cleaner is also your neighbour. 5-star rated window cleaning, fascia and gutter work for homes across Wroughton and surrounding villages.";
+$page_description = "I live in Wroughton, so your window cleaner is also your neighbour. 5-star rated window cleaning, fascia and gutter work for homes across Wroughton and surrounding villages.";
 $page_canonical = "https://www.jerobb.co.uk/areas/wroughton";
 include '../includes/header.php';
 ?>
@@ -33,7 +33,7 @@ include '../includes/header.php';
   },
   "priceRange": "££",
   "openingHours": "Mo-Fr 08:00-18:00",
-  "sameAs": ["https://www.google.com/maps/place/JE+Robb+Window+Cleaning/?cid=0x9af176d9df19a689"]
+  "sameAs": ["<?= GOOGLE_MAPS_URL ?>"]
 }
 </script>
 
@@ -46,16 +46,16 @@ include '../includes/header.php';
         <p class="hero-eyebrow">Your Neighbour &middot; Your Window Cleaner</p>
         <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Wroughton</h1>
         <p class="hero-desc-split">
-          Jack lives in Wroughton and already cleans for many happy customers on his round. Reliable, with a high attention to detail and a friendly service.
+          I live in Wroughton and already clean for many happy customers on my round. Reliable, with a high attention to detail and a friendly service.
         </p>
-        <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Message Jack for a Free Quote</a>
+        <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Get a Free Quote</a>
 
         <div class="d-flex align-items-center mb-3">
           <img src="/assets/images/jack.webp"
             alt="Jack from J E Robb Window Cleaning - based in Wroughton"
             class="hero-jack-thumb rounded-circle me-3" />
           <span style="color: rgba(255,255,255,0.85); font-size: 0.95rem;">
-            <strong class="text-white">Jack Robb</strong> · Lives in Wroughton
+            <strong class="text-white">Jack Robb</strong> · I live in Wroughton
           </span>
         </div>
 
@@ -95,7 +95,7 @@ include '../includes/header.php';
 <div class="trust-static">
   <div class="container">
     <ul class="trust-static-list">
-      <li><i class="fas fa-map-marker-alt"></i> Lives in Wroughton</li>
+      <li><i class="fas fa-map-marker-alt"></i> I Live in Wroughton</li>
       <li><i class="fas fa-star"></i> 5-Star Rated on Google</li>
       <li><i class="fas fa-search"></i> Obsessive Attention to Detail</li>
       <li><i class="fas fa-user-check"></i> Same Person Every Time</li>
@@ -181,16 +181,16 @@ include '../includes/header.php';
           <div class="col-md-8">
             <div class="p-4">
               <p class="hero-eyebrow" style="color: #fff; opacity: 0.9;">Your Local Window Cleaner</p>
-              <h2 class="section-title text-white mb-3">Jack Lives Here Too</h2>
+              <h2 class="section-title text-white mb-3">I Live Here Too</h2>
               <p style="color: rgba(255,255,255,0.95); font-size: 1.1rem; line-height: 1.7;">
-                Jack lives in Wroughton with his partner and dogs. So when he comes to clean your windows, he's not driving in from miles away.
+                I live in Wroughton with my partner and dogs. So when I come to clean your windows, I'm not driving in from miles away.
               </p>
               <div class="row mt-4">
                 <div class="col-sm-6 mb-3">
                   <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-search"></i></div>
                     <h3>Obsessive About Detail</h3>
-                    <p>Frames, sills, corners, the bits other cleaners miss. Jack notices the things you'd notice yourself.</p>
+                    <p>Frames, sills, corners, the bits other cleaners miss. I notice the things you'd notice yourself.</p>
                   </div>
                 </div>
                 <div class="col-sm-6 mb-3">
@@ -204,19 +204,19 @@ include '../includes/header.php';
                   <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-map-marker-alt"></i></div>
                     <h3>A Wroughton Local</h3>
-                    <p>Jack knows the village and his customers by name.</p>
+                    <p>I know the village and my customers by name.</p>
                   </div>
                 </div>
                 <div class="col-sm-6 mb-3">
                   <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
                     <h3>Reputation Matters Here</h3>
-                    <p>Jack prides himself on doing an excellent, thorough job for his customers and is known locally for his attention to detail.</p>
+                    <p>I pride myself on doing an excellent, thorough job for my customers and am known locally for my attention to detail.</p>
                   </div>
                 </div>
               </div>
               <div class="mt-3">
-                <a href="#contact" class="btn btn-light btn-lg rounded-pill px-4 fw-semibold" style="color: #004aad;">Message Jack for a Free Quote</a>
+                <a href="#contact" class="btn btn-light btn-lg rounded-pill px-4 fw-semibold" style="color: #004aad;">Get a Free Quote</a>
               </div>
             </div>
           </div>
@@ -236,7 +236,7 @@ include '../includes/header.php';
           <p class="section-subtitle">From the village core to the lanes out toward Barbury</p>
         </div>
         <p style="font-size: 1.05rem; line-height: 1.8; color: #444;">
-          Wroughton's a real mix - older cottages and stone properties around the High Street and the church, terraced rows along Markham Road and the Square, the bigger 70s and 80s estates off Inverary Road and Overbrook, and the newer builds out toward Wharf Road. <!-- [JACK TO CONFIRM] adjust street names / estates if these aren't quite right --> Each one has its own quirks, and after years of working the village, Jack knows them all.
+          Wroughton's a real mix - older cottages and stone properties around the High Street and the church, terraced rows along Markham Road and the Square, the bigger 70s and 80s estates off Inverary Road and Overbrook, and the newer builds out toward Wharf Road. <!-- [JACK TO CONFIRM] adjust street names / estates if these aren't quite right --> Each one has its own quirks, and after years of working the village, I know them all.
         </p>
         <p style="font-size: 1.05rem; line-height: 1.8; color: #444;">
           The pure water fed pole system reaches first and second-floor windows from the ground without leaning ladders against your property most of the time. That matters more than people realise - older Wroughton homes often have softer paintwork and stonework that ladders can mark, and many of the newer estates have a lot of glass at first floor that's awkward to reach any other way. Frames and sills get cleaned as part of every visit, and there are mostly no chemicals or detergents involved - just purified water that dries without leaving any marks. A regular 8-weekly clean keeps on top of it before it has a chance to bake on.
@@ -260,12 +260,12 @@ include '../includes/header.php';
           <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
             <h3 class="accordion-header">
               <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                Does Jack actually live in Wroughton?
+                Do you actually live in Wroughton?
               </button>
             </h3>
             <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-                Yes. Jack lives in Wroughton with his partner and dogs, so this is genuinely a local business. It also means new customers in the village slot in easily - he's already nearby on cleaning days, and there's no faff with travel time getting passed on to you.
+                Yes. I live in Wroughton with my partner and dogs, so this is genuinely a local business. It also means new customers in the village slot in easily - I'm already nearby on cleaning days, and there's no faff with travel time getting passed on to you.
               </div>
             </div>
           </div>
@@ -278,7 +278,7 @@ include '../includes/header.php';
             </h3>
             <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-               Conservatory roofs can be included as a one-off clean or as part of the regular service depending on what you prefer. Let Jack know and he can give you the price both including and excluding the conservatory roof.
+               Conservatory roofs can be included as a one-off clean or as part of the regular service depending on what you prefer. Just let me know and I can give you the price both including and excluding the conservatory roof.
               </div>
             </div>
           </div>
@@ -291,7 +291,7 @@ include '../includes/header.php';
             </h3>
             <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-                Every property's different, so Jack quotes based on the size of your home, number of windows, and access. There is no generalised pricing because each property is so different. Message Jack for a free quote and he should get back to you in a few hours.
+                Every property's different, so I quote based on the size of your home, number of windows, and access. There is no generalised pricing because each property is so different. Message me for a free quote and I'll get back to you in a few hours.
               </div>
             </div>
           </div>
@@ -304,7 +304,7 @@ include '../includes/header.php';
             </h3>
             <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-                Let Jack know within 24 hours and he'll come straight back to sort it without question. In practice it almost never comes up, because Jack's checking his own work as he goes. But the guarantee's there, and given he lives in the village, it's not exactly hard for him to pop round.
+                Let me know within 24 hours and I'll come straight back to sort it without question. In practice it almost never comes up, because I'm checking my own work as I go. But the guarantee's there, and given I live in the village, it's not exactly hard for me to pop round.
               </div>
             </div>
           </div>
@@ -317,7 +317,7 @@ include '../includes/header.php';
             </h3>
             <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-                Yes, plenty of customers are on the lanes out toward Hackpen, Barbury and the surrounding farms <!-- [JACK TO CONFIRM] -->. Rural properties pick up dust quickly from the surrounding fields, so regular cleans make a noticeable difference. Drop Jack a message with your postcode and he'll let you know.
+                Yes, plenty of my customers are on the lanes out toward Hackpen, Barbury and the surrounding farms <!-- [JACK TO CONFIRM] -->. Rural properties pick up dust quickly from the surrounding fields, so regular cleans make a noticeable difference. Drop me a message with your postcode and I'll let you know.
               </div>
             </div>
           </div>
@@ -325,12 +325,12 @@ include '../includes/header.php';
           <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
             <h3 class="accordion-header">
               <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
-                Do I need to be home when Jack cleans?
+                Do I need to be home when you clean?
               </button>
             </h3>
             <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-                Not usually. Jack messages the day before so you know he's coming, and as long as he can get to the windows (side gates open, cars moved if needed) he'll crack on while you're out and let you know when he's done. Payment's handled online so no need for cash.
+                Not usually. I message the day before so you know I'm coming, and as long as I can get to the windows (side gates open, cars moved if needed) I'll crack on while you're out and let you know when I'm done. Payment's handled online so no need for cash.
               </div>
             </div>
           </div>
@@ -346,7 +346,7 @@ include '../includes/header.php';
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-5">
-        <h2 class="section-title text-white">What Jack Cleans in Wroughton</h2>
+        <h2 class="section-title text-white">What I Clean in Wroughton</h2>
       </div>
     </div>
     <div class="row g-3">
@@ -378,7 +378,7 @@ include '../includes/header.php';
     <div class="row mt-4">
       <div class="col text-center">
         <p class="text-light mb-3" style="opacity: 0.85;">Every home gets a personalised quote based on your property and what you need.</p>
-        <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-4">Message Jack for a Free Quote</a>
+        <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-4">Get a Free Quote</a>
       </div>
     </div>
   </div>
@@ -389,7 +389,7 @@ include '../includes/header.php';
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
-        <h2 class="section-title">Why People Keep Jack On</h2>
+        <h2 class="section-title">Why People Keep Me On</h2>
         <p class="section-subtitle">It's the small stuff that makes the difference</p>
       </div>
     </div>
@@ -425,8 +425,8 @@ include '../includes/header.php';
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
-        <h2 class="section-title">Nearby Areas Jack Covers</h2>
-        <p class="section-subtitle">Wroughton's home, but Jack's round stretches across Swindon and the surrounding towns and villages.</p>
+        <h2 class="section-title">Nearby Areas I Cover</h2>
+        <p class="section-subtitle">Wroughton's home, but my round stretches across Swindon and the surrounding towns and villages.</p>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -458,7 +458,7 @@ include '../includes/header.php';
     <div class="row">
       <div class="col-12 text-center mb-4">
         <h2 class="section-title text-white">Get a Free Quote in Wroughton</h2>
-        <p class="section-subtitle" style="color: rgba(255,255,255,0.6);">Jack typically replies within a few hours</p>
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.6);">I typically reply within a few hours</p>
       </div>
     </div>
 
@@ -469,7 +469,7 @@ include '../includes/header.php';
           <div class="mb-3">
             <i class="fab fa-whatsapp" style="font-size: 3rem; color: #25D366;"></i>
           </div>
-          <h3 class="mb-2">Message Jack on WhatsApp</h3>
+          <h3 class="mb-2">Message Me on WhatsApp</h3>
           <p class="text-muted mb-1">The quickest way to get your free quote.</p>
           <p class="text-muted small mb-4">No obligation, no hard sell</p>
           <a href="https://wa.me/447442249440?text=Hi%20Jack,%20I'd%20like%20a%20quote%20for%20window%20cleaning%20in%20Wroughton"
@@ -534,7 +534,7 @@ include '../includes/header.php';
     <div class="row justify-content-center mt-4">
       <div class="col-lg-6 text-center">
         <p class="small mb-0" style="color: rgba(255,255,255,0.6);">
-          You can also reach Jack on <a href="tel:07442249440" class="text-white">07442 249440</a>
+          You can also reach me on <a href="tel:07442249440" class="text-white">07442 249440</a>
           or email <a href="mailto:windowcleaning@jerobb.co.uk" class="text-white">windowcleaning@jerobb.co.uk</a>
         </p>
       </div>

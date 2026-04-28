@@ -387,22 +387,22 @@ include '../includes/header.php';
     </div>
     <div class="row justify-content-center">
       <div class="col-6 col-md-3 mb-3 text-center">
-        <a href="/areas/swindon" class="btn btn-outline-primary w-100">Swindon</a>
+        <span class="btn btn-outline-secondary w-100" style="pointer-events:none;">Swindon</span>
       </div>
       <div class="col-6 col-md-3 mb-3 text-center">
         <a href="/areas/royal-wootton-bassett" class="btn btn-outline-primary w-100">Royal Wootton Bassett</a>
       </div>
       <div class="col-6 col-md-3 mb-3 text-center">
-        <a href="/areas/chiseldon" class="btn btn-outline-primary w-100">Chiseldon</a>
+        <span class="btn btn-outline-secondary w-100" style="pointer-events:none;">Chiseldon</span>
       </div>
       <div class="col-6 col-md-3 mb-3 text-center">
-        <a href="/areas/highworth" class="btn btn-outline-primary w-100">Highworth</a>
+        <span class="btn btn-outline-secondary w-100" style="pointer-events:none;">Highworth</span>
       </div>
       <div class="col-6 col-md-3 mb-3 text-center">
-        <a href="/areas/lydiard-millicent" class="btn btn-outline-primary w-100">Lydiard Millicent</a>
+        <span class="btn btn-outline-secondary w-100" style="pointer-events:none;">Lydiard Millicent</span>
       </div>
       <div class="col-6 col-md-3 mb-3 text-center">
-        <a href="/areas/purton" class="btn btn-outline-primary w-100">Purton</a>
+        <span class="btn btn-outline-secondary w-100" style="pointer-events:none;">Purton</span>
       </div>
     </div>
   </div>

@@ -1,6 +1,6 @@
 <?php
 $page_title = "Window Cleaning Royal Wootton Bassett | J E Robb";
-$page_description = "Jack at J E Robb Window Cleaning covers Royal Wootton Bassett regularly. 5-star rated, 150+ happy customers. Free quote, no contract.";
+$page_description = "I cover Royal Wootton Bassett regularly as part of my round. 5-star rated, 150+ happy customers. Free quote, no contract.";
 $page_canonical = "https://www.jerobb.co.uk/areas/royal-wootton-bassett";
 include '../includes/header.php';
 ?>
@@ -52,9 +52,9 @@ include '../includes/header.php';
         <p class="hero-eyebrow">5-Star Rated &middot; 150+ Happy Customers</p>
         <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Royal Wootton Bassett</h1>
         <p class="hero-desc-split">
-          Jack already cleans for customers around the town and is happy to take on new properties nearby. Reliable, thorough and friendly - with every Google review at five stars.
+          I already clean for customers around the town and am happy to take on new properties nearby. Reliable, thorough and friendly - with every Google review at five stars.
         </p>
-        <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Message Jack for a Free Quote</a>
+        <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Get a Free Quote</a>
 
         <div class="d-flex align-items-center mb-3">
           <img src="/assets/images/jack.webp"
@@ -135,21 +135,21 @@ include '../includes/header.php';
               <p class="hero-eyebrow" style="color: #fff; opacity: 0.9;">Regular Round · 5-Star Rated</p>
               <h2 class="section-title text-white mb-3">Your Window Cleaner in Royal Wootton Bassett</h2>
               <p style="color: rgba(255,255,255,0.95); font-size: 1.1rem; line-height: 1.7;">
-                Jack runs J E Robb as a one-man business with 150+ regular customers across Swindon and the surrounding towns. Royal Wootton Bassett is part of his regular round, so new customers nearby slot in easily alongside his existing ones.
+                I run J E Robb as a one-man business with 150+ regular customers across Swindon and the surrounding towns. Royal Wootton Bassett is part of my regular round, so new customers nearby slot in easily alongside my existing ones.
               </p>
               <div class="row mt-4">
                 <div class="col-sm-6 mb-3">
                   <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-search"></i></div>
                     <h3>Obsessive About Detail</h3>
-                    <p>Frames, sills, corners, the bits other cleaners miss. Jack notices the things you'd notice yourself.</p>
+                    <p>Frames, sills, corners, the bits other cleaners miss. I notice the things you'd notice yourself.</p>
                   </div>
                 </div>
                 <div class="col-sm-6 mb-3">
                   <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-user-check"></i></div>
                     <h3>Same Person Every Time</h3>
-                    <p>Not a franchise. It's always Jack. He'll message you the day before every clean so you know when to expect him.</p>
+                    <p>Not a franchise. It's always me. I'll message you the day before every clean so you know when to expect me.</p>
                   </div>
                 </div>
                 <div class="col-sm-6 mb-3">
@@ -163,12 +163,12 @@ include '../includes/header.php';
                   <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
                     <h3>Satisfaction Guaranteed</h3>
-                    <p>Not happy? Jack will come back and sort it, no fuss, no charge.</p>
+                    <p>Not happy? I'll come back and sort it, no fuss, no charge.</p>
                   </div>
                 </div>
               </div>
               <div class="mt-3">
-                <a href="#contact" class="btn btn-light btn-lg rounded-pill px-4 fw-semibold" style="color: #004aad;">Message Jack for a Free Quote</a>
+                <a href="#contact" class="btn btn-light btn-lg rounded-pill px-4 fw-semibold" style="color: #004aad;">Get a Free Quote</a>
               </div>
             </div>
           </div>
@@ -188,7 +188,7 @@ include '../includes/header.php';
           <p class="section-subtitle">From the High Street to the newer estates</p>
         </div>
         <p style="font-size: 1.05rem; line-height: 1.8; color: #444;">
-          Royal Wootton Bassett has a real mix of properties - older stone and brick cottages along the High Street, terraced streets through the town centre, and larger modern estates off Coped Hall and around Templars Firs. Older sash windows and stone surrounds suit the gentle pure water clean Jack uses, with no chemicals that could mark paintwork or stonework. The newer estates often have first and second-floor glass that's awkward to reach any other way, which is where the water-fed pole system comes in - it reaches up to three storeys from the ground without ladders against your property.
+          Royal Wootton Bassett has a real mix of properties - older stone and brick cottages along the High Street, terraced streets through the town centre, and larger modern estates off Coped Hall and around Templars Firs. Older sash windows and stone surrounds suit the gentle pure water clean I use, with no chemicals that could mark paintwork or stonework. The newer estates often have first and second-floor glass that's awkward to reach any other way, which is where the water-fed pole system comes in - it reaches up to three storeys from the ground without ladders against your property.
         </p>
         <p style="font-size: 1.05rem; line-height: 1.8; color: #444;">
           Being a market town just off the M4, properties in Royal Wootton Bassett can pick up road dust quickly, especially on the main road side. An 8-weekly clean keeps on top of it before dirt has a chance to bake onto frames and seals. Frames and sills are cleaned as part of every visit - not just the glass.
@@ -217,7 +217,7 @@ include '../includes/header.php';
             </h3>
             <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-                Every property is different, so Jack gives a personalised quote based on the number of windows, the size of your home and access. There's no contract and no obligation - just message him for a quote.
+                Every property is different, so I give a personalised quote based on the number of windows, the size of your home and access. There's no contract and no obligation - just message me for a quote.
               </div>
             </div>
           </div>
@@ -225,12 +225,12 @@ include '../includes/header.php';
           <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
             <h3 class="accordion-header">
               <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                Does Jack already work in Royal Wootton Bassett?
+                Do you already work in Royal Wootton Bassett?
               </button>
             </h3>
             <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-                Yes. Royal Wootton Bassett is part of Jack's regular round, so he's in the area often. New customers nearby slot in alongside his existing ones without any fuss.
+                Yes. Royal Wootton Bassett is part of my regular round, so I'm in the area often. New customers nearby slot in alongside my existing ones without any fuss.
               </div>
             </div>
           </div>
@@ -243,7 +243,7 @@ include '../includes/header.php';
             </h3>
             <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-                Most of Jack's customers go for an 8-weekly clean, which keeps on top of dirt building up on frames and seals. Happy to chat through what works best for your home.
+                Most of my customers go for an 8-weekly clean, which keeps on top of dirt building up on frames and seals. Happy to chat through what works best for your home.
               </div>
             </div>
           </div>
@@ -251,12 +251,12 @@ include '../includes/header.php';
           <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
             <h3 class="accordion-header">
               <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
-                Do I need to be home when Jack cleans?
+                Do I need to be home when you clean?
               </button>
             </h3>
             <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-                Not usually. Jack messages you the day before so you know when he's coming. As long as he can get to the windows (side gates unlocked, cars moved if needed), he can clean while you're out and let you know when he's done. Payment is online so no need for cash.
+                Not usually. I message you the day before so you know when I'm coming. As long as I can get to the windows (side gates unlocked, cars moved if needed), I'll clean while you're out and let you know when I'm done. Payment is online so no need for cash.
               </div>
             </div>
           </div>
@@ -269,7 +269,7 @@ include '../includes/header.php';
             </h3>
             <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
               <div class="accordion-body text-muted">
-                Rain after a pure water clean is fine. There's no detergent or chemical residue on the glass, so rainwater just runs off without leaving marks. If something isn't right after a clean, Jack will come back and sort it.
+                Rain after a pure water clean is fine. There's no detergent or chemical residue on the glass, so rainwater just runs off without leaving marks. If something isn't right after a clean, I'll come back and sort it.
               </div>
             </div>
           </div>
@@ -285,7 +285,7 @@ include '../includes/header.php';
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-5">
-        <h2 class="section-title text-white">What Jack Cleans in Royal Wootton Bassett</h2>
+        <h2 class="section-title text-white">What I Clean in Royal Wootton Bassett</h2>
       </div>
     </div>
     <div class="row g-3">
@@ -317,7 +317,7 @@ include '../includes/header.php';
     <div class="row mt-4">
       <div class="col text-center">
         <p class="text-light mb-3" style="opacity: 0.85;">Every home gets a personalised quote based on your property and what you need.</p>
-        <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-4">Message Jack for a Free Quote</a>
+        <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-4">Get a Free Quote</a>
       </div>
     </div>
   </div>
@@ -328,7 +328,7 @@ include '../includes/header.php';
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
-        <h2 class="section-title">Why People Keep Jack On</h2>
+        <h2 class="section-title">Why People Keep Me On</h2>
         <p class="section-subtitle">It's the small stuff that makes the difference</p>
       </div>
     </div>
@@ -364,8 +364,8 @@ include '../includes/header.php';
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
-        <h2 class="section-title">Nearby Areas Jack Covers</h2>
-        <p class="section-subtitle">Royal Wootton Bassett is part of Jack's round across Swindon and the surrounding towns and villages.</p>
+        <h2 class="section-title">Nearby Areas I Cover</h2>
+        <p class="section-subtitle">Royal Wootton Bassett is part of my round across Swindon and the surrounding towns and villages.</p>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -397,7 +397,7 @@ include '../includes/header.php';
     <div class="row">
       <div class="col-12 text-center mb-4">
         <h2 class="section-title text-white">Get a Free Quote in Royal Wootton Bassett</h2>
-        <p class="section-subtitle" style="color: rgba(255,255,255,0.6);">Jack typically replies within a few hours</p>
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.6);">I typically reply within a few hours</p>
       </div>
     </div>
 
@@ -408,7 +408,7 @@ include '../includes/header.php';
           <div class="mb-3">
             <i class="fab fa-whatsapp" style="font-size: 3rem; color: #25D366;"></i>
           </div>
-          <h3 class="mb-2">Message Jack on WhatsApp</h3>
+          <h3 class="mb-2">Message Me on WhatsApp</h3>
           <p class="text-muted mb-1">The quickest way to get your free quote.</p>
           <p class="text-muted small mb-4">No obligation, no hard sell</p>
           <a href="https://wa.me/447442249440?text=Hi%20Jack,%20I'd%20like%20a%20quote%20for%20window%20cleaning%20in%20Royal%20Wootton%20Bassett"
@@ -473,7 +473,7 @@ include '../includes/header.php';
     <div class="row justify-content-center mt-4">
       <div class="col-lg-6 text-center">
         <p class="small mb-0" style="color: rgba(255,255,255,0.6);">
-          You can also reach Jack on <a href="tel:07442249440" class="text-white">07442 249440</a>
+          You can also reach me on <a href="tel:07442249440" class="text-white">07442 249440</a>
           or email <a href="mailto:windowcleaning@jerobb.co.uk" class="text-white">windowcleaning@jerobb.co.uk</a>
         </p>
       </div>

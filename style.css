@@ -57,11 +57,6 @@ box-shadow: 0 5px 15px rgba(252, 195, 26, 0.4);
     transition: all 0.3s ease;
 }
 
-.btn-success:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
-}
-
 /* Navigation */
 /* Navbar brand title*/
 .navbar-title {
@@ -397,11 +392,6 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
     transition: all 0.3s ease;
 }
 
-.testimonial-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
-}
-
 .testimonial-card-text {
     font-size: 0.95rem;
     color: #555;
@@ -424,11 +414,6 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
     transition: all 0.3s ease;
 }
 
-.service-card-photo:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-}
-
 .service-card-img-wrap {
     height: 180px;
     overflow: hidden;
@@ -439,10 +424,6 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
-}
-
-.service-card-photo:hover .service-card-img {
-    transform: scale(1.05);
 }
 
 .service-card-body {
@@ -479,7 +460,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 .service-card-overlay:hover .service-card-overlay-img {
-    transform: scale(1.05);
+    transform: none;
 }
 
 .service-card-overlay-title {
@@ -512,11 +493,6 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
     height: 100%;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.06);
     transition: all 0.3s ease;
-}
-
-.service-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .service-card .icon-box {
@@ -586,16 +562,8 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
     transition: all 0.5s ease;
 }
 
-.gallery-item:hover img {
-    transform: scale(1.1);
-}
-
 .gallery-item:hover .gallery-overlay {
     opacity: 1;
-}
-
-.gallery-item:hover .gallery-text {
-    transform: translateY(0);
 }
 
 /* Section Backgrounds */
@@ -622,9 +590,8 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 .feature-card:hover {
-    transform: translateY(-8px);
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    transform: none;
+    background: rgba(255, 255, 255, 0.15);
 }
 
 .feature-icon {
@@ -777,61 +744,49 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
    END AREA LANDING PAGES
    ============================================ */
 
-/* Trust Ticker Bar */
-.trust-ticker {
+/* Trust Static Bar */
+.trust-static {
     background-color: #003580;
-    overflow: hidden;
-    padding: 12px 0;
+    padding: 16px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.trust-ticker-track {
-    overflow: hidden;
-    width: 100%;
-}
-
-.trust-ticker-content {
+.trust-static-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    white-space: nowrap;
-    animation: ticker-scroll 35s linear infinite;
-    width: max-content;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem 2.5rem;
 }
 
-.trust-ticker-content span {
-    display: inline-flex;
-    align-items: center;
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 0.85rem;
-    font-weight: 600;
-    padding: 0 2rem;
+.trust-static-list li {
+    color: rgba(255, 255, 255, 0.95);
     font-family: "League Spartan", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
 }
 
-.trust-ticker-content span i {
+.trust-static-list li i {
     color: #FCC31A;
     margin-right: 0.5rem;
-    font-size: 0.9rem;
-}
-
-@keyframes ticker-scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
+    font-size: 0.95rem;
 }
 
 @media (max-width: 768px) {
-    .trust-ticker-content span {
-        font-size: 0.75rem;
-        padding: 0 1.5rem;
+    .trust-static-list {
+        gap: 0.75rem 1.5rem;
     }
 
-    .trust-ticker-content {
-        animation-duration: 28s;
+    .trust-static-list li {
+        font-size: 0.78rem;
     }
 }
 
@@ -983,8 +938,6 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 
 .qualification-list li:hover {
   background-color: rgba(255, 255, 255, 0.7);
-  transform: translateY(-2px);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .qualification-icon {
@@ -1046,11 +999,9 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 .whatsapp-float-button:hover {
-    transform: scale(1.1);
     background-color: #128C7E;
     color: white;
     text-decoration: none;
-    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
 }
 
 .whatsapp-float-button i {
@@ -1106,8 +1057,6 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 .whatsapp-cta-box .btn:hover {
     background-color: #128C7E !important;
     border-color: #128C7E !important;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
 }
 
 /* Contact form on dark background */

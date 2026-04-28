@@ -93,55 +93,6 @@ include '../includes/header.php';
   </div>
 </section>
 
-<style>
-.trust-static {
-  background-color: #003580;
-  padding: 16px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-.trust-static-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem 2.5rem;
-}
-.trust-static-list li {
-  color: rgba(255, 255, 255, 0.95);
-  font-family: "League Spartan", sans-serif;
-  font-size: 0.9rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  display: inline-flex;
-  align-items: center;
-  white-space: nowrap;
-}
-.trust-static-list li i {
-  color: #FCC31A;
-  margin-right: 0.5rem;
-  font-size: 0.95rem;
-}
-@media (max-width: 768px) {
-  .trust-static-list {
-    gap: 0.75rem 1.5rem;
-  }
-  .trust-static-list li {
-    font-size: 0.78rem;
-  }
-}
-.service-card-overlay:hover .service-card-overlay-img {
-  transform: none;
-}
-.feature-card:hover {
-  transform: none;
-  background: rgba(255, 255, 255, 0.15);
-}
-</style>
-
 <!-- Static Trust Bar -->
 <div class="trust-static">
   <div class="container">

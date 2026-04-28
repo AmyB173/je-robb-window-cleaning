@@ -99,16 +99,6 @@ include '../includes/header.php';
   </div>
 </div>
 
-<style>
-.service-card-overlay:hover .service-card-overlay-img {
-  transform: none;
-}
-.feature-card:hover {
-  transform: none;
-  background: rgba(255, 255, 255, 0.15);
-}
-</style>
-
 <!-- Early Testimonial - Janet (matches index style, leads with crystal clear quote) -->
 <section class="py-5 bg-light">
   <div class="container">

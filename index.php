@@ -11,6 +11,7 @@ include 'includes/header.php';
     "@type": "LocalBusiness",
     "name": "J E Robb Window Cleaning",
     "description": "Trustworthy, local window cleaner offering regular window cleans, fascia cleaning and gutter emptying in Swindon and surrounding areas.",
+    "image": "<?= BUSINESS_IMAGE_URL ?>",
     "url": "https://www.jerobb.co.uk/",
     "telephone": "+447442249440",
     "email": "windowcleaning@jerobb.co.uk",
@@ -28,12 +29,6 @@ include 'includes/header.php';
         "longitude": -1.7797
       },
       "geoRadius": "15000"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5",
-      "reviewCount": "10",
-      "bestRating": "5"
     },
     "priceRange": "££",
     "openingHours": "Mo-Fr 08:00-18:00",
@@ -95,26 +90,17 @@ include 'includes/header.php';
     </div>
   </div>
 </section>
-<!-- Trust Ticker Bar -->
-<div class="trust-ticker">
-  <div class="trust-ticker-track">
-    <div class="trust-ticker-content">
-      <span><i class="fas fa-star"></i> 5-Star Rated on Google</span>
-      <span><i class="fas fa-user-check"></i> Same Person Every Time</span>
-      <span><i class="fas fa-shield-alt"></i> Someone You Can Trust Around Your Home</span>
-      <span><i class="fas fa-heart"></i> A Window Cleaner Who Cares About Quality</span>
-      <span><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</span>
-      <span><i class="fas fa-comments"></i> Great Communication</span>
-      <span><i class="fas fa-hand-holding-heart"></i> Supporting a Small Local Business</span>
-      <!-- Duplicate for seamless loop -->
-      <span><i class="fas fa-star"></i> 5-Star Rated on Google</span>
-      <span><i class="fas fa-user-check"></i> Same Person Every Time</span>
-      <span><i class="fas fa-shield-alt"></i> Someone You Can Trust Around Your Home</span>
-      <span><i class="fas fa-heart"></i> A Window Cleaner Who Cares About Quality</span>
-      <span><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</span>
-      <span><i class="fas fa-comments"></i> Great Communication</span>
-      <span><i class="fas fa-hand-holding-heart"></i> Supporting a Small Local Business</span>
-    </div>
+<!-- Trust Static Bar -->
+<div class="trust-static">
+  <div class="container">
+    <ul class="trust-static-list">
+      <li><i class="fas fa-star"></i> 5-Star Rated on Google</li>
+      <li><i class="fas fa-user-check"></i> Same Person Every Time</li>
+      <li><i class="fas fa-shield-alt"></i> Trusted Around Your Home</li>
+      <li><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</li>
+      <li><i class="fas fa-comments"></i> Great Communication</li>
+      <li><i class="fas fa-hand-holding-heart"></i> Supporting a Small Local Business</li>
+    </ul>
   </div>
 </div>
 

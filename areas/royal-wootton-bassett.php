@@ -12,6 +12,7 @@ include '../includes/header.php';
   "@type": "LocalBusiness",
   "name": "J E Robb Window Cleaning - Royal Wootton Bassett",
   "description": "Window cleaning in Royal Wootton Bassett from a reliable one-man business. Jack covers homes across the town and surrounding areas, offering regular window cleans, fascia cleaning and gutter emptying.",
+  "image": "<?= BUSINESS_IMAGE_URL ?>",
   "url": "https://www.jerobb.co.uk/areas/royal-wootton-bassett",
   "telephone": "+447442249440",
   "email": "windowcleaning@jerobb.co.uk",
@@ -24,12 +25,6 @@ include '../includes/header.php';
   "areaServed": {
     "@type": "Place",
     "name": "Royal Wootton Bassett, Wiltshire"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "42",
-    "bestRating": "5"
   },
   "priceRange": "££",
   "openingHours": "Mo-Fr 08:00-18:00",

@@ -1,4 +1,7 @@
-<?php define('GOOGLE_MAPS_URL', 'https://www.google.com/maps?cid=11164835629351151241'); ?>
+<?php
+define('GOOGLE_MAPS_URL', 'https://www.google.com/maps?cid=11164835629351151241');
+define('BUSINESS_IMAGE_URL', 'https://www.jerobb.co.uk/assets/images/jack_rectangle.webp');
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

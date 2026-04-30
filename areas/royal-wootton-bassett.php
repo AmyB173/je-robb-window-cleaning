@@ -208,68 +208,23 @@ include '../includes/header.php';
       <div class="col-lg-8">
         <h2 class="section-title text-center mb-4">Common Questions</h2>
 
-        <div class="accordion" id="faqAccordion">
-          <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
-            <h3 class="accordion-header">
-              <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                How much does window cleaning cost in Royal Wootton Bassett?
-              </button>
-            </h3>
-            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-              <div class="accordion-body text-muted">
-                Every property is different, so I give a personalised quote based on the number of windows, the size of your home and access. There's no contract and no obligation - just message me for a quote.
-              </div>
-            </div>
-          </div>
+        <?php
+        // Master FAQ set (shared across all area pages)
+        $area_name = 'Royal Wootton Bassett';
+        include '../includes/area-faqs.php';
+        ?>
 
+        <!-- One Royal Wootton Bassett-specific FAQ added on top of the master set -->
+        <div class="accordion mt-3" id="faqAccordionLocal">
           <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
             <h3 class="accordion-header">
-              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                Do you already work in Royal Wootton Bassett?
+              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faqLocal1" aria-expanded="false" aria-controls="faqLocal1">
+                Does being close to the M4 mean windows get dirty faster here?
               </button>
             </h3>
-            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div id="faqLocal1" class="accordion-collapse collapse" data-bs-parent="#faqAccordionLocal">
               <div class="accordion-body text-muted">
-                Yes. Royal Wootton Bassett is part of my regular round, so I'm in the area often. New customers nearby slot in alongside my existing ones without any fuss.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
-            <h3 class="accordion-header">
-              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
-                How often should I get my windows cleaned?
-              </button>
-            </h3>
-            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body text-muted">
-                Most of my customers go for an 8-weekly clean, which keeps on top of dirt building up on frames and seals. Happy to chat through what works best for your home.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
-            <h3 class="accordion-header">
-              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
-                Do I need to be home when you clean?
-              </button>
-            </h3>
-            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body text-muted">
-                Not usually. I message you the day before so you know when I'm coming. As long as I can get to the windows (side gates unlocked, cars moved if needed), I'll clean while you're out and let you know when I'm done. Payment is online so no need for cash.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
-            <h3 class="accordion-header">
-              <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
-                What if it rains after my windows are cleaned?
-              </button>
-            </h3>
-            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div class="accordion-body text-muted">
-                Rain after a pure water clean is fine. There's no detergent or chemical residue on the glass, so rainwater just runs off without leaving marks. If something isn't right after a clean, I'll come back and sort it.
+                It can do, particularly on the main road side of town. Road spray and dust from the A3102 and the M4 junction can coat frames and glass fairly quickly, especially in summer when grime dries on between cleans. An 8-weekly clean keeps on top of it before it builds up. If your property faces a busier road, just mention it when you get your quote and I can take that into account.
               </div>
             </div>
           </div>
@@ -280,48 +235,30 @@ include '../includes/header.php';
   </div>
 </section>
 
-<!-- Services Section -->
-<section id="services" class="py-5 section-dark">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
-        <h2 class="section-title text-white">What I Clean in Royal Wootton Bassett</h2>
-      </div>
-    </div>
-    <div class="row g-3">
-      <div class="col-sm-6 col-lg-3">
-        <div class="service-card-overlay">
-          <img src="/assets/images/clean-domestic-window.webp" alt="Window cleaning in Royal Wootton Bassett" class="service-card-overlay-img" />
-          <div class="service-card-overlay-title">Window Cleaning</div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="service-card-overlay">
-          <img src="/assets/images/clean-fascia-domestic.webp" alt="Fascia cleaning in Royal Wootton Bassett" class="service-card-overlay-img" />
-          <div class="service-card-overlay-title">Fascia &amp; Soffit Cleaning</div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="service-card-overlay">
-          <img src="/assets/images/gutter-empty.webp" alt="Gutter emptying in Royal Wootton Bassett" class="service-card-overlay-img" style="object-position: center 80%;" />
-          <div class="service-card-overlay-title">Gutter Emptying</div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="service-card-overlay">
-          <img src="/assets/images/greenhouse-full.webp" alt="Conservatory and greenhouse cleaning in Royal Wootton Bassett" class="service-card-overlay-img" />
-          <div class="service-card-overlay-title">Conservatories and Greenhouses</div>
-        </div>
-      </div>
-    </div>
-    <div class="row mt-4">
-      <div class="col text-center">
-        <p class="text-light mb-3" style="opacity: 0.85;">Every home gets a personalised quote based on your property and what you need.</p>
-        <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-4">Get a Free Quote</a>
-      </div>
-    </div>
-  </div>
-</section>
+<!-- Schema for the unique Royal Wootton Bassett-specific FAQ only -->
+<!-- (Master FAQ schema is loaded inside includes/area-faqs.php) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does being close to the M4 mean windows get dirty faster in Royal Wootton Bassett?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It can do, particularly on the main road side of town. Road spray and dust from the A3102 and the M4 junction can coat frames and glass fairly quickly, especially in summer when grime dries on between cleans. An 8-weekly clean keeps on top of it before it builds up. If your property faces a busier road, just mention it when you get your quote and Jack can take that into account."
+      }
+    }
+  ]
+}
+</script>
+
+<?php
+// Services section (shared across all area pages)
+$area_name = 'Royal Wootton Bassett';
+include '../includes/services.php';
+?>
 
 <!-- Second Testimonial Block -->
 <section class="py-5 bg-light">
@@ -359,37 +296,11 @@ include '../includes/header.php';
   </div>
 </section>
 
-<!-- Nearby Areas -->
-<section class="py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-4">
-        <h2 class="section-title">Nearby Areas I Cover</h2>
-        <p class="section-subtitle">Royal Wootton Bassett is part of my round across Swindon and the surrounding towns and villages.</p>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-6 col-md-3 mb-3 text-center">
-        <a href="/areas/wroughton" class="btn btn-outline-primary w-100">Wroughton</a>
-      </div>
-      <div class="col-6 col-md-3 mb-3 text-center">
-        <span class="btn btn-outline-secondary w-100" style="pointer-events:none;">Swindon</span>
-      </div>
-      <div class="col-6 col-md-3 mb-3 text-center">
-        <span class="btn btn-outline-secondary w-100" style="pointer-events:none;">Highworth</span>
-      </div>
-      <div class="col-6 col-md-3 mb-3 text-center">
-        <span class="btn btn-outline-secondary w-100" style="pointer-events:none;">Purton</span>
-      </div>
-      <div class="col-6 col-md-3 mb-3 text-center">
-        <span class="btn btn-outline-secondary w-100" style="pointer-events:none;">Cricklade</span>
-      </div>
-      <div class="col-6 col-md-3 mb-3 text-center">
-        <span class="btn btn-outline-secondary w-100" style="pointer-events:none;">Lydiard Millicent</span>
-      </div>
-    </div>
-  </div>
-</section>
+<?php
+// Nearby Areas section (shared include, auto-picks closest towns via areas-config.php)
+$area_name = 'Royal Wootton Bassett';
+include '../includes/nearby-areas.php';
+?>
 
 <!-- Contact -->
 <section id="contact" class="py-5 section-dark">
@@ -481,55 +392,5 @@ include '../includes/header.php';
 
   </div>
 </section>
-
-<!-- FAQ Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How much does window cleaning cost in Royal Wootton Bassett?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Every property is different, so Jack gives a personalised quote based on the number of windows, the size of your home and access. There's no contract and no obligation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does Jack already work in Royal Wootton Bassett?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Royal Wootton Bassett is part of Jack's regular round, so he's in the area often. New customers nearby slot in alongside his existing ones."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How often should I get my windows cleaned?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most of Jack's customers go for an 8-weekly clean, which keeps on top of dirt building up on frames and seals."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need to be home when Jack cleans?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Not usually. Jack messages you the day before. As long as he can get to the windows, he can clean while you're out and let you know when he's done. Payment is online."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if it rains after my windows are cleaned?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Rain after a pure water clean is fine. There's no detergent or chemical residue on the glass, so rainwater just runs off without leaving marks."
-      }
-    }
-  ]
-}
-</script>
 
 <?php include '../includes/footer.php'; ?>

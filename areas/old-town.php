@@ -257,48 +257,11 @@ include '../includes/header.php';
 }
 </script>
 
-<!-- Services Section -->
-<section id="services" class="py-5 section-dark">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
-        <h2 class="section-title text-white">What I Clean in Old Town</h2>
-      </div>
-    </div>
-    <div class="row g-3">
-      <div class="col-sm-6 col-lg-3">
-        <div class="service-card-overlay">
-          <img src="/assets/images/clean-domestic-window.webp" alt="Window cleaning Old Town Swindon" class="service-card-overlay-img" />
-          <div class="service-card-overlay-title">Window Cleaning</div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="service-card-overlay">
-          <img src="/assets/images/clean-fascia-domestic.webp" alt="Fascia cleaning Old Town Swindon" class="service-card-overlay-img" />
-          <div class="service-card-overlay-title">Fascia &amp; Soffit Cleaning</div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="service-card-overlay">
-          <img src="/assets/images/gutter-empty.webp" alt="Gutter emptying Old Town Swindon" class="service-card-overlay-img" style="object-position: center 80%;" />
-          <div class="service-card-overlay-title">Gutter Emptying</div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="service-card-overlay">
-          <img src="/assets/images/greenhouse-full.webp" alt="Conservatory and greenhouse cleaning Old Town Swindon" class="service-card-overlay-img" />
-          <div class="service-card-overlay-title">Conservatories and Greenhouses</div>
-        </div>
-      </div>
-    </div>
-    <div class="row mt-4">
-      <div class="col text-center">
-        <p class="text-light mb-3" style="opacity: 0.85;">Every home gets a personalised quote based on your property and what you need.</p>
-        <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-4">Get a Free Quote</a>
-      </div>
-    </div>
-  </div>
-</section>
+<?php
+// Services section (shared across all area pages)
+$area_name = 'Old Town';
+include '../includes/services.php';
+?>
 
 <!-- Second Testimonial Block - Janice (5-year repeat) and Tom Webb (highest standards) -->
 <section class="py-5 bg-light">
@@ -336,37 +299,11 @@ include '../includes/header.php';
   </div>
 </section>
 
-<!-- Nearby Areas -->
-<section class="py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-4">
-        <h2 class="section-title">Nearby Areas I Cover</h2>
-        <p class="section-subtitle">Old Town is part of my round across Swindon and the surrounding towns and villages.</p>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-6 col-md-3 mb-3 text-center">
-        <a href="/areas/wroughton" class="btn btn-outline-primary w-100">Wroughton</a>
-      </div>
-      <div class="col-6 col-md-3 mb-3 text-center">
-        <a href="/areas/royal-wootton-bassett" class="btn btn-outline-primary w-100">Royal Wootton Bassett</a>
-      </div>
-      <div class="col-6 col-md-3 mb-3 text-center">
-        <span class="btn btn-outline-secondary w-100" style="pointer-events:none;">Swindon</span>
-      </div>
-      <div class="col-6 col-md-3 mb-3 text-center">
-        <span class="btn btn-outline-secondary w-100" style="pointer-events:none;">Stratton</span>
-      </div>
-      <div class="col-6 col-md-3 mb-3 text-center">
-        <span class="btn btn-outline-secondary w-100" style="pointer-events:none;">Chiseldon</span>
-      </div>
-      <div class="col-6 col-md-3 mb-3 text-center">
-        <span class="btn btn-outline-secondary w-100" style="pointer-events:none;">Wanborough</span>
-      </div>
-    </div>
-  </div>
-</section>
+<?php
+// Nearby Areas section (shared include, auto-picks closest towns via areas-config.php)
+$area_name = 'Old Town';
+include '../includes/nearby-areas.php';
+?>
 
 <!-- Contact -->
 <section id="contact" class="py-5 section-dark">

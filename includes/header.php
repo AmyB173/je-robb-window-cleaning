@@ -71,13 +71,12 @@ define('BUSINESS_IMAGE_URL', 'https://www.jerobb.co.uk/assets/images/jack_rectan
                 Areas
               </a>
               <ul class="dropdown-menu" aria-labelledby="areasDropdown">
-                <li><a class="dropdown-item" href="/areas/royal-wootton-bassett">Royal Wootton Bassett</a></li>
-                <li><a class="dropdown-item" href="/areas/wroughton">Wroughton</a></li>
-                <!-- <li><a class="dropdown-item" href="/areas/highworth">Highworth</a></li>
-                <li><a class="dropdown-item" href="/areas/highworth">Highworth</a></li>
-                <li><a class="dropdown-item" href="/areas/purton">Purton</a></li>
-                <li><a class="dropdown-item" href="/areas/cricklade">Cricklade</a></li>
-                <li><a class="dropdown-item" href="/areas/lydiard-millicent">Lydiard Millicent</a></li> -->
+                <?php
+                require_once __DIR__ . '/areas-config.php';
+                foreach (get_areas_with_pages_alphabetical() as $area):
+                ?>
+                  <li><a class="dropdown-item" href="/areas/<?= htmlspecialchars($area['slug']) ?>"><?= htmlspecialchars($area['name']) ?></a></li>
+                <?php endforeach; ?>
               </ul>
             </li>
             <!-- <li class="nav-item">

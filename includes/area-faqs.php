@@ -41,7 +41,7 @@ $area_safe = htmlspecialchars($area_name);
     </h3>
     <div id="faqMaster2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
       <div class="accordion-body text-muted">
-        Most of my customers go for an 8-weekly clean. That's the rhythm that keeps on top of dirt before it has a chance to bake onto frames and seals. Properties on busier roads or with overhanging trees can sometimes benefit from more frequent cleans - happy to chat through what works best for your home.
+        I do 8-weekly cleans. That's the rhythm that keeps on top of dirt before it has a chance to bake onto frames and seals.
       </div>
     </div>
   </div>
@@ -145,7 +145,7 @@ $area_safe = htmlspecialchars($area_name);
       "name": "How often should I get my windows cleaned?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most of Jack's customers go for an 8-weekly clean. That rhythm keeps on top of dirt before it has a chance to bake onto frames and seals. Properties on busier roads or with overhanging trees can sometimes benefit from more frequent cleans."
+        "text": "Jack does 8-weekly cleans. That rhythm keeps on top of dirt before it has a chance to bake onto frames and seals."
       }
     },
     {

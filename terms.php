@@ -69,7 +69,7 @@ include 'includes/header.php';
 
           <!-- 3. Regular Service -->
           <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">3. Regular Service and One-Off Work</h3>
-          <p><strong>Window cleaning</strong> is a regular, ongoing service only. By accepting a quote and having your first clean, you are agreeing to an ongoing cleaning schedule. The standard cleaning frequency is every 8 weeks. In special circumstances, alternative frequencies may be agreed. One-off or single window cleans are not available.</p>
+          <p><strong>Window cleaning</strong> is a regular, ongoing service only. By accepting a quote and having your first clean, you are agreeing to an ongoing cleaning schedule. The standard cleaning frequency is every 8 weeks. One-off or single window cleans are not available.</p>
           <p><strong>Fascia, soffit and gutter work</strong> can be booked as a one-off or on an as-needed basis. Most customers have this done once or twice a year. These services can be added alongside your regular window clean or booked separately.</p>
           <p>There is no minimum number of cleans required for window cleaning and no fixed-term contract. You are free to cancel the service at any time (see section 8 below).</p>
 

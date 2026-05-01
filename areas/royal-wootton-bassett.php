@@ -1,6 +1,6 @@
 <?php
 $page_title = "Window Cleaning Royal Wootton Bassett | J E Robb";
-$page_description = "I cover Royal Wootton Bassett regularly as part of my round. 5-star rated, 150+ happy customers. Free quote, no contract.";
+$page_description = "Window cleaner covering Royal Wootton Bassett. 5-star rated, 150+ happy customers. Friendly, careful and properly thorough. Free quote, no contract.";
 $page_canonical = "https://www.jerobb.co.uk/areas/royal-wootton-bassett";
 include '../includes/header.php';
 ?>
@@ -11,7 +11,7 @@ include '../includes/header.php';
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "J E Robb Window Cleaning - Royal Wootton Bassett",
-  "description": "Window cleaning in Royal Wootton Bassett from a reliable one-man business. Jack covers homes across the town and surrounding areas, offering regular window cleans, fascia cleaning and gutter emptying.",
+  "description": "Window cleaning in Royal Wootton Bassett from a small, independent local business. 5-star rated, 150+ regular customers, no rush jobs. Jack covers homes across the town and surrounding areas, offering regular window cleans, fascia cleaning and gutter emptying.",
   "image": "<?= BUSINESS_IMAGE_URL ?>",
   "url": "https://www.jerobb.co.uk/areas/royal-wootton-bassett",
   "telephone": "+447442249440",
@@ -52,7 +52,7 @@ include '../includes/header.php';
         <p class="hero-eyebrow">5-Star Rated &middot; 150+ Happy Customers</p>
         <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Royal Wootton Bassett</h1>
         <p class="hero-desc-split">
-          I already clean for customers around the town and am happy to take on new properties nearby. Reliable, thorough and friendly - with every Google review at five stars.
+          Friendly, careful and properly thorough. A small independent business with a high attention to detail and an unhurried approach. Royal Wootton Bassett is part of my regular round.
         </p>
         <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Get a Free Quote</a>
 
@@ -61,7 +61,7 @@ include '../includes/header.php';
             alt="Jack from J E Robb Window Cleaning"
             class="hero-jack-thumb rounded-circle me-3" />
           <span style="color: rgba(255,255,255,0.85); font-size: 0.95rem;">
-            <strong class="text-white">Jack Robb</strong> · Owner &amp; Window Cleaner
+            <strong class="text-white">Jack Robb</strong> &middot; Owner &amp; Window Cleaner
           </span>
         </div>
 
@@ -98,8 +98,8 @@ include '../includes/header.php';
   <div class="container">
     <ul class="trust-static-list">
       <li><i class="fas fa-star"></i> 5-Star Rated on Google</li>
-      <li><i class="fas fa-map-marker-alt"></i> Regular Round in Royal Wootton Bassett</li>
       <li><i class="fas fa-search"></i> Obsessive Attention to Detail</li>
+      <li><i class="fas fa-shield-alt"></i> Trusted Around Your Home</li>
       <li><i class="fas fa-user-check"></i> Same Person Every Time</li>
       <li><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</li>
     </ul>
@@ -132,10 +132,10 @@ include '../includes/header.php';
           </div>
           <div class="col-md-8">
             <div class="p-4">
-              <p class="hero-eyebrow" style="color: #fff; opacity: 0.9;">Regular Round · 5-Star Rated</p>
-              <h2 class="section-title text-white mb-3">Your Window Cleaner in Royal Wootton Bassett</h2>
+              <p class="hero-eyebrow" style="color: #fff; opacity: 0.9;">A Small Independent Business</p>
+              <h2 class="section-title text-white mb-3">Why People Stick With Me</h2>
               <p style="color: rgba(255,255,255,0.95); font-size: 1.1rem; line-height: 1.7;">
-                I run J E Robb as a one-man business with 150+ regular customers across Swindon and the surrounding towns. Royal Wootton Bassett is part of my regular round, so new customers nearby slot in easily alongside my existing ones.
+                Every Google review is five stars, and most of my 150+ customers have been with me for years. That's because of how I do the work: not rushing, paying attention to the details, doing frames and sills properly, treating your home the way I'd want mine treated. J E Robb Window Cleaning is a small, independent local business covering Swindon and the surrounding towns. Royal Wootton Bassett is part of my regular round.
               </p>
               <div class="row mt-4">
                 <div class="col-sm-6 mb-3">

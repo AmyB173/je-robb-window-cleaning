@@ -1,6 +1,6 @@
 <?php
 $page_title = "Window Cleaner Old Town Swindon | J E Robb Window Cleaning";
-$page_description = "Local window cleaner covering Old Town Swindon. 5-star rated, 150+ happy customers. Period properties welcome. Free quote, no contract.";
+$page_description = "Window cleaner covering Old Town Swindon. No rush jobs, obsessive attention to detail. Pure water system, gentle on period properties. 5-star rated, free quote.";
 $page_canonical = "https://www.jerobb.co.uk/areas/old-town";
 include '../includes/header.php';
 ?>
@@ -11,7 +11,7 @@ include '../includes/header.php';
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "J E Robb Window Cleaning - Old Town Swindon",
-  "description": "Window cleaning in Old Town Swindon from a local one-man business. Jack lives nearby in Wroughton and covers Old Town as part of his regular round, including period properties, terraces and the streets around The Lawn, Bath Road and Kingshill.",
+  "description": "Window cleaning in Old Town Swindon from a small, independent local business with a focus on attention to detail and unhurried, thorough cleans. Jack covers period properties, terraces and the streets around The Lawn, Bath Road and Kingshill.",
   "image": "<?= BUSINESS_IMAGE_URL ?>",
   "url": "https://www.jerobb.co.uk/areas/old-town",
   "telephone": "+447442249440",
@@ -49,10 +49,10 @@ include '../includes/header.php';
     <div class="row align-items-center min-vh-hero">
       <!-- Text Side -->
       <div class="col-lg-6 hero-text-col py-5 mt-3 mt-lg-0">
-        <p class="hero-eyebrow">Local &middot; Regular Round in Old Town</p>
+        <p class="hero-eyebrow">Thorough &middot; Independent &middot; Trusted Around Your Home</p>
         <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Old Town Swindon</h1>
         <p class="hero-desc-split">
-          I live just up the hill in Wroughton, and Old Town is part of my regular round. Reliable, with a high attention to detail and a friendly service.
+          Friendly, careful and properly thorough. Frames and sills cleaned every visit, no skipped corners, gentle on period properties. Old Town is part of my regular round.
         </p>
         <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Get a Free Quote</a>
 
@@ -61,7 +61,7 @@ include '../includes/header.php';
             alt="Jack from J E Robb Window Cleaning - covering Old Town Swindon"
             class="hero-jack-thumb rounded-circle me-3" />
           <span style="color: rgba(255,255,255,0.85); font-size: 0.95rem;">
-            <strong class="text-white">Jack Robb</strong> · Owner &amp; Window Cleaner
+            <strong class="text-white">Jack Robb</strong> &middot; Owner &amp; Window Cleaner
           </span>
         </div>
 
@@ -101,8 +101,8 @@ include '../includes/header.php';
   <div class="container">
     <ul class="trust-static-list">
       <li><i class="fas fa-star"></i> 5-Star Rated on Google</li>
-      <li><i class="fas fa-map-marker-alt"></i> Regular Round in Old Town</li>
       <li><i class="fas fa-search"></i> Obsessive Attention to Detail</li>
+      <li><i class="fas fa-home"></i> Independent Local Business</li>
       <li><i class="fas fa-user-check"></i> Same Person Every Time</li>
       <li><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</li>
     </ul>
@@ -135,10 +135,10 @@ include '../includes/header.php';
           </div>
           <div class="col-md-8">
             <div class="p-4">
-              <p class="hero-eyebrow" style="color: #fff; opacity: 0.9;">Your Local Window Cleaner</p>
-              <h2 class="section-title text-white mb-3">Just Up the Hill in Wroughton</h2>
+              <p class="hero-eyebrow" style="color: #fff; opacity: 0.9;">A Small Independent Business</p>
+              <h2 class="section-title text-white mb-3">Pride in Every Clean</h2>
               <p style="color: rgba(255,255,255,0.95); font-size: 1.1rem; line-height: 1.7;">
-                I run J E Robb as a one-man business with 150+ regular customers across Swindon and the surrounding villages. I live just up the hill in Wroughton, so Old Town is part of my core round - new customers slot in easily alongside my existing ones, with no travel faff getting passed on.
+                J E Robb Window Cleaning is a small, independent local business with 150+ regular customers across Swindon and the surrounding villages. What people stick around for is the care that goes into every clean: frames and sills always done, awkward corners not skipped, period properties handled with the gentleness they deserve. Old Town is part of my regular round, so new customers slot in easily.
               </p>
               <div class="row mt-4">
                 <div class="col-sm-6 mb-3">

@@ -1,7 +1,7 @@
 <?php
-$page_title = "Window Cleaner Chiseldon | J E Robb Window Cleaning";
-$page_description = "Window cleaner covering Chiseldon. Friendly, careful and properly thorough. Frames and sills cleaned every visit. 5-star rated, free quote, no contract.";
-$page_canonical = "https://www.jerobb.co.uk/areas/chiseldon";
+$page_title = "Window Cleaner Wichelstowe | J E Robb Window Cleaning";
+$page_description = "Window cleaner covering Wichelstowe Swindon. No rush jobs, obsessive attention to detail. Frames and sills cleaned every visit, three-storey townhouses no problem. 5-star rated.";
+$page_canonical = "https://www.jerobb.co.uk/areas/wichelstowe";
 include '../includes/header.php';
 ?>
 
@@ -10,21 +10,21 @@ include '../includes/header.php';
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "J E Robb Window Cleaning - Chiseldon",
-  "description": "Window cleaning in Chiseldon from a small, independent local business with a focus on attention to detail and friendly, unhurried service. Jack covers the village core, the lanes out toward Hodson and Badbury, and the surrounding farms and countryside properties.",
+  "name": "J E Robb Window Cleaning - Wichelstowe",
+  "description": "Window cleaning in Wichelstowe Swindon from a local one-man business, with a focus on attention to detail and unhurried, thorough cleans. Jack covers the new-build estates across East Wichel, West Wichel and Middle Wichel as part of his regular round.",
   "image": "<?= BUSINESS_IMAGE_URL ?>",
-  "url": "https://www.jerobb.co.uk/areas/chiseldon",
+  "url": "https://www.jerobb.co.uk/areas/wichelstowe",
   "telephone": "+447442249440",
   "email": "windowcleaning@jerobb.co.uk",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Chiseldon",
+    "addressLocality": "Wichelstowe, Swindon",
     "addressRegion": "Wiltshire",
     "addressCountry": "GB"
   },
   "areaServed": {
     "@type": "Place",
-    "name": "Chiseldon, Wiltshire"
+    "name": "Wichelstowe, Swindon, Wiltshire"
   },
   "priceRange": "££",
   "openingHours": "Mo-Fr 08:00-18:00",
@@ -38,7 +38,7 @@ include '../includes/header.php';
     <ol class="breadcrumb mb-0 py-2 small">
       <li class="breadcrumb-item"><a href="/">Home</a></li>
       <li class="breadcrumb-item">Areas</li>
-      <li class="breadcrumb-item active" aria-current="page">Chiseldon</li>
+      <li class="breadcrumb-item active" aria-current="page">Wichelstowe</li>
     </ol>
   </div>
 </nav>
@@ -49,16 +49,16 @@ include '../includes/header.php';
     <div class="row align-items-center min-vh-hero">
       <!-- Text Side -->
       <div class="col-lg-6 hero-text-col py-5 mt-3 mt-lg-0">
-        <p class="hero-eyebrow">Friendly Local Service &middot; Done Properly</p>
-        <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Chiseldon</h1>
+        <p class="hero-eyebrow">Obsessive Attention to Detail &middot; Never Rushed</p>
+        <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Wichelstowe</h1>
         <p class="hero-desc-split">
-          A small, independent business with a high attention to detail and a friendly, easy-going approach. Frames and sills cleaned every visit, awkward corners not skipped. Chiseldon is part of my regular round.
+          Reliable, thorough and friendly. I take real pride in every clean, with a high attention to detail and no rush jobs. I cover Wichelstowe regularly as part of my round.
         </p>
         <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Get a Free Quote</a>
 
         <div class="d-flex align-items-center mb-3">
           <img src="/assets/images/jack.webp"
-            alt="Jack from J E Robb Window Cleaning - covering Chiseldon"
+            alt="Jack from J E Robb Window Cleaning - covering Wichelstowe"
             class="hero-jack-thumb rounded-circle me-3" />
           <span style="color: rgba(255,255,255,0.85); font-size: 0.95rem;">
             <strong class="text-white">Jack Robb</strong> &middot; Owner &amp; Window Cleaner
@@ -68,16 +68,16 @@ include '../includes/header.php';
         <div class="hero-snippet">
           <div class="snippet-carousel" id="snippetCarousel">
             <div class="snippet-slide active">
-              <p class="snippet-text">"Reliable, thorough, efficient and friendly" <span class="snippet-author">- Anna</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
+              <p class="snippet-text">"Always arrives when he says he will" <span class="snippet-author">- Robyn</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
             </div>
             <div class="snippet-slide">
-              <p class="snippet-text">"Crystal clear windows... 100% recommend" <span class="snippet-author">- Janet</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
+              <p class="snippet-text">"Amazing service, great attention to detail" <span class="snippet-author">- Suzanne</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
             </div>
             <div class="snippet-slide">
-              <p class="snippet-text">"Very glad I found him. Will use permanently" <span class="snippet-author">- Dan</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
+              <p class="snippet-text">"Very thorough cleaning, windows looked amazing" <span class="snippet-author">- Jill</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
             </div>
             <div class="snippet-slide">
-              <p class="snippet-text">"Pride in his work, courteous and helpful" <span class="snippet-author">- Janice</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
+              <p class="snippet-text">"Best they've looked in years" <span class="snippet-author">- Chibuikem</span> <span class="snippet-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
             </div>
           </div>
         </div>
@@ -89,8 +89,8 @@ include '../includes/header.php';
       </div>
       <!-- Image Side -->
       <div class="col-lg-6 hero-image-col d-flex flex-column align-items-center justify-content-center mt-4 mt-lg-0 pb-5 pb-lg-0">
-        <img src="/assets/images/clean-domestic-window.webp" alt="Window cleaning in Chiseldon, Wiltshire" class="hero-split-img img-fluid rounded-4" />
-        <p class="area-img-credit">Chiseldon, Wiltshire</p>
+        <img src="/assets/images/wichelstowe.webp" alt="Wichelstowe, Swindon" class="hero-split-img img-fluid rounded-4" />
+        <p class="area-img-credit">Wichelstowe, Swindon</p>
       </div>
     </div>
   </div>
@@ -102,22 +102,29 @@ include '../includes/header.php';
     <ul class="trust-static-list">
       <li><i class="fas fa-star"></i> 5-Star Rated on Google</li>
       <li><i class="fas fa-search"></i> Obsessive Attention to Detail</li>
-      <li><i class="fas fa-clock"></i> No Rush Jobs</li>
+      <li><i class="fas fa-shield-alt"></i> Trusted Around Your Home</li>
       <li><i class="fas fa-user-check"></i> Same Person Every Time</li>
       <li><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</li>
     </ul>
   </div>
 </div>
 
-<!-- Early Testimonial -->
+<!-- Early Testimonials -->
 <section class="py-5 bg-light">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="testimonial-card p-4 p-md-5 rounded-4 shadow-sm text-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        <div class="testimonial-card p-4 p-md-5 rounded-4 shadow-sm text-center h-100">
           <div class="mb-3"><span style="color: #ffd700; font-size: 1.2rem;">&#11088;&#11088;&#11088;&#11088;&#11088;</span></div>
-          <p class="testimonial-card-text" style="font-size: 1.15rem;">"Jack has cleaned my parents' windows several times now and <strong>they are hugely impressed</strong>. Reliable, thorough and efficient, helpful and friendly. Highly recommend."</p>
-          <p class="testimonial-card-author fw-semibold mb-0 mt-3">- Anna Cairns</p>
+          <p class="testimonial-card-text" style="font-size: 1.15rem;">"First clean off Jack. Absolutely amazing service, <strong>great attention to detail, all the windows and sills look really good.</strong>"</p>
+          <p class="testimonial-card-author fw-semibold mb-0 mt-3">- Suzanne O'Brien</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="testimonial-card p-4 p-md-5 rounded-4 shadow-sm text-center h-100">
+          <div class="mb-3"><span style="color: #ffd700; font-size: 1.2rem;">&#11088;&#11088;&#11088;&#11088;&#11088;</span></div>
+          <p class="testimonial-card-text" style="font-size: 1.15rem;">"Punctual, professional, reasonably priced and the quality of your work really stood out. <strong>I appreciate your attention to detail and the care you took around the property.</strong>"</p>
+          <p class="testimonial-card-author fw-semibold mb-0 mt-3">- Amit Sawlani</p>
         </div>
       </div>
     </div>
@@ -131,14 +138,14 @@ include '../includes/header.php';
       <div class="col-11 col-lg-10">
         <div class="row align-items-center">
           <div class="col-md-4 mb-4 mb-md-0">
-            <img src="/assets/images/jack_rectangle.webp" alt="Jack Robb - window cleaner covering Chiseldon" class="img-fluid rounded-4 shadow" />
+            <img src="/assets/images/jack_rectangle.webp" alt="Jack Robb - window cleaner covering Wichelstowe" class="img-fluid rounded-4 shadow" />
           </div>
           <div class="col-md-8">
             <div class="p-4">
-              <p class="hero-eyebrow" style="color: #fff; opacity: 0.9;">A Small Independent Business</p>
-              <h2 class="section-title text-white mb-3">It's the Details That Matter</h2>
+              <p class="hero-eyebrow" style="color: #fff; opacity: 0.9;">Your Local Window Cleaner</p>
+              <h2 class="section-title text-white mb-3">No Rush Jobs</h2>
               <p style="color: rgba(255,255,255,0.95); font-size: 1.1rem; line-height: 1.7;">
-                Frames and sills always cleaned, corners not skipped, the kind of careful work you'd do yourself if you had the time and the kit. That's the heart of how I run J E Robb Window Cleaning. It's a small, independent local business with 150+ regular customers across Swindon and the surrounding villages, and Chiseldon is part of my regular round.
+                I run <strong>J E Robb Window Cleaning</strong> as a one-man business with 150+ regular customers across Swindon and the surrounding villages. The thing that sets me apart is straightforward: I don't rush. Frames, sills, the corners other cleaners skip, all done properly every time. Wichelstowe is part of my regular round (I'm just up the road in Wroughton), so new customers slot in easily alongside my existing ones.
               </p>
               <div class="row mt-4">
                 <div class="col-sm-6 mb-3">
@@ -159,7 +166,7 @@ include '../includes/header.php';
                   <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-tint"></i></div>
                     <h3>Pure Water, No Chemicals</h3>
-                    <p>Streak-free results with no detergents. Better for older paintwork, stonework and the environment.</p>
+                    <p>Streak-free results with no detergents. Better for your windows, frames and the environment.</p>
                   </div>
                 </div>
                 <div class="col-sm-6 mb-3">
@@ -187,29 +194,24 @@ include '../includes/header.php';
     <div class="row justify-content-center">
       <div class="col-lg-10">
         <div class="text-center mb-4">
-          <h2 class="section-title">Window Cleaning Across Chiseldon</h2>
-          <p class="section-subtitle">From the village core to the lanes out toward Hodson and Badbury</p>
+          <h2 class="section-title">Window Cleaning Across Wichelstowe</h2>
+          <p class="section-subtitle">East Wichel, West Wichel and Middle Wichel</p>
         </div>
         <p style="font-size: 1.05rem; line-height: 1.8; color: #444;">
-          Chiseldon has the feel of a proper Wiltshire village. Older stone and brick cottages around the church and the High Street, terraces and bungalows through the village centre, and the larger period homes and converted properties tucked along the back lanes. There's also a fair amount of newer infill alongside the older stock, plus the surrounding farms and countryside properties out toward Hodson, Badbury and the lanes that climb up onto the downs. The pure water fed pole system suits this mix well: no detergents or chemicals that could mark older paintwork or stonework, and most cleans are done from the ground without anything leaning against your home.
+          Wichelstowe is one of the bigger new-build developments around Swindon, and the houses here are designed with a lot of glass. Bay windows, full-height windows over stairwells, three-storey townhouses, juliet balconies, the lot. That's brilliant for natural light, but it does mean a lot of those windows are awkward to reach with a ladder, and ladders against modern uPVC frames and render are something most people would rather avoid anyway. The pure water fed pole system handles all of it from the ground, including up to three storeys, with no ladders leaning against your home and no chemicals on the frames.
         </p>
-        <p style="font-size: 1.05rem; line-height: 1.8; color: #444;">
-          Being a countryside village, properties in Chiseldon pick up dust quickly from the surrounding lanes and fields, especially in summer when the tractors are out. Regular 8-weekly cleans keep on top of it before grime has a chance to bake onto frames and sills. Frames and sills are cleaned as part of every visit, not just the glass. For the larger properties with first and second-floor windows, the water-fed pole reaches up to three storeys from the ground without ladders against the brickwork.
-        </p>
-        <div class="row mt-4 g-3">
-          <div class="col-sm-6">
-            <img src="/assets/images/sn4-conservatory.webp"
-                 alt="Conservatory window cleaning in Chiseldon, SN4"
-                 class="img-fluid rounded-4 shadow-sm w-100" style="object-fit: cover; max-height: 260px;" />
-          </div>
-          <div class="col-sm-6">
-            <img src="/assets/images/sn4-house-with-van.webp"
-                 alt="Jack's van outside an SN4 property near Chiseldon"
-                 class="img-fluid rounded-4 shadow-sm w-100" style="object-fit: cover; max-height: 260px;" />
+
+        <div class="row justify-content-center my-4">
+          <div class="col-md-8">
+            <img src="/assets/images/wichelstowe1.webp" alt="Window cleaning in Wichelstowe, Swindon" class="img-fluid rounded-4 shadow" />
           </div>
         </div>
+
+        <p style="font-size: 1.05rem; line-height: 1.8; color: #444;">
+          What I do differently is take my time. Plenty of cleaners on a new estate like Wichelstowe will rattle through houses in five minutes flat, glass only, gone before you've spotted them. That's not how I work. Frames and sills get cleaned as part of every visit, awkward corners don't get skipped, and if something needs an extra pass it gets one. The result is windows that actually look properly clean, not just wet.
+        </p>
         <div class="text-center mt-4">
-          <a href="#contact" class="btn btn-primary btn-lg">Get a free quote in Chiseldon</a>
+          <a href="#contact" class="btn btn-primary btn-lg">Get a free quote in Wichelstowe</a>
         </div>
       </div>
     </div>
@@ -225,21 +227,21 @@ include '../includes/header.php';
 
         <?php
         // Master FAQ set (shared across all area pages)
-        $area_name = 'Chiseldon';
+        $area_name = 'Wichelstowe';
         include '../includes/area-faqs.php';
         ?>
 
-        <!-- One Chiseldon-specific FAQ added on top of the master set -->
+        <!-- One Wichelstowe-specific FAQ added on top of the master set -->
         <div class="accordion mt-3" id="faqAccordionLocal">
           <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
             <h3 class="accordion-header">
               <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faqLocal1" aria-expanded="false" aria-controls="faqLocal1">
-                Do you cover the lanes and farms around Chiseldon too?
+                Can you reach the third-floor windows on the townhouses?
               </button>
             </h3>
             <div id="faqLocal1" class="accordion-collapse collapse" data-bs-parent="#faqAccordionLocal">
               <div class="accordion-body text-muted">
-                Yes. Chiseldon is part of my regular round, so I'm in the area often. Plenty of my customers are on the lanes around the village out toward Hodson, Badbury and the surrounding farms. Rural properties pick up dust quickly from the lanes and fields, so regular cleans make a noticeable difference. Drop me a message with your postcode and I'll let you know.
+                Yes. The pure water fed pole reaches up to three storeys from the ground, so the third-floor windows on the Wichelstowe townhouses are no problem. No ladders against the property, no scaffolding, no fuss. The same goes for the full-height stairwell windows, juliet balconies and bay windows that are common across the development.
               </div>
             </div>
           </div>
@@ -250,7 +252,7 @@ include '../includes/header.php';
   </div>
 </section>
 
-<!-- Schema for the unique Chiseldon-specific FAQ only -->
+<!-- Schema for the unique Wichelstowe-specific FAQ only -->
 <!-- (Master FAQ schema is loaded inside includes/area-faqs.php) -->
 <script type="application/ld+json">
 {
@@ -259,10 +261,10 @@ include '../includes/header.php';
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Do you cover the lanes and farms around Chiseldon too?",
+      "name": "Can you reach the third-floor windows on the Wichelstowe townhouses?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Chiseldon is part of Jack's regular round, so he's in the area often. Plenty of his customers are on the lanes around the village out toward Hodson, Badbury and the surrounding farms. Rural properties pick up dust quickly from the lanes and fields, so regular cleans make a noticeable difference."
+        "text": "Yes. The pure water fed pole reaches up to three storeys from the ground, so the third-floor windows on the Wichelstowe townhouses are no problem. No ladders against the property, no scaffolding, no fuss. The same goes for the full-height stairwell windows, juliet balconies and bay windows that are common across the development."
       }
     }
   ]
@@ -271,7 +273,7 @@ include '../includes/header.php';
 
 <?php
 // Services section (shared across all area pages)
-$area_name = 'Chiseldon';
+$area_name = 'Wichelstowe';
 include '../includes/services.php';
 ?>
 
@@ -288,15 +290,15 @@ include '../includes/services.php';
       <div class="col-md-6 col-lg-5 mb-4">
         <div class="testimonial-card p-4 rounded-4 shadow-sm h-100">
           <div class="mb-2"><span style="color: #ffd700;">&#11088;&#11088;&#11088;&#11088;&#11088;</span></div>
-          <p class="testimonial-card-text">"Punctual, professional, reasonably priced and the quality of your work really stood out. <strong>I appreciate your attention to detail and the care you took around the property.</strong>"</p>
-          <p class="testimonial-card-author fw-semibold mb-0">- Amit Sawlani</p>
+          <p class="testimonial-card-text">"Great service, <strong>always arrives when he says he will and does an excellent job.</strong> Would highly recommend."</p>
+          <p class="testimonial-card-author fw-semibold mb-0">- Robyn Liddiard</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-5 mb-4">
         <div class="testimonial-card p-4 rounded-4 shadow-sm h-100">
           <div class="mb-2"><span style="color: #ffd700;">&#11088;&#11088;&#11088;&#11088;&#11088;</span></div>
-          <p class="testimonial-card-text">"Jack was brilliant from start to finish. Really prompt response, turned up when he said he would. <strong>He completed the job really thoroughly taking time to attend to the details.</strong>"</p>
-          <p class="testimonial-card-author fw-semibold mb-0">- Julianna Veares</p>
+          <p class="testimonial-card-text">"<strong>Very thorough cleaning, windows looked amazing!</strong> Great customer service too. Would highly recommend."</p>
+          <p class="testimonial-card-author fw-semibold mb-0">- Jill Swankie</p>
         </div>
       </div>
     </div>
@@ -313,7 +315,7 @@ include '../includes/services.php';
 
 <?php
 // Nearby Areas section (shared include, auto-picks closest towns via areas-config.php)
-$area_name = 'Chiseldon';
+$area_name = 'Wichelstowe';
 include '../includes/nearby-areas.php';
 ?>
 
@@ -322,7 +324,8 @@ include '../includes/nearby-areas.php';
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
-        <h2 class="section-title text-white">Get a Free Quote in Chiseldon</h2>
+        <h2 class="section-title text-white">Get a Free Quote in Wichelstowe</h2>
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.6);">I typically reply within a few hours</p>
       </div>
     </div>
 
@@ -335,8 +338,8 @@ include '../includes/nearby-areas.php';
           </div>
           <h3 class="mb-2">Message Me on WhatsApp</h3>
           <p class="text-muted mb-1">The quickest way to get your free quote.</p>
-          <p class="text-muted small mb-4">I usually reply within a few hours</p>
-          <a href="https://wa.me/447442249440?text=Hi%20Jack,%20I'd%20like%20a%20quote%20for%20window%20cleaning%20in%20Chiseldon"
+          <p class="text-muted small mb-4">No obligation, no hard sell</p>
+          <a href="https://wa.me/447442249440?text=Hi%20Jack,%20I'd%20like%20a%20quote%20for%20window%20cleaning%20in%20Wichelstowe"
              target="_blank" rel="noopener"
              class="btn btn-lg px-5 py-3 fw-semibold text-white rounded-pill"
              style="background-color: #25D366; border-color: #25D366; font-size: 1.15rem;">
@@ -361,9 +364,9 @@ include '../includes/nearby-areas.php';
     <div class="row justify-content-center">
       <div class="col-lg-6">
         <form id="contactForm" class="contact-form">
-          <input type="hidden" id="area" name="area" value="Chiseldon" />
+          <input type="hidden" id="area" name="area" value="Wichelstowe" />
           <input type="hidden" id="email" name="email" value="" />
-          <input type="hidden" id="message" name="message" value="Enquiry from Chiseldon page" />
+          <input type="hidden" id="message" name="message" value="Enquiry from Wichelstowe page" />
           <div class="mb-3">
             <label for="name" class="visually-hidden">Your Name</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required />

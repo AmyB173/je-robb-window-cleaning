@@ -56,6 +56,11 @@ $ALL_AREAS = [
         'lng'  => -1.732646,
         'slug' => 'chiseldon',
     ],
+    'Wichelstowe' => [
+        'lat'  => 51.544882,
+        'lng'  => -1.8061435,
+        'slug' => 'wichelstowe',
+    ],
 
     // Towns Jack covers but without their own page yet
     'Swindon' => [

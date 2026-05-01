@@ -271,7 +271,7 @@ require_once __DIR__ . '/includes/areas-config.php';
             <div class="p-4">
               <h2 class="section-title text-white mb-3">About Me</h2>
               <p style="color: rgba(255,255,255,0.9); font-size: 1.05rem; line-height: 1.7;">
-                With over 10 years in the trade, I set up J E Robb Window Cleaning to do things properly. I know my customers by name, message the day before every clean, and take pride in every property I work on. Every Google review is five stars - and that's not by accident.
+                With over 10 years in the trade, I set up J E Robb Window Cleaning to do things properly. I know my customers by name, message the day before every clean, and take pride in every property I work on. Every review is five stars. I intend to keep it that way.
               </p>
               <div class="row mt-3">
                 <div class="col-sm-6 mb-3">

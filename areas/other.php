@@ -1,6 +1,6 @@
 <?php
 $page_title = "Don't See Your Area? | J E Robb Window Cleaning";
-$page_description = "Jack covers Swindon, Wiltshire and the surrounding villages. If you're nearby and don't see your town listed, get in touch and he'll let you know.";
+$page_description = "I cover Swindon, Wiltshire and the surrounding villages. If you're nearby and don't see your town listed, get in touch and I'll let you know.";
 $page_canonical = "https://www.jerobb.co.uk/areas/other";
 include '../includes/header.php';
 ?>
@@ -14,7 +14,7 @@ include '../includes/header.php';
         <p class="hero-eyebrow">Swindon &middot; Wiltshire &middot; Surrounding Villages</p>
         <h1 class="hero-h1-split">Don't See <br class="d-none d-md-block">Your Area?</h1>
         <p class="hero-desc-split">
-          Jack covers Swindon, Wiltshire and the surrounding villages. If you're nearby, there's a good chance he can take you on. The quickest way to find out is to send him a message.
+          I cover Swindon, Wiltshire and the surrounding villages. If you're nearby, there's a good chance I can take you on. The quickest way to find out is to send me a message.
         </p>
         <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Get in Touch</a>
 
@@ -77,9 +77,9 @@ include '../includes/header.php';
       <div class="col-lg-8 text-center">
         <h2 class="section-title">Likely Covered, Worth Asking</h2>
         <p style="font-size: 1.1rem; line-height: 1.8; color: #444;">
-          Jack's regular round runs across Swindon, Royal Wootton Bassett, Wroughton, Old Town, Chiseldon and the villages and lanes in between. Plenty of customers are scattered out toward Highworth, Cricklade, Purton, Lyneham and beyond too. If you're somewhere in or around Swindon or Wiltshire and your town isn't listed on the site, drop him a message with your postcode and he'll let you know straight away whether he can fit you in.
+          My regular round runs across Swindon, Royal Wootton Bassett, Wroughton, Old Town, Chiseldon and the villages and lanes in between. Plenty of customers are scattered out toward Highworth, Cricklade, Purton, Lyneham and beyond too. If you're somewhere in or around Swindon or Wiltshire and your town isn't listed on the site, drop me a message with your postcode and I'll let you know straight away whether I can fit you in.
         </p>
-        <a href="#contact" class="btn btn-primary btn-lg mt-3">Send Jack a Message</a>
+        <a href="#contact" class="btn btn-primary btn-lg mt-3">Get in Touch</a>
       </div>
     </div>
   </div>
@@ -91,7 +91,7 @@ include '../includes/header.php';
     <div class="row">
       <div class="col-12 text-center mb-4">
         <h2 class="section-title">What New Customers Say</h2>
-        <p class="section-subtitle">Every Google review is five stars - and that's not by accident</p>
+        <p class="section-subtitle">Every review is five stars. I intend to keep it that way.</p>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -133,7 +133,8 @@ include '../includes/header.php';
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-4">
-        <h2 class="section-title text-white">Find Out If Jack Covers You</h2>
+        <h2 class="section-title text-white">Find Out If I Cover Your Area</h2>
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.6);">I typically reply within a few hours</p>
       </div>
     </div>
 
@@ -146,7 +147,7 @@ include '../includes/header.php';
           </div>
           <h3 class="mb-2">Message Me on WhatsApp</h3>
           <p class="text-muted mb-1">Send your postcode and I'll let you know if I can cover you.</p>
-          <p class="text-muted small mb-4">I usually reply within a few hours</p>
+          <p class="text-muted small mb-4">No obligation, no hard sell</p>
           <a href="https://wa.me/447442249440?text=Hi%20Jack,%20I'd%20like%20to%20check%20if%20you%20cover%20my%20area%20for%20window%20cleaning"
              target="_blank" rel="noopener"
              class="btn btn-lg px-5 py-3 fw-semibold text-white rounded-pill"

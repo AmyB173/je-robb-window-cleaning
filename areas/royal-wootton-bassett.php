@@ -308,7 +308,6 @@ include '../includes/nearby-areas.php';
     <div class="row">
       <div class="col-12 text-center mb-4">
         <h2 class="section-title text-white">Get a Free Quote in Royal Wootton Bassett</h2>
-        <p class="section-subtitle" style="color: rgba(255,255,255,0.6);">I typically reply within a few hours</p>
       </div>
     </div>
 
@@ -321,7 +320,7 @@ include '../includes/nearby-areas.php';
           </div>
           <h3 class="mb-2">Message Me on WhatsApp</h3>
           <p class="text-muted mb-1">The quickest way to get your free quote.</p>
-          <p class="text-muted small mb-4">No obligation, no hard sell</p>
+          <p class="text-muted small mb-4">I usually reply within a few hours</p>
           <a href="https://wa.me/447442249440?text=Hi%20Jack,%20I'd%20like%20a%20quote%20for%20window%20cleaning%20in%20Royal%20Wootton%20Bassett"
              target="_blank" rel="noopener"
              class="btn btn-lg px-5 py-3 fw-semibold text-white rounded-pill"

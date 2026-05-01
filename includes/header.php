@@ -77,6 +77,8 @@ define('BUSINESS_IMAGE_URL', 'https://www.jerobb.co.uk/assets/images/jack_rectan
                 ?>
                   <li><a class="dropdown-item" href="/areas/<?= htmlspecialchars($area['slug']) ?>"><?= htmlspecialchars($area['name']) ?></a></li>
                 <?php endforeach; ?>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="/areas/other">Don't see your area?</a></li>
               </ul>
             </li>
             <!-- <li class="nav-item">

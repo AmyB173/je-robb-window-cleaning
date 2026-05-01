@@ -187,6 +187,18 @@ include '../includes/header.php';
         <p style="font-size: 1.05rem; line-height: 1.8; color: #444;">
           The pure water fed pole system reaches first and second-floor windows from the ground without leaning ladders against your property most of the time. That matters more than people realise - older Wroughton homes often have softer paintwork and stonework that ladders can mark, and many of the newer estates have a lot of glass at first floor that's awkward to reach any other way. Frames and sills get cleaned as part of every visit, and there are mostly no chemicals or detergents involved - just purified water that dries without leaving any marks. A regular 8-weekly clean keeps on top of it before it has a chance to bake on.
         </p>
+        <div class="row mt-4 g-3">
+          <div class="col-sm-6">
+            <img src="/assets/images/sn4-house-with-van.webp"
+                 alt="Jack's van outside a Wroughton property"
+                 class="img-fluid rounded-4 shadow-sm w-100" style="object-fit: cover; max-height: 260px;" />
+          </div>
+          <div class="col-sm-6">
+            <img src="/assets/images/sn4-conservatory.webp"
+                 alt="Conservatory window cleaning in Wroughton, SN4"
+                 class="img-fluid rounded-4 shadow-sm w-100" style="object-fit: cover; max-height: 260px;" />
+          </div>
+        </div>
         <div class="text-center mt-4">
           <a href="#contact" class="btn btn-primary btn-lg">Get a free quote in Wroughton</a>
         </div>
@@ -302,7 +314,6 @@ include '../includes/nearby-areas.php';
     <div class="row">
       <div class="col-12 text-center mb-4">
         <h2 class="section-title text-white">Get a Free Quote in Wroughton</h2>
-        <p class="section-subtitle" style="color: rgba(255,255,255,0.6);">I typically reply within a few hours</p>
       </div>
     </div>
 
@@ -315,7 +326,7 @@ include '../includes/nearby-areas.php';
           </div>
           <h3 class="mb-2">Message Me on WhatsApp</h3>
           <p class="text-muted mb-1">The quickest way to get your free quote.</p>
-          <p class="text-muted small mb-4">No obligation, no hard sell</p>
+          <p class="text-muted small mb-4">I usually reply within a few hours</p>
           <a href="https://wa.me/447442249440?text=Hi%20Jack,%20I'd%20like%20a%20quote%20for%20window%20cleaning%20in%20Wroughton"
              target="_blank" rel="noopener"
              class="btn btn-lg px-5 py-3 fw-semibold text-white rounded-pill"

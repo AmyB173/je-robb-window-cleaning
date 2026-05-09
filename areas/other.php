@@ -65,7 +65,7 @@ include '../includes/header.php';
       <li><i class="fas fa-map-marker-alt"></i> Swindon &amp; Wiltshire</li>
       <li><i class="fas fa-search"></i> Obsessive Attention to Detail</li>
       <li><i class="fas fa-user-check"></i> Same Person Every Time</li>
-      <li><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</li>
+      <li><i class="fas fa-eye"></i> Careful work, checked before I leave</li>
     </ul>
   </div>
 </div>

@@ -11,7 +11,7 @@ include '../includes/header.php';
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "J E Robb Window Cleaning - Wroughton",
-  "description": "Window cleaning in Wroughton from a local one-man business. Jack lives in the village and cleans for homes across Wroughton, Wichelstowe, Chiseldon and the surrounding lanes.",
+  "description": "Window cleaning in Wroughton from Jack Robb, based in the village. Jack cleans for homes across Wroughton, Wichelstowe, Chiseldon and the surrounding lanes.",
   "image": "<?= BUSINESS_IMAGE_URL ?>",
   "url": "https://www.jerobb.co.uk/areas/wroughton",
   "telephone": "+447442249440",
@@ -94,7 +94,7 @@ include '../includes/header.php';
       <li><i class="fas fa-star"></i> 5-Star Rated on Google</li>
       <li><i class="fas fa-search"></i> Obsessive Attention to Detail</li>
       <li><i class="fas fa-user-check"></i> Same Person Every Time</li>
-      <li><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</li>
+      <li><i class="fas fa-eye"></i> Careful work, checked before I leave</li>
     </ul>
   </div>
 </div>

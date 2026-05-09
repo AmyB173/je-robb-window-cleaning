@@ -11,7 +11,7 @@ include '../includes/header.php';
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "J E Robb Window Cleaning - Wichelstowe",
-  "description": "Window cleaning in Wichelstowe Swindon from a local one-man business, with a focus on attention to detail and unhurried, thorough cleans. Jack covers the new-build estates across East Wichel, West Wichel and Middle Wichel as part of his regular round.",
+  "description": "Window cleaning in Wichelstowe Swindon with a focus on attention to detail and unhurried, thorough cleans. Jack covers the new-build estates across East Wichel, West Wichel and Middle Wichel as part of his regular round.",
   "image": "<?= BUSINESS_IMAGE_URL ?>",
   "url": "https://www.jerobb.co.uk/areas/wichelstowe",
   "telephone": "+447442249440",
@@ -102,9 +102,9 @@ include '../includes/header.php';
     <ul class="trust-static-list">
       <li><i class="fas fa-star"></i> 5-Star Rated on Google</li>
       <li><i class="fas fa-search"></i> Obsessive Attention to Detail</li>
-      <li><i class="fas fa-shield-alt"></i> Trusted Around Your Home</li>
+      <li><i class="fas fa-bell"></i> I message the day before every clean</li>
       <li><i class="fas fa-user-check"></i> Same Person Every Time</li>
-      <li><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</li>
+      <li><i class="fas fa-eye"></i> Careful work, checked before I leave</li>
     </ul>
   </div>
 </div>
@@ -145,7 +145,7 @@ include '../includes/header.php';
               <p class="hero-eyebrow" style="color: #fff; opacity: 0.9;">Your Local Window Cleaner</p>
               <h2 class="section-title text-white mb-3">No Rush Jobs</h2>
               <p style="color: rgba(255,255,255,0.95); font-size: 1.1rem; line-height: 1.7;">
-                I run <strong>J E Robb Window Cleaning</strong> as a one-man business with 150+ regular customers across Swindon and the surrounding villages. The thing that sets me apart is straightforward: I don't rush. Frames, sills, the corners other cleaners skip, all done properly every time. Wichelstowe is part of my regular round (I'm just up the road in Wroughton), so new customers slot in easily alongside my existing ones.
+                I run <strong>J E Robb Window Cleaning</strong> with 150+ regular customers across Swindon and the surrounding villages. The thing that sets me apart is straightforward: I don't rush. Frames, sills, the corners other cleaners skip, all done properly every time. Wichelstowe is part of my regular round (I'm just up the road in Wroughton), so new customers slot in easily alongside my existing ones.
               </p>
               <div class="row mt-4">
                 <div class="col-sm-6 mb-3">

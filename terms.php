@@ -23,7 +23,7 @@ include 'includes/header.php';
               If you only read one part of this page, make it this bit:
             </p>
             <ul style="font-size: 0.95rem; line-height: 1.8; color: #444; padding-left: 1.25rem;">
-              <li><strong>Regular window cleaning only.</strong> Jack takes on customers for ongoing window cleans (typically every 8 weeks). One-off window cleans are not available. Fascia, soffit and gutter work can be booked as a one-off.</li>
+              <li><strong>Regular window cleaning only.</strong> Jack takes on customers for ongoing window cleans (typically every 8 weeks). One-off window cleans are rarely offered, but can occasionally be arranged, but an additional fee applies, as first cleans require significantly more time and effort than a regular visit. Fascia, soffit and gutter work can be booked as a one-off.</li>
               <li><strong>No contract.</strong> You can cancel at any time with reasonable notice. There's no minimum number of cleans and no tie-in. You can skip one clean per year if needed.</li>
               <li><strong>Payment within 48 hours.</strong> After each clean, Jack sends a Stripe payment link via WhatsApp. Payment is due within 48 hours.</li>
               <li><strong>Satisfaction guaranteed.</strong> If you're not happy with a clean, let Jack know within 24 hours and he'll come back and sort it at no extra charge.</li>
@@ -69,7 +69,7 @@ include 'includes/header.php';
 
           <!-- 3. Regular Service -->
           <h3 style="font-size: 1.15rem; color: #004aad; margin-top: 2rem;">3. Regular Service and One-Off Work</h3>
-          <p><strong>Window cleaning</strong> is a regular, ongoing service only. By accepting a quote and having your first clean, you are agreeing to an ongoing cleaning schedule. The standard cleaning frequency is every 8 weeks. One-off or single window cleans are not available.</p>
+          <p><strong>Window cleaning</strong> is a regular, ongoing service. By accepting a quote and having your first clean, you are agreeing to an ongoing cleaning schedule. The standard cleaning frequency is every 8 weeks. One-off window cleans are rarely offered, but can occasionally be arranged, but an additional fee applies as first cleans require significantly more time and effort than ongoing visits.</p>
           <p><strong>Fascia, soffit and gutter work</strong> can be booked as a one-off or on an as-needed basis. Most customers have this done once or twice a year. These services can be added alongside your regular window clean or booked separately.</p>
           <p>There is no minimum number of cleans required for window cleaning and no fixed-term contract. You are free to cancel the service at any time (see section 8 below).</p>
 

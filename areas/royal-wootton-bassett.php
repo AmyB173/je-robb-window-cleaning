@@ -49,7 +49,7 @@ include '../includes/header.php';
     <div class="row align-items-center min-vh-hero">
       <!-- Text Side -->
       <div class="col-lg-6 hero-text-col py-5 mt-3 mt-lg-0">
-        <p class="hero-eyebrow">5-Star Rated &middot; 150+ Happy Customers</p>
+        <p class="hero-eyebrow">5-Star Rated &middot; 150+ Customers</p>
         <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Royal Wootton Bassett</h1>
         <p class="hero-desc-split">
           Friendly, careful and properly thorough. A small independent business with a high attention to detail and an unhurried approach. Royal Wootton Bassett is part of my regular round.
@@ -99,9 +99,9 @@ include '../includes/header.php';
     <ul class="trust-static-list">
       <li><i class="fas fa-star"></i> 5-Star Rated on Google</li>
       <li><i class="fas fa-search"></i> Obsessive Attention to Detail</li>
-      <li><i class="fas fa-shield-alt"></i> Trusted Around Your Home</li>
+      <li><i class="fas fa-bell"></i> I message the day before every clean</li>
       <li><i class="fas fa-user-check"></i> Same Person Every Time</li>
-      <li><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</li>
+      <li><i class="fas fa-eye"></i> Careful work, checked before I leave</li>
     </ul>
   </div>
 </div>

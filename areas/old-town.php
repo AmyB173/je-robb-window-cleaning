@@ -49,7 +49,7 @@ include '../includes/header.php';
     <div class="row align-items-center min-vh-hero">
       <!-- Text Side -->
       <div class="col-lg-6 hero-text-col py-5 mt-3 mt-lg-0">
-        <p class="hero-eyebrow">Thorough &middot; Independent &middot; Trusted Around Your Home</p>
+        <p class="hero-eyebrow">Thorough &middot; Independent &middot; 5-Star Rated</p>
         <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Old Town Swindon</h1>
         <p class="hero-desc-split">
           Friendly, careful and properly thorough. Frames and sills cleaned every visit, no skipped corners, gentle on period properties. Old Town is part of my regular round.
@@ -104,7 +104,7 @@ include '../includes/header.php';
       <li><i class="fas fa-search"></i> Obsessive Attention to Detail</li>
       <li><i class="fas fa-home"></i> Independent Local Business</li>
       <li><i class="fas fa-user-check"></i> Same Person Every Time</li>
-      <li><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</li>
+      <li><i class="fas fa-eye"></i> Careful work, checked before I leave</li>
     </ul>
   </div>
 </div>

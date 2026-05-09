@@ -81,9 +81,9 @@ define('BUSINESS_IMAGE_URL', 'https://www.jerobb.co.uk/assets/images/jack_rectan
                 <li><a class="dropdown-item" href="/areas/other">Don't see your area?</a></li>
               </ul>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="/blog/">Blog</a>
-            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="/blog/how-often-should-you-have-your-windows-cleaned">Advice</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link btn btn-primary nav-cta" href="/#contact">Get a Quote</a>
             </li>

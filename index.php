@@ -43,10 +43,10 @@ require_once __DIR__ . '/includes/areas-config.php';
     <div class="row align-items-center min-vh-hero">
       <!-- Text Side -->
       <div class="col-lg-6 hero-text-col py-5 mt-3 mt-lg-0">
-        <p class="hero-eyebrow">5-Star Rated &middot; 150+ Happy Customers</p>
+        <p class="hero-eyebrow">5-Star Rated &middot; 150+ Customers</p>
         <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Swindon</h1>
         <p class="hero-desc-split">
-          Regular window cleaning, fascia cleaning and gutter emptying for homes across Swindon and Wiltshire. 150+ customers trust me to keep their property looking its best.
+          I clean windows for 150+ homes across Swindon and Wiltshire. Regular window cleaning, fascia cleaning and gutter emptying.
         </p>
         <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Get a Free Quote</a>
 
@@ -97,8 +97,8 @@ require_once __DIR__ . '/includes/areas-config.php';
     <ul class="trust-static-list">
       <li><i class="fas fa-star"></i> 5-Star Rated on Google</li>
       <li><i class="fas fa-user-check"></i> Same Person Every Time</li>
-      <li><i class="fas fa-shield-alt"></i> Trusted Around Your Home</li>
-      <li><i class="fas fa-tint"></i> Pure Water, Streak-Free Finish</li>
+      <li><i class="fas fa-bell"></i> I message the day before every clean</li>
+      <li><i class="fas fa-eye"></i> Careful work, checked before I leave</li>
       <li><i class="fas fa-comments"></i> Great Communication</li>
       <li><i class="fas fa-hand-holding-heart"></i> Supporting a Small Local Business</li>
     </ul>
@@ -269,11 +269,26 @@ require_once __DIR__ . '/includes/areas-config.php';
           </div>
           <div class="col-md-8">
             <div class="p-4">
-              <h2 class="section-title text-white mb-3">About Me</h2>
-              <p style="color: rgba(255,255,255,0.9); font-size: 1.05rem; line-height: 1.7;">
-                With over 10 years in the trade, I set up J E Robb Window Cleaning to do things properly. I know my customers by name, message the day before every clean, and take pride in every property I work on. Every review is five stars. I intend to keep it that way.
+              <p class="hero-eyebrow" style="color: #fff; opacity: 0.9;">Your Swindon Window Cleaner</p>
+              <h2 class="section-title text-white mb-3">Meet Jack Robb</h2>
+              <p style="color: rgba(255,255,255,0.95); font-size: 1.1rem; line-height: 1.7;">
+                I've been cleaning windows in and around Swindon for over 10 years. I know my customers by name, I message the day before every clean, and I take pride in every property I work on. Every review is five stars. I intend to keep it that way.
               </p>
-              <div class="row mt-3">
+              <div class="row mt-4">
+                <div class="col-sm-6 mb-3">
+                  <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-search"></i></div>
+                    <h3>Obsessive About Detail</h3>
+                    <p>Frames, sills, corners, the bits other cleaners miss. I notice the things you'd notice yourself.</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 mb-3">
+                  <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-mug-hot"></i></div>
+                    <h3>Easy to Have Around</h3>
+                    <p>Friendly, polite, and respectful of your home. The kind of person you're happy to see at the door.</p>
+                  </div>
+                </div>
                 <div class="col-sm-6 mb-3">
                   <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-smile"></i></div>
@@ -283,23 +298,9 @@ require_once __DIR__ . '/includes/areas-config.php';
                 </div>
                 <div class="col-sm-6 mb-3">
                   <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-tint"></i></div>
-                    <h3>Pure Water, No Chemicals</h3>
-                    <p>Streak-free results that are better for your windows and the environment.</p>
-                  </div>
-                </div>
-                <div class="col-sm-6 mb-3">
-                  <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-home"></i></div>
-                    <h3>Local &amp; Independent</h3>
-                    <p>Not a franchise. A local business that cares about its reputation.</p>
-                  </div>
-                </div>
-                <div class="col-sm-6 mb-3">
-                  <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
-                    <h3>Satisfaction Guaranteed</h3>
-                    <p>Not happy? I'll come back and sort it, no fuss, no charge.</p>
+                    <h3>Reputation Matters</h3>
+                    <p>I pride myself on doing an excellent, thorough job and am known locally for my attention to detail.</p>
                   </div>
                 </div>
               </div>

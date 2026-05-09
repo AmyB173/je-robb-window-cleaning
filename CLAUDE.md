@@ -39,6 +39,7 @@ Jack's voice is simple, straightforward, friendly, and confident without hyperbo
 - **No "Satisfaction Guaranteed" headings.** The body text describing what happens if a customer is unhappy ("Not happy? I'll come back and sort it") is fine on its own. The marketing-speak heading is not.
 - **No "Pure Water, No Chemicals".** Jack uses light cleaning products occasionally for tougher jobs (builders' residue etc.), so this is not strictly accurate. Use "Pure Water Reach Pole" or describe the method instead.
 - **First person ("I", "me", "my").** Jack is the business. Avoid "we" and "our team" in body copy. (Schema JSON-LD can use "Jack" in third person where it reads more naturally.)
+- **No "no obligation, no hard sell".** The phrase plants the ideas of obligation and hard selling in the customer's mind before they've thought of them. Leave it out entirely.
 - **Quality through specifics, not adjectives.** Instead of "high attention to detail", show it: "Frames and sills cleaned every visit", "I check every window before I leave", "awkward corners not skipped".
 
 ### Off-brand phrases currently on the site

@@ -147,7 +147,7 @@ include '../includes/header.php';
           </div>
           <h3 class="mb-2">Message Me on WhatsApp</h3>
           <p class="text-muted mb-1">Send your postcode and I'll let you know if I can cover you.</p>
-          <p class="text-muted small mb-4">No obligation, no hard sell</p>
+
           <a href="https://wa.me/447442249440?text=Hi%20Jack,%20I'd%20like%20to%20check%20if%20you%20cover%20my%20area%20for%20window%20cleaning"
              target="_blank" rel="noopener"
              class="btn btn-lg px-5 py-3 fw-semibold text-white rounded-pill"

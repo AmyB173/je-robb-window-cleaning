@@ -19,7 +19,7 @@ $posts = [
         'title'   => 'Pure Water Window Cleaning: What Is It and Why Does It Work?',
         'slug'    => 'pure-water-window-cleaning-explained',
         'date'    => '2025-01-15',
-        'excerpt' => 'You might have heard window cleaners talking about "pure water" systems. Here\'s what it actually means, why it leaves windows streak-free, and why it\'s better for your home and the environment.',
+        'excerpt' => 'You might have heard window cleaners talking about "pure water" systems. Here\'s what it actually means, how it keeps windows cleaner for longer, and why there are no chemicals going down the drain.',
     ],
     [
         'title'   => 'Why Choose a Local Independent Window Cleaner Over a Large Company?',
@@ -50,10 +50,10 @@ $posts = [
       <?php foreach ($posts as $post): ?>
       <div class="col-md-4 mb-4">
         <div class="service-card h-100 d-flex flex-column">
-          <h3><a href="/blog/<?php echo htmlspecialchars($post['slug']); ?>.php" class="text-decoration-none brand-blue"><?php echo htmlspecialchars($post['title']); ?></a></h3>
+          <h3><a href="/blog/<?php echo htmlspecialchars($post['slug']); ?>" class="text-decoration-none brand-blue"><?php echo htmlspecialchars($post['title']); ?></a></h3>
           <p class="text-muted small mb-2"><?php echo date('j F Y', strtotime($post['date'])); ?></p>
           <p class="flex-grow-1"><?php echo htmlspecialchars($post['excerpt']); ?></p>
-          <a href="/blog/<?php echo htmlspecialchars($post['slug']); ?>.php" class="btn btn-primary mt-3">Read more</a>
+          <a href="/blog/<?php echo htmlspecialchars($post['slug']); ?>" class="btn btn-primary mt-3">Read more</a>
         </div>
       </div>
       <?php endforeach; ?>
@@ -80,7 +80,7 @@ $posts = [
           </div>
           <h3 class="mb-2">Message Me on WhatsApp</h3>
           <p class="text-muted mb-1">The quickest way to get your free quote.</p>
-          <p class="text-muted small mb-4">No obligation, no hard sell</p>
+
           <a href="https://wa.me/447442249440?text=Hi%20Jack,%20I'd%20like%20a%20quote%20for%20window%20cleaning"
              target="_blank" rel="noopener"
              class="btn btn-lg px-5 py-3 fw-semibold text-white rounded-pill"

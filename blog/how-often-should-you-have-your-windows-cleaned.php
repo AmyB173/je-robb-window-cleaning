@@ -8,6 +8,34 @@ $post_author        = 'Jack Robb';
 include '../includes/header.php';
 ?>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How Often Should You Have Your Windows Cleaned?",
+  "description": "Most homeowners wonder how regularly they need a professional window clean. Jack at J E Robb explains the factors that affect how often you should book a clean.",
+  "datePublished": "2025-02-01",
+  "dateModified": "2026-05-06",
+  "author": {
+    "@type": "Person",
+    "name": "Jack Robb",
+    "url": "https://www.jerobb.co.uk"
+  },
+  "publisher": {
+    "@type": "LocalBusiness",
+    "name": "J E Robb Window Cleaning",
+    "url": "https://www.jerobb.co.uk",
+    "image": "<?= BUSINESS_IMAGE_URL ?>"
+  },
+  "url": "https://www.jerobb.co.uk/blog/how-often-should-you-have-your-windows-cleaned",
+  "image": "https://www.jerobb.co.uk/assets/images/before-after-window.webp",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.jerobb.co.uk/blog/how-often-should-you-have-your-windows-cleaned"
+  }
+}
+</script>
+
 <!-- Breadcrumb -->
 <nav aria-label="breadcrumb" class="area-breadcrumb">
   <div class="container">
@@ -52,13 +80,12 @@ include '../includes/header.php';
           In my experience, 8 weeks is the right interval for the vast majority of homes in Swindon and across Wiltshire. Whether you&rsquo;re in Old Town, out on the newer estates like Wichelstowe, or a bit further afield in Highworth, Wroughton or Royal Wootton Bassett, an 8-weekly clean is what keeps windows consistently looking their best. It&rsquo;s the cadence I&rsquo;ve settled on after years of doing this, frequent enough to stay on top of the dirt, without overcleaning.
         </p>
         <p style="font-size: 1.05rem; line-height: 1.8; color: #444;">
-          8-weekly is what I offer as standard. I&rsquo;ll message you the day before every clean so you know when to expect me and can close any windows.
+          8-weekly is what I offer as standard. I&rsquo;ll message you the day before every clean so you know when to expect me and can close any windows. I use a <a href="/blog/pure-water-window-cleaning-explained">pure water reach pole system</a>, so frames and sills are cleaned on every visit, not just the glass.
         </p>
 
         <div class="rounded-4 p-4 my-5" style="background:#e8f0fb; border-left: 4px solid #004aad;">
           <p class="mb-2 fw-semibold" style="color:#004aad;">Ready to get started with regular 8-weekly cleans?</p>
           <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
-          <span class="text-muted small ms-3">No obligation, no hard sell</span>
         </div>
 
         <div class="my-5">
@@ -134,14 +161,14 @@ include '../includes/header.php';
                 <div class="col-sm-6 mb-3">
                   <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-tint"></i></div>
-                    <h3>Pure Water, No Chemicals</h3>
-                    <p>Streak-free results with no detergents. Better for your windows, frames and the environment.</p>
+                    <h3>Pure Water Reach Pole</h3>
+                    <p>No chemicals, no residue. Frames and sills get cleaned in the same pass as the glass.</p>
                   </div>
                 </div>
                 <div class="col-sm-6 mb-3">
                   <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
-                    <h3>Satisfaction Guaranteed</h3>
+                    <h3>Not Happy? I&rsquo;ll Come Back</h3>
                     <p>Not happy? I&rsquo;ll come back and sort it, no fuss, no charge.</p>
                   </div>
                 </div>
@@ -212,7 +239,7 @@ include '../includes/header.php';
           </div>
           <h3 class="mb-2">Message Me on WhatsApp</h3>
           <p class="text-muted mb-1">The quickest way to get your free quote.</p>
-          <p class="text-muted small mb-4">No obligation, no hard sell</p>
+
           <a href="https://wa.me/447442249440?text=Hi%20Jack,%20I'd%20like%20a%20quote%20for%20window%20cleaning"
              target="_blank" rel="noopener"
              class="btn btn-lg px-5 py-3 fw-semibold text-white rounded-pill"

@@ -12,19 +12,19 @@ $posts = [
     [
         'title'   => 'How Often Should You Have Your Windows Cleaned?',
         'slug'    => 'how-often-should-you-have-your-windows-cleaned',
-        'date'    => '2025-02-01',
+        'date'    => '2026-04-07',
         'excerpt' => 'Most homeowners wonder how regularly they really need a professional window clean. The answer depends on your location, property type, and personal preference. Here\'s a simple guide.',
     ],
     [
         'title'   => 'Pure Water Window Cleaning: What Is It and Why Does It Work?',
         'slug'    => 'pure-water-window-cleaning-explained',
-        'date'    => '2025-01-15',
+        'date'    => '2026-03-10',
         'excerpt' => 'You might have heard window cleaners talking about "pure water" systems. Here\'s what it actually means, how it keeps windows cleaner for longer, and why there are no chemicals going down the drain.',
     ],
     [
         'title'   => 'Why Choose a Local Independent Window Cleaner Over a Large Company?',
         'slug'    => 'local-independent-window-cleaner-vs-large-company',
-        'date'    => '2025-01-05',
+        'date'    => '2026-01-06',
         'excerpt' => 'Big franchise operations might seem convenient, but there are some real advantages to working with a local sole trader: consistency, reliability, and a personal touch that larger firms struggle to offer.',
     ],
 ];

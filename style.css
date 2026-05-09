@@ -484,6 +484,26 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
     }
 }
 
+/* Homepage services section — scoped overrides */
+#services .service-card-overlay {
+    border-radius: 8px;
+}
+
+#services .service-card-overlay-title {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.78) 0%, transparent 100%);
+    font-size: 1.9rem;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    padding: 3.5rem 1.25rem 1.25rem;
+}
+
+@media (max-width: 576px) {
+    #services .service-card-overlay-title {
+        font-size: 1.5rem;
+        padding: 3rem 1rem 1rem;
+    }
+}
+
 /* Service Cards - Area Pages (icon style) */
 .service-card {
     background: #fff;
@@ -671,6 +691,14 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 .footer-links a:hover {
     color: #e9f4fe;
     text-decoration: underline;
+}
+
+/* Blog post article images */
+.blog-img {
+    max-width: 640px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ============================================

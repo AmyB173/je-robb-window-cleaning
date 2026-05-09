@@ -2,8 +2,8 @@
 $page_title         = 'Local Independent Window Cleaner vs Large Company | J E Robb';
 $page_description   = 'The real differences between using a local independent window cleaner and a larger company. Honest pros and cons from Jack at J E Robb in Swindon.';
 $page_canonical     = 'https://www.jerobb.co.uk/blog/local-independent-window-cleaner-vs-large-company';
-$post_date          = '5 January 2025';
-$post_date_modified = '5 January 2025';
+$post_date          = '6 January 2026';
+$post_date_modified = '6 January 2026';
 $post_author        = 'Jack Robb';
 include '../includes/header.php';
 ?>
@@ -14,8 +14,8 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Why Choose a Local Independent Window Cleaner Over a Large Company?",
   "description": "The real differences between using a local independent window cleaner and a larger company. Honest pros and cons from Jack at J E Robb in Swindon.",
-  "datePublished": "2025-01-05",
-  "dateModified": "2025-01-05",
+  "datePublished": "2026-01-06",
+  "dateModified": "2026-01-06",
   "author": {
     "@type": "Person",
     "name": "Jack Robb",
@@ -81,7 +81,7 @@ include '../includes/header.php';
           </p>
 
           <div class="my-5">
-            <img src="/assets/images/sn4-house-with-van.webp" alt="J E Robb Window Cleaning van on a Swindon street" class="img-fluid rounded-4 shadow" />
+            <img src="/assets/images/sn4-house-with-van.webp" alt="J E Robb Window Cleaning van on a Swindon street" class="img-fluid rounded-4 shadow blog-img" />
             <p class="text-muted small mt-2 text-center">Based in Swindon, covering Swindon and the surrounding villages.</p>
           </div>
 
@@ -102,7 +102,7 @@ include '../includes/header.php';
           </figure>
 
           <div class="my-5">
-            <img src="/assets/images/jack_rectangle.webp" alt="Jack Robb, window cleaner in Swindon and Wiltshire" class="img-fluid rounded-4 shadow" style="max-height: 420px; object-fit: cover; width: 100%;" />
+            <img src="/assets/images/jack_rectangle.webp" alt="Jack Robb, window cleaner in Swindon and Wiltshire" class="img-fluid rounded-4 shadow blog-img" />
             <p class="text-muted small mt-2 text-center">I&rsquo;m Jack. I run the round, do the cleans, and answer the messages.</p>
           </div>
 
@@ -115,7 +115,7 @@ include '../includes/header.php';
           </p>
 
           <div class="my-5">
-            <img src="/assets/images/clean-domestic-window.webp" alt="Clean domestic windows - J E Robb Window Cleaning Swindon" class="img-fluid rounded-4 shadow" />
+            <img src="/assets/images/clean-domestic-window.webp" alt="Clean domestic windows - J E Robb Window Cleaning Swindon" class="img-fluid rounded-4 shadow blog-img" />
             <p class="text-muted small mt-2 text-center">Consistent work, every visit.</p>
           </div>
 

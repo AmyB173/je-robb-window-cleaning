@@ -2,8 +2,8 @@
 $page_title         = 'Pure Water Window Cleaning Explained | J E Robb Swindon';
 $page_description   = 'What pure water window cleaning is, how it works, and why it leaves windows cleaner for longer. From J E Robb Window Cleaning in Swindon.';
 $page_canonical     = 'https://www.jerobb.co.uk/blog/pure-water-window-cleaning-explained';
-$post_date          = '15 January 2025';
-$post_date_modified = '15 January 2025';
+$post_date          = '10 March 2026';
+$post_date_modified = '10 March 2026';
 $post_author        = 'Jack Robb';
 include '../includes/header.php';
 ?>
@@ -14,8 +14,8 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Pure Water Window Cleaning: What Is It and Why Does It Work?",
   "description": "What pure water window cleaning is, how it works, and why it leaves windows cleaner for longer. From J E Robb Window Cleaning in Swindon.",
-  "datePublished": "2025-01-15",
-  "dateModified": "2025-01-15",
+  "datePublished": "2026-03-10",
+  "dateModified": "2026-03-10",
   "author": {
     "@type": "Person",
     "name": "Jack Robb",
@@ -81,7 +81,7 @@ include '../includes/header.php';
           </p>
 
           <div class="my-5">
-            <img src="/assets/images/before-after-window.webp" alt="Before and after window cleaning - J E Robb Window Cleaning Swindon" class="img-fluid rounded-4 shadow" />
+            <img src="/assets/images/before-after-window.webp" alt="Before and after window cleaning - J E Robb Window Cleaning Swindon" class="img-fluid rounded-4 shadow blog-img" />
             <p class="text-muted small mt-2 text-center">The difference a proper clean makes, glass and frames together.</p>
           </div>
 
@@ -116,7 +116,7 @@ include '../includes/header.php';
           </p>
 
           <div class="my-5">
-            <img src="/assets/images/picture-window-large.webp" alt="Window cleaning with a water-fed reach pole - J E Robb Swindon" class="img-fluid rounded-4 shadow" />
+            <img src="/assets/images/picture-window-large.webp" alt="Window cleaning with a water-fed reach pole - J E Robb Swindon" class="img-fluid rounded-4 shadow blog-img" />
             <p class="text-muted small mt-2 text-center">The reach pole cleans upper floors safely from the ground, no ladder needed.</p>
           </div>
 
@@ -135,7 +135,7 @@ include '../includes/header.php';
           </p>
 
           <div class="my-5">
-            <img src="/assets/images/before-after-sills.webp" alt="Before and after window frame and sill cleaning - J E Robb Window Cleaning" class="img-fluid rounded-4 shadow" />
+            <img src="/assets/images/before-after-sills.webp" alt="Before and after window frame and sill cleaning - J E Robb Window Cleaning" class="img-fluid rounded-4 shadow blog-img" />
             <p class="text-muted small mt-2 text-center">Frames and sills cleaned every visit, not just the glass.</p>
           </div>
 

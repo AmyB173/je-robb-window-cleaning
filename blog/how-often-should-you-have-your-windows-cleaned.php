@@ -2,7 +2,7 @@
 $page_title         = 'How Often Should You Have Your Windows Cleaned?';
 $page_description   = 'Most homeowners wonder how regularly they need a professional window clean. Jack at J E Robb explains the factors that affect how often you should book a clean.';
 $page_canonical     = 'https://www.jerobb.co.uk/blog/how-often-should-you-have-your-windows-cleaned';
-$post_date          = '1 February 2025';
+$post_date          = '7 April 2026';
 $post_date_modified = '6 May 2026';
 $post_author        = 'Jack Robb';
 include '../includes/header.php';
@@ -14,7 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "How Often Should You Have Your Windows Cleaned?",
   "description": "Most homeowners wonder how regularly they need a professional window clean. Jack at J E Robb explains the factors that affect how often you should book a clean.",
-  "datePublished": "2025-02-01",
+  "datePublished": "2026-04-07",
   "dateModified": "2026-05-06",
   "author": {
     "@type": "Person",
@@ -89,7 +89,7 @@ include '../includes/header.php';
         </div>
 
         <div class="my-5">
-          <img src="/assets/images/before-after-window.webp" alt="Before and after window cleaning - J E Robb Window Cleaning Swindon" class="img-fluid rounded-4 shadow" />
+          <img src="/assets/images/before-after-window.webp" alt="Before and after window cleaning - J E Robb Window Cleaning Swindon" class="img-fluid rounded-4 shadow blog-img" />
           <p class="text-muted small mt-2 text-center">Regular cleans make a bigger difference than you&rsquo;d think.</p>
         </div>
 
@@ -104,7 +104,7 @@ include '../includes/header.php';
         </ul>
 
         <div class="my-5">
-          <img src="/assets/images/before-after-sills.webp" alt="Before and after window sill cleaning - J E Robb Window Cleaning Swindon" class="img-fluid rounded-4 shadow" />
+          <img src="/assets/images/before-after-sills.webp" alt="Before and after window sill cleaning - J E Robb Window Cleaning Swindon" class="img-fluid rounded-4 shadow blog-img" />
           <p class="text-muted small mt-2 text-center">Sills and frames are cleaned as standard on every visit.</p>
         </div>
 
@@ -134,7 +134,7 @@ include '../includes/header.php';
       <div class="col-11 col-lg-10">
         <div class="row align-items-center">
           <div class="col-md-4 mb-4 mb-md-0">
-            <img src="/assets/images/jack_rectangle.webp" alt="Jack Robb - window cleaner in Swindon and Wiltshire" class="img-fluid rounded-4 shadow" />
+            <img src="/assets/images/jack_rectangle.webp" alt="Jack Robb - window cleaner in Swindon and Wiltshire" class="img-fluid rounded-4 shadow blog-img" />
           </div>
           <div class="col-md-8">
             <div class="p-4">

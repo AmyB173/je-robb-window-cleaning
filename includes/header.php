@@ -81,8 +81,17 @@ define('BUSINESS_IMAGE_URL', 'https://www.jerobb.co.uk/assets/images/jack_rectan
                 <li><a class="dropdown-item" href="/areas/other">Don't see your area?</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/blog/how-often-should-you-have-your-windows-cleaned">Advice</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/blog" id="adviceDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Advice
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="adviceDropdown">
+                <li><a class="dropdown-item" href="/blog">All articles</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="/blog/how-often-should-you-have-your-windows-cleaned">How Often Should You Have Your Windows Cleaned?</a></li>
+                <li><a class="dropdown-item" href="/blog/pure-water-window-cleaning-explained">Pure Water Window Cleaning Explained</a></li>
+                <li><a class="dropdown-item" href="/blog/local-independent-window-cleaner-vs-large-company">Local Independent vs Large Company</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link btn btn-primary nav-cta" href="/#contact">Get a Quote</a>

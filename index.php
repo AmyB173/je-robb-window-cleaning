@@ -46,7 +46,7 @@ require_once __DIR__ . '/includes/areas-config.php';
         <p class="hero-eyebrow">5-Star Rated &middot; 150+ Customers</p>
         <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Swindon</h1>
         <p class="hero-desc-split">
-          I clean windows for 150+ homes across Swindon and Wiltshire. Regular window cleaning, fascia cleaning and gutter emptying.
+          I clean windows for 150+ homes across Swindon and Wiltshire. Regular window cleaning in Swindon and Wiltshire, fascia cleaning and gutter emptying.
         </p>
         <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Get a Free Quote</a>
 
@@ -272,7 +272,7 @@ require_once __DIR__ . '/includes/areas-config.php';
               <p class="hero-eyebrow" style="color: #fff; opacity: 0.9;">Your Swindon Window Cleaner</p>
               <h2 class="section-title text-white mb-3">Meet Jack Robb</h2>
               <p style="color: rgba(255,255,255,0.95); font-size: 1.1rem; line-height: 1.7;">
-                I've been cleaning windows in and around Swindon for over 10 years. I know my customers by name, I message the day before every clean, and I take pride in every property I work on. Every review is five stars. I intend to keep it that way.
+                I've been doing window cleaning in Swindon and the surrounding area for over 10 years. I know my customers by name, I message the day before every clean, and I take pride in every property I work on. Every review is five stars. I intend to keep it that way.
               </p>
               <div class="row mt-4">
                 <div class="col-sm-6 mb-3">
@@ -304,7 +304,7 @@ require_once __DIR__ . '/includes/areas-config.php';
                   </div>
                 </div>
               </div>
-              <div class="mt-3">
+              <div class="mt-3 text-center">
                 <a href="#contact" class="btn btn-light btn-lg rounded-pill px-4 fw-semibold" style="color: #004aad;">Get a Free Quote</a>
               </div>
             </div>
@@ -321,7 +321,7 @@ require_once __DIR__ . '/includes/areas-config.php';
     <div class="row">
       <div class="col-12 text-center mb-4">
         <h2 class="section-title">Areas I Cover</h2>
-        <p class="lead text-muted mx-auto" style="max-width: 640px;">My regular round covers Swindon and the surrounding towns and villages. <strong style="font-weight: 700;">Not sure if I cover your area?</strong> Just message me - if it's nearby, I'll probably be happy to add you to my round.</p>
+        <p class="lead text-muted mx-auto" style="max-width: 640px;">My window cleaning round covers Swindon and the surrounding towns and villages. <strong style="font-weight: 700;">Not sure if I cover your area?</strong> Just message me - if it's nearby, I'll probably be happy to add you to my round.</p>
       </div>
     </div>
     <div class="row g-3 mb-4">

@@ -134,7 +134,7 @@ include '../includes/header.php';
       <div class="col-11 col-lg-10">
         <div class="row align-items-center">
           <div class="col-md-4 mb-4 mb-md-0">
-            <img src="/assets/images/jack_rectangle.webp" alt="Jack Robb - window cleaner in Swindon and Wiltshire" class="img-fluid rounded-4 shadow blog-img" />
+            <img src="/assets/images/jack_rectangle.webp" alt="Jack Robb - window cleaner in Swindon and Wiltshire" class="img-fluid rounded-4 shadow" />
           </div>
           <div class="col-md-8">
             <div class="p-4">

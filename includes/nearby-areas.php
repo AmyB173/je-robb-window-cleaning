@@ -89,7 +89,7 @@ $nearby = array_merge($pinned, array_slice($candidates, 0, $slots_for_nearby));
     <div class="row justify-content-center mt-4">
       <div class="col-lg-8 text-center">
         <p class="mb-3" style="color: #555; font-size: 1rem;">
-          Can't see your area? Get in touch with Jack. If you're in Swindon or Wiltshire, there's a good chance he covers it.
+          Can't see your area? Get in touch with Jack. If you're in Swindon, the Cotswolds or Wiltshire, there's a good chance he covers it.
         </p>
         <a href="https://wa.me/447442249440?text=Hi%20Jack,%20I'd%20like%20to%20check%20if%20you%20cover%20my%20area%20for%20window%20cleaning"
            target="_blank" rel="noopener"

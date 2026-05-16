@@ -61,6 +61,11 @@ $ALL_AREAS = [
         'lng'  => -1.8061435,
         'slug' => 'wichelstowe',
     ],
+    'Cirencester' => [
+        'lat'  => 51.7184,
+        'lng'  => -1.9686,
+        'slug' => 'cirencester',
+    ],
 
     // Towns Jack covers but without their own page yet
     'Swindon' => [
@@ -109,8 +114,14 @@ $ALL_AREAS = [
         'lng' => -1.6582489,
     ],
     'Fairford' => [
-        'lat' => 51.7075369,
-        'lng' => -1.785135,
+        'lat'  => 51.7075369,
+        'lng'  => -1.785135,
+        'slug' => 'fairford',
+    ],
+    'South Cerney' => [
+        'lat'  => 51.6789,
+        'lng'  => -1.9286,
+        'slug' => 'south-cerney',
     ],
     'Lechlade' => [
         'lat' => 51.6997759,

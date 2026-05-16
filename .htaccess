@@ -1,5 +1,9 @@
 RewriteEngine On
 
+# Force www version (redirect non-www to www)
+RewriteCond %{HTTP_HOST} ^jerobb\.co\.uk$ [NC]
+RewriteRule ^(.*)$ https://www.jerobb.co.uk/$1 [R=301,L]
+
 # Redirect old .php URLs to clean URLs
 RewriteCond %{REQUEST_URI} ^(.+)\.php$
 RewriteRule ^ %1 [R=301,L]

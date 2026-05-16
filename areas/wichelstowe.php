@@ -157,23 +157,23 @@ include '../includes/header.php';
                 </div>
                 <div class="col-sm-6 mb-3">
                   <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-user-check"></i></div>
-                    <h3>Same Person Every Time</h3>
-                    <p>Not a franchise. It's always me. I'll message you the day before every clean so you know when to expect me.</p>
+                    <div class="feature-icon"><i class="fas fa-mug-hot"></i></div>
+                    <h3>Easy to Have Around</h3>
+                    <p>Friendly, polite, and respectful of your home. The kind of person you're happy to see at the door.</p>
                   </div>
                 </div>
                 <div class="col-sm-6 mb-3">
                   <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-tint"></i></div>
-                    <h3>Pure Water, No Chemicals</h3>
-                    <p>Streak-free results with no detergents. Better for your windows, frames and the environment.</p>
+                    <div class="feature-icon"><i class="fas fa-smile"></i></div>
+                    <h3>Same Person Every Time</h3>
+                    <p>You'll always know who's coming. I message you the day before, every time.</p>
                   </div>
                 </div>
                 <div class="col-sm-6 mb-3">
                   <div class="feature-card">
                     <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
-                    <h3>Satisfaction Guaranteed</h3>
-                    <p>Not happy? I'll come back and sort it, no fuss, no charge.</p>
+                    <h3>Reputation Matters</h3>
+                    <p>I pride myself on doing an excellent, thorough job and am known locally for my attention to detail.</p>
                   </div>
                 </div>
               </div>

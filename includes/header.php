@@ -9,9 +9,12 @@ define('BUSINESS_IMAGE_URL', 'https://www.jerobb.co.uk/assets/images/jack_rectan
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?php echo isset($page_title) ? htmlspecialchars($page_title) . ' | J E Robb Window Cleaning' : 'J E Robb | Professional Window Cleaning Swindon'; ?></title>
     <meta name="description" content="<?php echo isset($page_description) ? htmlspecialchars($page_description) : 'Trustworthy, local window cleaner offering regular window cleans, fascia cleaning and gutter emptying in Swindon and surrounding areas.'; ?>" />
-    <?php if (isset($page_canonical)): ?>
-    <link rel="canonical" href="<?php echo htmlspecialchars($page_canonical); ?>" />
-    <?php endif; ?>
+    <?php
+    $canonical_url = isset($page_canonical)
+        ? $page_canonical
+        : 'https://www.jerobb.co.uk' . strtok($_SERVER['REQUEST_URI'], '?');
+    ?>
+    <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>" />
     <link rel="icon" type="image/x-icon" href="/assets/images/logo.webp" />
 
     <!-- Bootstrap CSS -->

@@ -119,14 +119,28 @@ $area_safe = htmlspecialchars($area_name);
     </h3>
     <div id="faqMaster8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
       <div class="accordion-body text-muted">
-        WhatsApp is the quickest - drop me a message with your address or postcode and a rough idea of what you'd like cleaning, and I'll come back to you with a price, usually within a few hours. There's no obligation and no hard sell. You can also use the contact form on this page or give me a ring on 07442 249440.
+        WhatsApp is the quickest - drop me a message with your address or postcode and a rough idea of what you'd like cleaning, and I'll come back to you with a price, usually within a few hours. You can also use the contact form on this page or give me a ring on 07442 249440.
       </div>
     </div>
   </div>
 
 </div>
 
-<!-- FAQ Schema for the master FAQ set -->
+<?php
+$faq_schema_local = '';
+if (!empty($faq_local_q) && !empty($faq_local_a)) {
+    $faq_schema_local = ',
+    {
+      "@type": "Question",
+      "name": ' . json_encode($faq_local_q) . ',
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ' . json_encode($faq_local_a) . '
+      }
+    }';
+}
+?>
+<!-- FAQ Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -195,7 +209,7 @@ $area_safe = htmlspecialchars($area_name);
         "@type": "Answer",
         "text": "WhatsApp is the quickest - drop a message with your address or postcode and a rough idea of what you'd like cleaning, and Jack will come back to you with a price, usually within a few hours. There is no obligation. You can also use the contact form or call 07442 249440."
       }
-    }
+    }<?= $faq_schema_local ?>
   ]
 }
 </script>

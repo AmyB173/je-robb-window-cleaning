@@ -106,8 +106,9 @@ $ALL_AREAS = [
         'lng' => -1.62053,
     ],
     'Marlborough' => [
-        'lat' => 51.420073,
-        'lng' => -1.727062,
+        'lat'  => 51.420073,
+        'lng'  => -1.727062,
+        'slug' => 'marlborough',
     ],
     'Shrivenham' => [
         'lat' => 51.5976175,

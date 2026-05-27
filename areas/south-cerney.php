@@ -225,6 +225,8 @@ include '../includes/header.php';
 
         <?php
         $area_name = 'South Cerney';
+        $faq_local_q = 'Do you cover the Cotswold Water Park properties too?';
+        $faq_local_a = 'Yes. The Water Park lakeside homes and lodges are part of Jack\'s regular round in South Cerney. The pure water reach pole suits these properties well, particularly the larger windows facing the lakes.';
         include '../includes/area-faqs.php';
         ?>
 
@@ -249,24 +251,6 @@ include '../includes/header.php';
   </div>
 </section>
 
-<!-- Schema for the South Cerney-specific FAQ only -->
-<!-- (Master FAQ schema is loaded inside includes/area-faqs.php) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do you cover the Cotswold Water Park properties too?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The Water Park lakeside homes and lodges are part of Jack's regular round in South Cerney. The pure water reach pole suits these properties well, particularly the larger windows facing the lakes."
-      }
-    }
-  ]
-}
-</script>
 
 <?php
 $area_name = 'South Cerney';

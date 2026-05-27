@@ -226,8 +226,9 @@ include '../includes/header.php';
         <h2 class="section-title text-center mb-4">Common Questions</h2>
 
         <?php
-        // Master FAQ set (shared across all area pages)
         $area_name = 'Wichelstowe';
+        $faq_local_q = 'Can you reach the third-floor windows on the Wichelstowe townhouses?';
+        $faq_local_a = 'Yes. The pure water fed pole reaches up to three storeys from the ground, so the third-floor windows on the Wichelstowe townhouses are no problem. No ladders against the property, no scaffolding, no fuss. The same goes for the full-height stairwell windows, juliet balconies and bay windows that are common across the development.';
         include '../includes/area-faqs.php';
         ?>
 
@@ -252,24 +253,6 @@ include '../includes/header.php';
   </div>
 </section>
 
-<!-- Schema for the unique Wichelstowe-specific FAQ only -->
-<!-- (Master FAQ schema is loaded inside includes/area-faqs.php) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can you reach the third-floor windows on the Wichelstowe townhouses?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The pure water fed pole reaches up to three storeys from the ground, so the third-floor windows on the Wichelstowe townhouses are no problem. No ladders against the property, no scaffolding, no fuss. The same goes for the full-height stairwell windows, juliet balconies and bay windows that are common across the development."
-      }
-    }
-  ]
-}
-</script>
 
 <?php
 // Services section (shared across all area pages)

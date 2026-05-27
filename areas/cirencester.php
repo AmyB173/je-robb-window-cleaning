@@ -224,8 +224,9 @@ include '../includes/header.php';
         <h2 class="section-title text-center mb-4">Common Questions</h2>
 
         <?php
-        // Master FAQ set (shared across all area pages)
         $area_name = 'Cirencester';
+        $faq_local_q = 'Do you cover the villages around Cirencester too?';
+        $faq_local_a = 'Yes. Cirencester is part of Jack\'s regular round, so he\'s in the area often. He covers properties on the lanes and in the smaller villages around the town as well.';
         include '../includes/area-faqs.php';
         ?>
 
@@ -250,24 +251,6 @@ include '../includes/header.php';
   </div>
 </section>
 
-<!-- Schema for the unique Cirencester-specific FAQ only -->
-<!-- (Master FAQ schema is loaded inside includes/area-faqs.php) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do you cover the villages around Cirencester too?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Cirencester is part of Jack's regular round, so he's in the area often. He covers properties on the lanes and in the smaller villages around the town as well."
-      }
-    }
-  ]
-}
-</script>
 
 <?php
 // Services section (shared across all area pages)

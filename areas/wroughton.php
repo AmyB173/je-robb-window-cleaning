@@ -215,8 +215,9 @@ include '../includes/header.php';
         <h2 class="section-title text-center mb-4">Common Questions</h2>
 
         <?php
-        // Master FAQ set (shared across all area pages)
         $area_name = 'Wroughton';
+        $faq_local_q = 'Does Jack actually live in Wroughton?';
+        $faq_local_a = 'Yes. Jack lives in Wroughton with his partner and dogs, so this is genuinely a local business. New customers in the village slot in easily as Jack is already nearby on cleaning days, with no travel time passed on.';
         include '../includes/area-faqs.php';
         ?>
 
@@ -241,24 +242,6 @@ include '../includes/header.php';
   </div>
 </section>
 
-<!-- Schema for the unique Wroughton-specific FAQ only -->
-<!-- (Master FAQ schema is loaded inside includes/area-faqs.php) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does Jack actually live in Wroughton?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Jack lives in Wroughton with his partner and dogs, so this is genuinely a local business. New customers in the village slot in easily as Jack is already nearby on cleaning days, with no travel time passed on."
-      }
-    }
-  ]
-}
-</script>
 
 <?php
 // Services section (shared across all area pages)

@@ -209,8 +209,9 @@ include '../includes/header.php';
         <h2 class="section-title text-center mb-4">Common Questions</h2>
 
         <?php
-        // Master FAQ set (shared across all area pages)
         $area_name = 'Royal Wootton Bassett';
+        $faq_local_q = 'Does being close to the M4 mean windows get dirty faster in Royal Wootton Bassett?';
+        $faq_local_a = 'It can do, particularly on the main road side of town. Road spray and dust from the A3102 and the M4 junction can coat frames and glass fairly quickly, especially in summer when grime dries on between cleans. An 8-weekly clean keeps on top of it before it builds up. If your property faces a busier road, just mention it when you get your quote and Jack can take that into account.';
         include '../includes/area-faqs.php';
         ?>
 
@@ -235,24 +236,6 @@ include '../includes/header.php';
   </div>
 </section>
 
-<!-- Schema for the unique Royal Wootton Bassett-specific FAQ only -->
-<!-- (Master FAQ schema is loaded inside includes/area-faqs.php) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does being close to the M4 mean windows get dirty faster in Royal Wootton Bassett?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It can do, particularly on the main road side of town. Road spray and dust from the A3102 and the M4 junction can coat frames and glass fairly quickly, especially in summer when grime dries on between cleans. An 8-weekly clean keeps on top of it before it builds up. If your property faces a busier road, just mention it when you get your quote and Jack can take that into account."
-      }
-    }
-  ]
-}
-</script>
 
 <?php
 // Services section (shared across all area pages)

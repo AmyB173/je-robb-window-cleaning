@@ -212,8 +212,9 @@ include '../includes/header.php';
         <h2 class="section-title text-center mb-4">Common Questions</h2>
 
         <?php
-        // Master FAQ set (shared across all area pages)
         $area_name = 'Old Town';
+        $faq_local_q = 'Are sash windows and period properties OK in Old Town?';
+        $faq_local_a = 'Yes. The pure water system is gentle on older paintwork, stonework and timber frames, and the water-fed pole reaches most windows from the ground without ladders leaning against the property. Old Town has plenty of period properties and they suit this method well.';
         include '../includes/area-faqs.php';
         ?>
 
@@ -238,24 +239,6 @@ include '../includes/header.php';
   </div>
 </section>
 
-<!-- Schema for the unique Old-Town-specific FAQ only -->
-<!-- (Master FAQ schema is loaded inside includes/area-faqs.php) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Are sash windows and period properties OK in Old Town?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The pure water system is gentle on older paintwork, stonework and timber frames, and the water-fed pole reaches most windows from the ground without ladders leaning against the property. Old Town has plenty of period properties and they suit this method well."
-      }
-    }
-  ]
-}
-</script>
 
 <?php
 // Services section (shared across all area pages)

@@ -4,6 +4,39 @@ $page_description = '5-star rated window cleaner in Swindon. Regular cleans, fas
 $page_canonical = 'https://www.jerobb.co.uk/';
 include 'includes/header.php';
 require_once __DIR__ . '/includes/areas-config.php';
+
+$v2_services = [
+  [
+    'img'     => '/assets/images/skylight-clear-blue.webp',
+    'alt'     => 'Skylight cleaning service in Swindon',
+    'label'   => 'Window Cleaning',
+    'desc'    => "I use a pure water fed pole system that reaches upstairs windows safely from the ground. Frames and sills cleaned every visit, not just the glass.",
+    'imgpos'  => 'center 70%',
+    'imgnote' => 'TODO: file is 1.16MB, still well over the README image budget (500KB for hero-sized images) - needs another compression pass.',
+  ],
+  [
+    'img'     => '/assets/images/fascias-2.webp',
+    'alt'     => 'Fascia cleaning service in Swindon',
+    'label'   => 'Fascia &amp; Soffit Cleaning',
+    'desc'    => "I bring fascias, soffits and gutter lines back to white, usually alongside a window clean so there's no extra visit to arrange.",
+    'imgpos'  => 'center 15%',
+    'imgnote' => 'TODO: file is 3.2MB, barely smaller than the original .jpg - looks like a format conversion rather than a resize. Needs an actual resize/recompression pass.',
+  ],
+  [
+    'img'     => '/assets/images/gutter-empty.webp',
+    'imgnote' => 'TODO: replace with a clearer gutter-emptying action shot when available - current photo shows the vacuum unit and cleared debris rather than the gutter itself.',
+    'alt'     => 'Gutter emptying service in Swindon',
+    'label'   => 'Gutter Emptying',
+    'desc'    => "I clear leaves and moss from the gutter with a vacuum system, so rainwater runs off the roof the way it should.",
+  ],
+  [
+    'img'     => '/assets/images/greenhouse-full.webp',
+    'alt'     => 'Conservatory and greenhouse cleaning in Swindon',
+    'label'   => 'Conservatories and Greenhouses',
+    'desc'    => "I clean glass roofs and panels inside and out, letting the light back in.",
+    'imgnote' => 'TODO: source file is 4080x3072 (3.25MB!) - re-export around 1200px wide, it is far over the README image budget and was the slowest image to decode during testing.',
+  ],
+];
 ?>
 
 <script type="application/ld+json">
@@ -37,323 +70,193 @@ require_once __DIR__ . '/includes/areas-config.php';
   }
 </script>
 
-<!-- Hero Section -->
-<section id="home" class="hero-split">
+<!-- ============ HERO ============ -->
+<section class="v2-hero" id="home">
   <div class="container">
-    <div class="row align-items-center min-vh-hero">
-      <!-- Text Side -->
-      <div class="col-lg-6 hero-text-col py-5 mt-3 mt-lg-0">
-        <p class="hero-eyebrow">5-Star Rated &middot; 150+ Customers</p>
-        <h1 class="hero-h1-split">Window Cleaner <br class="d-none d-md-block">in Swindon</h1>
-        <p class="hero-desc-split">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <p class="v2-hero-eyebrow">5-Star Rated &middot; 150+ Customers</p>
+        <h1>Window Cleaner <br class="d-none d-md-block">in Swindon</h1>
+        <p class="v2-hero-desc">
           I clean windows for 150+ homes across Swindon and Wiltshire. Regular window cleaning in Swindon and Wiltshire, fascia cleaning and gutter emptying.
         </p>
-        <a href="#contact" class="btn btn-hero btn-lg hero-cta-split mt-2 mb-3">Get a Free Quote</a>
+        <a href="#contact" class="btn btn-hero btn-lg">Get a Free Quote</a>
 
-        <div class="d-flex align-items-center mb-3">
-          <img src="/assets/images/jack.webp"
-            alt="Jack from J E Robb Window Cleaning"
-            class="hero-jack-thumb rounded-circle me-3" />
-          <span style="color: rgba(255,255,255,0.85); font-size: 0.95rem;">
-            <strong class="text-white">Jack Robb</strong> · Owner &amp; Window Cleaner
-          </span>
+        <div class="v2-hero-credential">
+          <img src="/assets/images/jack.webp" alt="Jack from J E Robb Window Cleaning" />
+          <span><strong class="text-white">Jack Robb</strong> &middot; Owner &amp; Window Cleaner</span>
         </div>
-
-        <!-- Rotating Snippets -->
-        <div class="hero-snippet">
-          <div class="snippet-carousel" id="snippetCarousel">
-            <div class="snippet-slide active">
-              <p class="snippet-text">"Crystal clear windows... 100% recommend" <span class="snippet-author">- Janet</span> <span class="snippet-stars">⭐⭐⭐⭐⭐</span></p>
-            </div>
-            <div class="snippet-slide">
-              <p class="snippet-text">"Reliable, thorough, efficient and friendly" <span class="snippet-author">- Anna</span> <span class="snippet-stars">⭐⭐⭐⭐⭐</span></p>
-            </div>
-            <div class="snippet-slide">
-              <p class="snippet-text">"Brilliant from start to finish" <span class="snippet-author">- Julianna</span> <span class="snippet-stars">⭐⭐⭐⭐⭐</span></p>
-            </div>
-            <div class="snippet-slide">
-              <p class="snippet-text">"Very glad I found him. Will use permanently" <span class="snippet-author">- Dan</span> <span class="snippet-stars">⭐⭐⭐⭐⭐</span></p>
-            </div>
-            <div class="snippet-slide">
-              <p class="snippet-text">"Our windows are gleaming now!" <span class="snippet-author">- Charlotte</span> <span class="snippet-stars">⭐⭐⭐⭐⭐</span></p>
-            </div>
-            <div class="snippet-slide">
-              <p class="snippet-text">"Professional and great value for money" <span class="snippet-author">- Sophie</span> <span class="snippet-stars">⭐⭐⭐⭐⭐</span></p>
-            </div>
-          </div>
-        </div>
-
       </div>
-      <!-- Image Side -->
-      <div class="col-lg-6 hero-image-col d-flex align-items-center justify-content-center mt-4 mt-lg-0 pb-5 pb-lg-0">
-        <img src="/assets/images/before-after-hero-country.webp" alt="Jack from J E Robb Window Cleaning in Swindon" class="hero-split-img img-fluid rounded-4" />
+      <div class="col-lg-6">
+        <div class="v2-hero-img-wrap">
+          <img src="/assets/images/before-after-hero-country.webp" alt="Jack from J E Robb Window Cleaning in Swindon" class="v2-hero-img" />
+          <span class="v2-ba-label v2-ba-label-before">Before</span>
+          <span class="v2-ba-label v2-ba-label-after">After</span>
+        </div>
       </div>
     </div>
   </div>
 </section>
-<!-- Trust Static Bar -->
-<div class="trust-static">
-  <div class="container">
-    <ul class="trust-static-list">
-      <li><i class="fas fa-star"></i> 5-Star Rated on Google</li>
-      <li><i class="fas fa-user-check"></i> Same Person Every Time</li>
-      <li><i class="fas fa-bell"></i> I message the day before every clean</li>
-      <li><i class="fas fa-eye"></i> Careful work, checked before I leave</li>
-      <li><i class="fas fa-comments"></i> Great Communication</li>
-      <li><i class="fas fa-hand-holding-heart"></i> Supporting a Small Local Business</li>
+
+<div class="container">
+  <div class="v2-trust-card v2-reveal">
+    <ul class="v2-trust-list">
+      <li><i class="fas fa-star"></i><span>5-Star Rated on Google</span></li>
+      <li><i class="fas fa-user-check"></i><span>Same Person Every Time</span></li>
+      <li><i class="fas fa-bell"></i><span>I Message the Day Before Every Clean</span></li>
+      <li><i class="fas fa-eye"></i><span>Careful Work, Checked Before I Leave</span></li>
     </ul>
   </div>
 </div>
 
-<!-- Testimonials Section -->
-<section id="testimonials" class="py-5 bg-light">
+<!-- ============ FEATURED QUOTE: early proof point ============ -->
+<section class="v2-section-sm" id="quote-highlight" style="background: var(--bg-section-light);">
   <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-4">
-        <h2 class="section-title">What Our Customers Say</h2>
-      </div>
-    </div>
-    <div class="position-relative">
-      <div class="testimonial-carousel-track" id="testimonialTrack">
-        <div class="testimonial-carousel-slide">
-          <div class="testimonial-card p-4 rounded-4 shadow-sm h-100">
-            <div class="mb-2"><span style="color: #ffd700;">⭐⭐⭐⭐⭐</span></div>
-            <p class="testimonial-card-text">"Excellent job of cleaning inside and out. <strong>Crystal clear windows when he'd finished and lovely clean white windowsills and surrounds.</strong> 100% recommend."</p>
-            <p class="testimonial-card-author fw-semibold mb-0">- Janet McHugh</p>
-          </div>
-        </div>
-        <div class="testimonial-carousel-slide">
-          <div class="testimonial-card p-4 rounded-4 shadow-sm h-100">
-            <div class="mb-2"><span style="color: #ffd700;">⭐⭐⭐⭐⭐</span></div>
-            <p class="testimonial-card-text">"Punctual, professional, reasonably priced and the quality of your work really stood out. <strong>I appreciate your attention to detail and the care you took around the property.</strong>"</p>
-            <p class="testimonial-card-author fw-semibold mb-0">- Amit Sawlani</p>
-          </div>
-        </div>
-        <div class="testimonial-carousel-slide">
-          <div class="testimonial-card p-4 rounded-4 shadow-sm h-100">
-            <div class="mb-2"><span style="color: #ffd700;">⭐⭐⭐⭐⭐</span></div>
-            <p class="testimonial-card-text">"Jack cleans my 4 bed semi detached every 8 weeks and does a fantastic job. <strong>What I really like is his communication, messaging me the day before so I know to leave him access.</strong>"</p>
-            <p class="testimonial-card-author fw-semibold mb-0">- Amanda Scarth</p>
-          </div>
-        </div>
-        <div class="testimonial-carousel-slide">
-          <div class="testimonial-card p-4 rounded-4 shadow-sm h-100">
-            <div class="mb-2"><span style="color: #ffd700;">⭐⭐⭐⭐⭐</span></div>
-            <p class="testimonial-card-text">"Jack was brilliant from start to finish. Really prompt response, turned up when he said he would. <strong>He completed the job really thoroughly taking time to attend to the details.</strong>"</p>
-            <p class="testimonial-card-author fw-semibold mb-0">- Julianna Veares</p>
-          </div>
-        </div>
-        <div class="testimonial-carousel-slide">
-          <div class="testimonial-card p-4 rounded-4 shadow-sm h-100">
-            <div class="mb-2"><span style="color: #ffd700;">⭐⭐⭐⭐⭐</span></div>
-            <p class="testimonial-card-text">"Jack has cleaned my parents' windows several times now and <strong>they are hugely impressed</strong>. Reliable, thorough and efficient, helpful and friendly. Highly recommend."</p>
-            <p class="testimonial-card-author fw-semibold mb-0">- Anna Cairns</p>
-          </div>
-        </div>
-        <div class="testimonial-carousel-slide">
-          <div class="testimonial-card p-4 rounded-4 shadow-sm h-100">
-            <div class="mb-2"><span style="color: #ffd700;">⭐⭐⭐⭐⭐</span></div>
-            <p class="testimonial-card-text">"Brilliant job cleaning our windows in an efficient tidy manner. <strong>He takes pride in his work - the window frames look cleaner than they have been for ages.</strong>"</p>
-            <p class="testimonial-card-author fw-semibold mb-0">- Alfred Western</p>
-          </div>
-        </div>
-      </div>
-      <button class="testimonial-arrow testimonial-arrow-prev" id="testimonialPrev" aria-label="Previous reviews">&#8592;</button>
-      <button class="testimonial-arrow testimonial-arrow-next" id="testimonialNext" aria-label="Next reviews">&#8594;</button>
-    </div>
-    <div class="row mt-4">
-      <div class="col text-center">
-        <a href="https://www.google.com/search?q=je+robb+window+cleaning#lrd=0x25478cddcb9565d3:0x9af176d9df19a689,1"
-          target="_blank"
-          rel="noopener"
-          class="btn btn-outline-primary rounded-pill px-4 me-2">
-          <i class="fab fa-google me-1"></i> Read all reviews on Google
-        </a>
-        <a href="#contact" class="btn btn-primary btn-lg">Get a Free Quote</a>
-      </div>
+    <div class="v2-quote-featured v2-reveal">
+      <span class="v2-quote-mark" aria-hidden="true">&ldquo;</span>
+      <p class="v2-quote-featured-text">Brilliant job cleaning our windows in an efficient tidy manner. He takes pride in his work - the window frames look cleaner than they have been for ages.</p>
+      <p class="v2-quote-featured-author">Alfred Western <span>&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
     </div>
   </div>
 </section>
 
-<!-- Services Section -->
-<section id="services" class="py-5 section-dark">
+<?php
+$v2_services_heading = 'Window Cleaning Services in Swindon';
+$v2_services_style = 'padding-top: 2rem; background: var(--bg-section-light);';
+include 'includes/v2-services.php';
+?>
+
+<!--
+  SEE MY WORK section removed for now - the source photos have baked-in
+  BEFORE/AFTER text from a phone app and inconsistent layouts (side-by-side
+  vs stacked), which clashes with the site's own .v2-ba-label badges.
+  Restore this section once we have plain before/after photos uploaded
+  separately, so the gallery can composite them uniformly in code.
+-->
+
+<!-- ============ TESTIMONIALS: featured quote ============ -->
+<section class="v2-section" id="testimonials" style="background: var(--bg-section-light);">
   <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
-        <h2 class="section-title text-white">Window Cleaning Services in Swindon</h2>
+    <div class="text-center v2-section-head mx-auto v2-reveal">
+      <p class="v2-eyebrow on-light">Reviews</p>
+      <h2 class="v2-heading">What Customers Say</h2>
+    </div>
+
+    <div class="v2-quote-featured v2-reveal">
+      <span class="v2-quote-mark" aria-hidden="true">&ldquo;</span>
+      <p class="v2-quote-featured-text">Excellent job of cleaning inside and out. Crystal clear windows when he'd finished and lovely clean white windowsills and surrounds. 100% recommend.</p>
+      <p class="v2-quote-featured-author">Janet McHugh <span>&#11088;&#11088;&#11088;&#11088;&#11088;</span></p>
+    </div>
+
+    <div class="row g-4 v2-reveal">
+      <div class="col-md-4">
+        <div class="v2-quote-card">
+          <p>"Punctual, professional, reasonably priced and the quality of your work really stood out. I appreciate your attention to detail and the care you took around the property."</p>
+          <span>- Amit Sawlani</span>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="v2-quote-card">
+          <p>"Jack cleans my 4 bed semi detached every 8 weeks and does a fantastic job. What I really like is his communication, messaging me the day before so I know to leave him access."</p>
+          <span>- Amanda Scarth</span>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="v2-quote-card">
+          <p>"Jack was brilliant from start to finish. Really prompt response, turned up when he said he would. He completed the job really thoroughly taking time to attend to the details."</p>
+          <span>- Julianna Veares</span>
+        </div>
       </div>
     </div>
-    <div class="row g-3">
-      <div class="col-sm-6 col-lg-3">
-        <div class="service-card-overlay">
-          <img src="/assets/images/clean-domestic-window.webp" alt="Window cleaning service in Swindon" class="service-card-overlay-img" />
-          <div class="service-card-overlay-title">Window Cleaning</div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="service-card-overlay">
-          <img src="/assets/images/clean-fascia-domestic.webp" alt="Fascia cleaning service in Swindon" class="service-card-overlay-img" />
-          <div class="service-card-overlay-title">Fascia &amp; Soffit Cleaning</div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="service-card-overlay">
-          <img src="/assets/images/gutter-empty.webp" alt="Gutter emptying service in Swindon" class="service-card-overlay-img" style="object-position: center 80%;" />
-          <div class="service-card-overlay-title">Gutter Emptying</div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="service-card-overlay">
-          <img src="/assets/images/greenhouse-full.webp" alt="Conservatory and greenhouse cleaning in Swindon" class="service-card-overlay-img" />
-          <div class="service-card-overlay-title">Conservatories and Greenhouses</div>
-        </div>
-      </div>
-    </div>
-    <div class="row mt-4">
-      <div class="col text-center">
-        <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-4">Get a Free Quote</a>
-      </div>
+
+    <div class="text-center mt-5 v2-reveal">
+      <a href="https://www.google.com/search?q=je+robb+window+cleaning#lrd=0x25478cddcb9565d3:0x9af176d9df19a689,1"
+        target="_blank" rel="noopener" class="btn btn-outline-primary rounded-pill px-4 me-3">
+        <i class="fab fa-google me-1"></i> Read all reviews on Google
+      </a>
+      <a href="#contact" class="cta-text-link">Get a Free Quote <span class="cta-arrow">&rarr;</span></a>
     </div>
   </div>
 </section>
 
-<!-- See Our Work Gallery -->
-<section id="gallery" class="py-5 bg-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-4">
-        <h2 class="section-title">See My Work</h2>
-      </div>
-    </div>
-    <div class="position-relative">
-      <div class="gallery-carousel-track" id="galleryTrack">
-        <div class="gallery-carousel-slide">
-          <img src="/assets/images/before-after-greenhouse.webp" alt="Before and after greenhouse cleaning" class="gallery-carousel-img rounded-3" />
-        </div>
-        <div class="gallery-carousel-slide">
-          <img src="/assets/images/before-after-sills.webp" alt="Before and after window sill cleaning" class="gallery-carousel-img rounded-3" />
-        </div>
-        <div class="gallery-carousel-slide">
-          <img src="/assets/images/before_after_hero.webp" alt="Before and after window cleaning" class="gallery-carousel-img rounded-3" />
-        </div>
-        <div class="gallery-carousel-slide">
-          <img src="/assets/images/before-after-conservatory.webp" alt="Before and after conservatory cleaning" class="gallery-carousel-img rounded-3" />
-        </div>
-        <div class="gallery-carousel-slide">
-          <img src="/assets/images/before-after-window.webp" alt="Before and after window cleaning" class="gallery-carousel-img rounded-3" />
-        </div>
-        <div class="gallery-carousel-slide">
-          <img src="/assets/images/gutter-empty.webp" alt="Gutter emptying results" class="gallery-carousel-img rounded-3" />
-        </div>
-      </div>
-      <button class="gallery-arrow gallery-arrow-prev" id="galleryPrev" aria-label="Previous">&#8592;</button>
-      <button class="gallery-arrow gallery-arrow-next" id="galleryNext" aria-label="Next">&#8594;</button>
-    </div>
-    <div class="row mt-4">
-      <div class="col text-center">
-        <p class="text-muted small">Every home gets a personalised quote.</p>
-        <a href="#contact" class="btn btn-primary btn-lg">Get a Free Quote</a>
-      </div>
-    </div>
-  </div>
-</section>
+<div class="v2-divider" style="background: var(--bg-section-light);" aria-hidden="true">
+  <svg viewBox="0 0 1440 40" preserveAspectRatio="none"><path d="M0,16 C360,40 1080,0 1440,18 L1440,40 L0,40 Z" fill="#003580"></path></svg>
+</div>
 
-<!-- Meet Jack Section -->
-<section id="about-me-section" class="py-5 section-dark">
+<!-- ============ MEET JACK ============ -->
+<section class="v2-section section-dark" id="about-me-section">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-11 col-lg-10">
-        <div class="row align-items-center">
-          <div class="col-md-4 mb-4 mb-md-0">
-            <img src="/assets/images/jack_rectangle.webp" alt="Jack Robb - J E Robb Window Cleaning Swindon" class="img-fluid rounded-4 shadow" />
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5">
+        <div class="v2-jack-photo-wrap v2-reveal">
+          <img src="/assets/images/jack_rectangle.webp" alt="Jack Robb - J E Robb Window Cleaning Swindon" class="v2-jack-photo" />
+          <div class="v2-jack-tag">
+            <span class="v2-jack-tag-num">10+</span>
+            <span class="v2-jack-tag-label">Years in Swindon</span>
           </div>
-          <div class="col-md-8">
-            <div class="p-4">
-              <p class="hero-eyebrow" style="color: #fff; opacity: 0.9;">Your Swindon Window Cleaner</p>
-              <h2 class="section-title text-white mb-3">Meet Jack Robb</h2>
-              <p style="color: rgba(255,255,255,0.95); font-size: 1.1rem; line-height: 1.7;">
-                I've been doing window cleaning in Swindon and the surrounding area for over 10 years. I know my customers by name, I message the day before every clean, and I take pride in every property I work on. Every review is five stars. I intend to keep it that way.
-              </p>
-              <div class="row mt-4">
-                <div class="col-sm-6 mb-3">
-                  <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-search"></i></div>
-                    <h3>Obsessive About Detail</h3>
-                    <p>Frames, sills, corners, the bits other cleaners miss. I notice the things you'd notice yourself.</p>
-                  </div>
-                </div>
-                <div class="col-sm-6 mb-3">
-                  <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-mug-hot"></i></div>
-                    <h3>Easy to Have Around</h3>
-                    <p>Friendly, polite, and respectful of your home. The kind of person you're happy to see at the door.</p>
-                  </div>
-                </div>
-                <div class="col-sm-6 mb-3">
-                  <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-smile"></i></div>
-                    <h3>Same Person Every Time</h3>
-                    <p>You'll always know who's coming. I message you the day before, every time.</p>
-                  </div>
-                </div>
-                <div class="col-sm-6 mb-3">
-                  <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
-                    <h3>Reputation Matters</h3>
-                    <p>I pride myself on doing an excellent, thorough job and am known locally for my attention to detail.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="mt-3 text-center">
-                <a href="#contact" class="btn btn-light btn-lg rounded-pill px-4 fw-semibold" style="color: #004aad;">Get a Free Quote</a>
-              </div>
-            </div>
-          </div>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="v2-reveal">
+          <p class="v2-eyebrow">Your Swindon Window Cleaner</p>
+          <h2 class="v2-heading on-dark">Meet Jack Robb</h2>
+          <p class="v2-lede on-dark mb-4">
+            I've been doing window cleaning in Swindon and the surrounding area for over 10 years. I know my customers by name, I message the day before every clean, and I take pride in every property I work on. Every review is five stars. I intend to keep it that way.
+          </p>
+          <ul class="meet-jack-list">
+            <li><i class="fas fa-search"></i><span>Frames, sills and corners, the bits other cleaners miss.</span></li>
+            <li><i class="fas fa-mug-hot"></i><span>Friendly, polite and respectful of your home.</span></li>
+            <li><i class="fas fa-smile"></i><span>You'll always know who's coming, I message you the day before.</span></li>
+            <li><i class="fas fa-shield-alt"></i><span>Known locally for thorough, careful work.</span></li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Areas We Cover Section -->
-<section id="areas" class="py-5 bg-light">
+<div class="v2-divider" style="background: #004aad;" aria-hidden="true">
+  <svg viewBox="0 0 1440 40" preserveAspectRatio="none"><path d="M0,24 C360,0 1080,40 1440,20 L1440,40 L0,40 Z" fill="var(--bg-section-light)"></path></svg>
+</div>
+
+<!-- ============ AREAS (quiet utility section) ============ -->
+<section class="v2-section-sm" id="areas" style="background: var(--bg-section-light);">
   <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-4">
-        <h2 class="section-title">Areas I Cover</h2>
-        <p class="lead text-muted mx-auto" style="max-width: 640px;">My window cleaning round covers Swindon and the surrounding towns and villages. <strong style="font-weight: 700;">Not sure if I cover your area?</strong> Just message me - if it's nearby, I'll probably be happy to add you to my round.</p>
-      </div>
+    <div class="text-center v2-section-head mx-auto mb-4 v2-reveal">
+      <h2 class="v2-heading" style="font-size: 1.9rem;">Areas I Cover</h2>
+      <p class="v2-lede" style="font-size: 1rem;">My window cleaning round covers Swindon and the surrounding towns and villages. <strong>Not sure if I cover your area?</strong> Just message me - if it's nearby, I'll probably be happy to add you to my round.</p>
     </div>
-    <div class="row g-3 mb-4">
+    <div class="row g-3 mb-4 v2-reveal">
       <?php foreach (get_all_areas_by_distance_from_swindon() as $area): ?>
         <div class="col-6 col-md-4">
           <?php if ($area['slug']): ?>
-            <a href="/areas/<?= htmlspecialchars($area['slug']) ?>" class="d-block text-center py-2 rounded-pill fw-medium text-decoration-none" style="background: #e8f0fb; color: #004aad;"><?= htmlspecialchars($area['name']) ?></a>
+            <a href="/areas/<?= htmlspecialchars($area['slug']) ?>" class="v2-area-pill d-block text-center py-2 rounded-pill fw-medium text-decoration-none"><?= htmlspecialchars($area['name']) ?></a>
           <?php else: ?>
-            <span class="d-block text-center py-2 rounded-pill fw-medium" style="background: #e8f0fb; color: #004aad;"><?= htmlspecialchars($area['name']) ?></span>
+            <span class="v2-area-pill d-block text-center py-2 rounded-pill fw-medium"><?= htmlspecialchars($area['name']) ?></span>
           <?php endif; ?>
         </div>
       <?php endforeach; ?>
     </div>
-    <div class="row">
-      <div class="col-12 text-center">
-        <a href="#contact" class="btn btn-primary btn-lg">Get a Free Quote</a>
-      </div>
+    <div class="text-center v2-reveal">
+      <a href="#contact" class="cta-text-link">Get a Free Quote <span class="cta-arrow">&rarr;</span></a>
     </div>
   </div>
 </section>
 
-<!-- Contact Section -->
-<section id="contact" class="py-5 section-dark">
+<div class="v2-divider" style="background: var(--bg-section-light);" aria-hidden="true">
+  <svg viewBox="0 0 1440 40" preserveAspectRatio="none"><path d="M0,16 C360,40 1080,0 1440,18 L1440,40 L0,40 Z" fill="#003580"></path></svg>
+</div>
+
+<!-- ============ CONTACT: final CTA ============ -->
+<section class="v2-section section-dark" id="contact">
   <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-4">
-        <h2 class="section-title text-white">Get a Free Quote</h2>
-      </div>
+    <div class="text-center v2-section-head mx-auto mb-5 v2-reveal">
+      <p class="v2-eyebrow">Get In Touch</p>
+      <h2 class="v2-heading on-dark">Get a Free Quote</h2>
     </div>
 
     <!-- Primary CTA: WhatsApp -->
-    <div class="row justify-content-center mb-5">
+    <div class="row justify-content-center mb-5 v2-reveal">
       <div class="col-lg-6 text-center">
         <div class="whatsapp-cta-box p-4 p-md-5 rounded-4 shadow-sm">
           <div class="mb-3">
@@ -385,25 +288,25 @@ require_once __DIR__ . '/includes/areas-config.php';
     </div>
 
     <!-- Secondary: Simplified Form -->
-    <div class="row justify-content-center">
+    <div class="row justify-content-center v2-reveal">
       <div class="col-lg-6">
         <form id="contactForm" class="contact-form">
           <input type="hidden" id="email" name="email" value="" />
           <input type="hidden" id="message" name="message" value="Enquiry from homepage" />
           <div class="mb-3">
-            <label for="name" class="visually-hidden">Your Name</label>
+            <label for="name" class="form-label">Your Name</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required />
           </div>
           <div class="mb-3">
-            <label for="address" class="visually-hidden">Your Postcode</label>
+            <label for="address" class="form-label">Your Postcode</label>
             <input type="text" class="form-control" id="address" name="address" placeholder="Your Postcode" required />
           </div>
           <div class="mb-3">
-            <label for="phone" class="visually-hidden">Your Phone Number</label>
+            <label for="phone" class="form-label">Your Phone Number</label>
             <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone Number" required />
           </div>
           <div class="mb-3">
-            <label for="service" class="visually-hidden">Select Service</label>
+            <label for="service" class="form-label">Select Service</label>
             <select class="form-select" id="service" name="service" required>
               <option value="" selected disabled>Select Service</option>
               <option value="Regular Window Cleaning">Regular Window Cleaning</option>
@@ -434,53 +337,3 @@ require_once __DIR__ . '/includes/areas-config.php';
 </section>
 
 <?php include 'includes/footer.php'; ?>
-
-<script>
-function initCarousel(trackId, prevId, nextId, visibleCount) {
-  const track = document.getElementById(trackId);
-  if (!track) return;
-  const slides = Array.from(track.children);
-  const total = slides.length;
-  let current = 0;
-
-  function getVisible() {
-    if (window.innerWidth < 576) return 1;
-    if (window.innerWidth < 992) return Math.min(2, visibleCount);
-    return visibleCount;
-  }
-
-  function update() {
-    const visible = getVisible();
-    const maxCurrent = Math.max(0, total - visible);
-    if (current > maxCurrent) current = maxCurrent;
-
-    slides.forEach((slide, i) => {
-      if (i >= current && i < current + visible) {
-        slide.style.display = 'block';
-      } else {
-        slide.style.display = 'none';
-      }
-    });
-
-    document.getElementById(prevId).style.opacity = current === 0 ? '0.4' : '1';
-    document.getElementById(nextId).style.opacity = current >= maxCurrent ? '0.4' : '1';
-  }
-
-  document.getElementById(prevId).addEventListener('click', () => {
-    if (current > 0) { current--; update(); }
-  });
-
-  document.getElementById(nextId).addEventListener('click', () => {
-    const visible = getVisible();
-    if (current < total - visible) { current++; update(); }
-  });
-
-  window.addEventListener('resize', () => { current = 0; update(); });
-  update();
-}
-
-document.addEventListener('DOMContentLoaded', function() {
-  initCarousel('testimonialTrack', 'testimonialPrev', 'testimonialNext', 3);
-  initCarousel('galleryTrack', 'galleryPrev', 'galleryNext', 3);
-});
-</script>

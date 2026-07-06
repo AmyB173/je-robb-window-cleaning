@@ -15,6 +15,9 @@ define('BUSINESS_IMAGE_URL', 'https://www.jerobb.co.uk/assets/images/jack_rectan
         : 'https://www.jerobb.co.uk' . strtok($_SERVER['REQUEST_URI'], '?');
     ?>
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>" />
+    <?php if (!empty($page_noindex)): ?>
+    <meta name="robots" content="noindex, nofollow" />
+    <?php endif; ?>
     <link rel="icon" type="image/x-icon" href="/assets/images/logo.webp" />
 
     <!-- Bootstrap CSS -->

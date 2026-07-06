@@ -121,6 +121,26 @@
     rotateSlides(".testimonial-slide", 6000);
     rotateSlides(".snippet-slide", 5000);
   });
+
+  // v2 redesign: scroll reveal - progressive enhancement only, no-ops on
+  // pages with no .v2-reveal elements. If this fails, content is already visible.
+  (function () {
+    var els = document.querySelectorAll(".v2-reveal");
+    if (!els.length || !("IntersectionObserver" in window)) return;
+
+    els.forEach(function (el) { el.classList.add("v2-armed"); });
+
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("v2-visible");
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: "0px 0px -60px 0px" });
+
+    els.forEach(function (el) { io.observe(el); });
+  })();
 </script>
 
 </body>

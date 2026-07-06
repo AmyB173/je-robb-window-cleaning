@@ -1,8 +1,27 @@
+/* Shared design tokens - new additions only, existing hex values below are left as-is */
+:root {
+    --bg-section-light: #f7f5f2;
+    --card-bg: #ffffff;
+    --card-radius: 16px;
+    --card-shadow: 0 2px 12px rgba(15, 40, 80, 0.08);
+    --eyebrow-cyan-accessible: #a9f5e8;
+    --v2-blue-dark: #003580;
+    --v2-blue: #004aad;
+    --v2-blue-light: #1565C0;
+    --v2-yellow: #FCC31A;
+    --v2-teal: #00bfa5;
+    --v2-ink: #1c2430;
+    --v2-muted: #5b6472;
+    --v2-soft-blue: #f3f7fc;
+    --v2-soft-teal: #edf8f5;
+}
+
 /* General Styles */
 body {
     font-family: "Work Sans", sans-serif;
     color: #333;
     overflow-x: hidden;
+    background: var(--bg-section-light);
 }
 
 h1, h2, h3, h4, h5, h6, .navbar-brand {
@@ -55,6 +74,32 @@ box-shadow: 0 5px 15px rgba(252, 195, 26, 0.4);
     padding: 10px 25px;
     font-weight: 600;
     transition: all 0.3s ease;
+}
+
+/* Subtle mid-page CTA - text link with arrow, used instead of a button */
+.cta-text-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: #004aad;
+    font-weight: 600;
+    font-size: 1.05rem;
+    text-decoration: none;
+    transition: gap 0.2s ease, color 0.2s ease;
+}
+
+.cta-text-link:hover {
+    color: #003580;
+    gap: 0.65rem;
+}
+
+.cta-text-link .cta-arrow {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.cta-text-link:hover .cta-arrow {
+    transform: translateX(3px);
 }
 
 /* Navigation */
@@ -266,8 +311,7 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 /* Testimonial Carousel */
-#testimonials .position-relative,
-#gallery .position-relative {
+#testimonials .position-relative {
     overflow: hidden;
     padding: 0 10px;
 }
@@ -325,64 +369,34 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
     }
 }
 
-/* Gallery Carousel */
-.gallery-carousel-track {
-    display: flex;
-    gap: 1.5rem;
-    width: 100%;
+/* See My Work - Static Proof Grid */
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
 
-.gallery-carousel-slide {
-    flex: 1;
-    min-width: 0;
+.work-card {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    background: #fff;
 }
 
-.gallery-carousel-img {
+.work-card-img {
     width: 100%;
-    height: 260px;
+    height: auto;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
     display: block;
 }
 
-.gallery-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #004aad;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    z-index: 10;
-    transition: background 0.2s ease;
-}
-
-.gallery-arrow:hover {
-    background: #003580;
-}
-
-.gallery-arrow-prev {
-    left: 5px;
-}
-
-.gallery-arrow-next {
-    right: 5px;
-}
-
-@media (max-width: 992px) {
-    .gallery-carousel-slide {
-        flex: 0 0 calc(50% - 0.75rem);
-        min-width: calc(50% - 0.75rem);
-    }
-}
-
-@media (max-width: 576px) {
-    .gallery-carousel-slide {
-        flex: 0 0 100%;
-        min-width: 100%;
+@media (max-width: 991.98px) {
+    .work-grid {
+        grid-template-columns: 1fr;
+        gap: 1.75rem;
+        max-width: 560px;
+        margin: 0 auto;
     }
 }
 
@@ -490,17 +504,23 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 }
 
 #services .service-card-overlay-title {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.78) 0%, transparent 100%);
-    font-size: 1.9rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+    font-size: 1.5rem;
     letter-spacing: -0.02em;
-    line-height: 1.1;
-    padding: 3.5rem 1.25rem 1.25rem;
+    line-height: 1.2;
+    padding: 3rem 1.1rem 1.1rem;
+    min-height: 96px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
 }
 
 @media (max-width: 576px) {
     #services .service-card-overlay-title {
-        font-size: 1.5rem;
-        padding: 3rem 1rem 1rem;
+        font-size: 1.25rem;
+        padding: 2.5rem 0.9rem 0.9rem;
+        min-height: 84px;
     }
 }
 
@@ -597,6 +617,10 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
     color: #fff;
 }
 
+.bg-soft-blue {
+    background-color: #f3f7fc;
+}
+
 /* Why Choose Us / Feature Cards */
 .feature-card {
     text-align: center;
@@ -630,6 +654,44 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
     color: rgba(255, 255, 255, 0.85);
 }
 
+/* Meet Jack Section - simplified icon + one-line list (homepage) */
+.meet-jack-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 2rem;
+}
+
+.meet-jack-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.meet-jack-list li i {
+    color: #FCC31A;
+    font-size: 1.2rem;
+    width: 1.3em;
+    flex-shrink: 0;
+    text-align: center;
+    margin-top: 0.15rem;
+}
+
+.meet-jack-list li span {
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 767.98px) {
+    .meet-jack-list {
+        grid-template-columns: 1fr;
+        gap: 0.85rem;
+    }
+}
+
 /* Contact Section */
 .contact-form {
     background: #fff;
@@ -638,15 +700,26 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
 }
 
+.form-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 0.4rem;
+}
+
 .form-control, .form-select {
+    background-color: #fff;
+    color: #222;
     padding: 12px 15px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-bottom: 15px;
     border: 1px solid #ddd;
 }
 
 .form-control:focus, .form-select:focus {
-    box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.1);
+    background-color: #fff;
+    color: #222;
+    box-shadow: 0 0 0 3px rgba(0, 74, 173, 0.15);
     border-color: #004aad;
 }
 
@@ -815,6 +888,35 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
 
     .trust-static-list li {
         font-size: 0.78rem;
+    }
+}
+
+/* Homepage trust strip - 4 items only: one row on desktop, 2x2 grid on mobile */
+.trust-static-home .trust-static-list {
+    flex-wrap: nowrap;
+    gap: 1rem 3rem;
+}
+
+.trust-static-home .trust-static-list li i {
+    width: 1.1em;
+    text-align: center;
+}
+
+@media (max-width: 767.98px) {
+    .trust-static-home .trust-static-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem 1rem;
+    }
+
+    .trust-static-home .trust-static-list li {
+        font-size: 0.72rem;
+        white-space: normal;
+        align-items: flex-start;
+    }
+
+    .trust-static-home .trust-static-list li i {
+        margin-top: 0.15rem;
     }
 }
 
@@ -1160,4 +1262,509 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
     .whatsapp-float {
         bottom: 85px;
     }
+}
+
+/* ============================================================
+   V2 REDESIGN COMPONENT LIBRARY
+   Shared component styles for the v2- prefixed classes used across
+   pages on the new design (currently index.php and areas/wroughton.php):
+   hero, trust card, service rows, quote highlights, meet jack, areas,
+   contact, local-knowledge photo grid. Originally prototyped inline in
+   index-test.php; kept here as one source of truth so every converted
+   page looks consistent instead of drifting page to page.
+   ============================================================ */
+
+/* ---------- Rhythm & type ---------- */
+.v2-section { padding: 7rem 0; }
+.v2-section-sm { padding: 4rem 0; }
+.v2-section-head { max-width: 640px; }
+.v2-section-head.mx-auto { margin-left: auto; margin-right: auto; }
+
+.v2-eyebrow {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--eyebrow-cyan-accessible);
+    margin-bottom: 0.75rem;
+}
+
+.v2-eyebrow.on-light { color: var(--v2-blue); opacity: 0.85; }
+
+.v2-heading {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: clamp(2rem, 3.2vw, 2.75rem);
+    line-height: 1.15;
+    color: var(--v2-blue);
+    margin-bottom: 1rem;
+}
+
+.v2-heading.on-dark { color: #fff; }
+
+.v2-lede {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--v2-muted);
+}
+
+.v2-lede.on-dark { color: rgba(255,255,255,0.85); }
+
+/* ---------- Scroll reveal (progressive enhancement) ---------- */
+.v2-reveal.v2-armed {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.v2-reveal.v2-armed.v2-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+    .v2-reveal.v2-armed { opacity: 1; transform: none; transition: none; }
+}
+
+/* ---------- Section divider: shallow wave between dark/light boundaries ---------- */
+.v2-divider {
+    height: 40px;
+    line-height: 0;
+}
+.v2-divider svg { display: block; width: 100%; height: 100%; }
+@media (max-width: 575.98px) {
+    .v2-divider { height: 24px; }
+}
+
+/* ---------- Hero ---------- */
+.v2-hero {
+    background: linear-gradient(135deg, #003580 0%, #004aad 55%, #1565C0 100%);
+    color: #fff;
+    padding: 130px 0 6rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.v2-hero-eyebrow {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--eyebrow-cyan-accessible);
+    margin-bottom: 1rem;
+}
+
+.v2-hero h1 {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: clamp(2.6rem, 5vw, 4rem);
+    line-height: 1.08;
+    margin-bottom: 1.5rem;
+}
+
+.v2-hero-desc {
+    font-size: 1.2rem;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.7;
+    max-width: 46ch;
+    margin-bottom: 2.25rem;
+}
+
+.v2-hero-credential {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    margin-top: 2.5rem;
+}
+
+.v2-hero-credential img {
+    width: 52px;
+    height: 52px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.4);
+}
+
+.v2-hero-credential span {
+    color: rgba(255,255,255,0.85);
+    font-size: 0.95rem;
+}
+
+.v2-hero-img-wrap {
+    position: relative;
+}
+
+.v2-hero-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--card-radius);
+    box-shadow: 0 30px 60px rgba(0, 15, 45, 0.35);
+}
+
+/* Before/After labels - same two tags, same corners, on every before/after photo */
+.v2-ba-label {
+    position: absolute;
+    top: 0.85rem;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #fff;
+    padding: 0.3rem 0.85rem;
+    border-radius: 999px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.v2-ba-label-before {
+    left: 0.85rem;
+    background: rgba(0, 53, 128, 0.85);
+}
+
+.v2-ba-label-after {
+    right: 0.85rem;
+    background: rgba(0, 191, 165, 0.9);
+}
+
+/* Floating trust card - straddles hero and next section */
+.v2-trust-card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgba(0, 30, 80, 0.18);
+    padding: 2rem 2.5rem;
+    margin-top: -4.5rem;
+    margin-bottom: 3rem;
+    position: relative;
+    z-index: 5;
+}
+
+.v2-trust-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.v2-trust-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+}
+
+.v2-trust-list li i {
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--v2-soft-blue);
+    color: var(--v2-blue);
+    border-radius: 50%;
+    font-size: 1.05rem;
+}
+
+.v2-trust-list li span {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--v2-ink);
+    line-height: 1.3;
+}
+
+@media (max-width: 991.98px) {
+    .v2-trust-card { margin-top: -3rem; padding: 1.5rem; }
+    .v2-trust-list { grid-template-columns: repeat(2, 1fr); gap: 1.25rem; }
+}
+
+@media (max-width: 575.98px) {
+    .v2-hero { padding: 110px 0 4.5rem; }
+    .v2-trust-list li span { font-size: 0.82rem; }
+}
+
+/* ---------- Services: alternating large image + text, each row a white card ---------- */
+.v2-service-row {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    background: var(--card-bg);
+    border-radius: var(--card-radius);
+    box-shadow: var(--card-shadow);
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.v2-service-row:last-of-type { margin-bottom: 0; }
+
+.v2-service-row.is-reverse { flex-direction: row-reverse; }
+
+.v2-service-image, .v2-service-text { flex: 1 1 0; min-width: 0; }
+
+.v2-service-image img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    display: block;
+    border-radius: calc(var(--card-radius) - 6px);
+}
+
+.v2-service-text { position: relative; padding: 0 0.5rem; }
+
+.v2-service-num {
+    position: absolute;
+    top: -1rem;
+    left: -0.25rem;
+    font-family: "League Spartan", sans-serif;
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--v2-blue);
+    opacity: 0.12;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.v2-service-text > * { position: relative; z-index: 1; }
+
+.v2-service-heading {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: 1.9rem;
+    color: var(--v2-blue);
+    margin-bottom: 0.85rem;
+}
+
+.v2-service-desc {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--v2-muted);
+    margin-bottom: 0;
+}
+
+@media (max-width: 991.98px) {
+    .v2-service-row, .v2-service-row.is-reverse {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1.5rem;
+        padding: 1.5rem;
+    }
+    .v2-service-num { font-size: 4.5rem; top: -0.5rem; }
+}
+
+/* ---------- Proof / See My Work - asymmetric (currently unused, gallery section removed pending separate before/after photos) ---------- */
+.v2-proof-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 2rem;
+}
+
+.v2-proof-main, .v2-proof-side > div {
+    position: relative;
+    border-radius: var(--card-radius);
+    box-shadow: var(--card-shadow);
+    overflow: hidden;
+}
+
+.v2-proof-main img, .v2-proof-side img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.v2-proof-main { min-height: 520px; }
+.v2-proof-main img { height: 520px; }
+
+.v2-proof-side { display: flex; flex-direction: column; gap: 2rem; }
+.v2-proof-side > div { flex: 1; }
+.v2-proof-side img { height: 250px; }
+
+@media (max-width: 991.98px) {
+    .v2-proof-grid { grid-template-columns: 1fr; }
+    .v2-proof-main img { height: 320px; }
+    .v2-proof-side { flex-direction: row; }
+    .v2-proof-side img { height: 220px; }
+}
+
+@media (max-width: 575.98px) {
+    .v2-proof-side { flex-direction: column; }
+}
+
+/* ---------- Testimonials: featured quote ---------- */
+.v2-quote-featured {
+    position: relative;
+    max-width: 760px;
+    text-align: center;
+    margin: 0 auto 3.5rem;
+    padding: 1rem 1rem 0;
+}
+
+.v2-quote-mark {
+    display: block;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 9rem;
+    line-height: 1;
+    color: var(--v2-blue);
+    opacity: 0.08;
+    margin-bottom: -2.5rem;
+}
+
+.v2-quote-featured-text {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: var(--v2-ink);
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+}
+
+.v2-quote-featured-author {
+    color: var(--v2-blue);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.v2-quote-featured-author span { color: #ffb100; margin-left: 0.5rem; }
+
+.v2-quote-card {
+    background: var(--card-bg);
+    border-radius: var(--card-radius);
+    padding: 1.75rem;
+    height: 100%;
+    box-shadow: var(--card-shadow);
+}
+
+.v2-quote-card p {
+    font-size: 1.05rem;
+    color: #444;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.v2-quote-card span {
+    color: var(--v2-blue);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 575.98px) {
+    .v2-quote-mark { font-size: 6rem; }
+    .v2-quote-featured-text { font-size: 1.3rem; }
+}
+
+/* ---------- Local knowledge photo grid (area pages) ---------- */
+.v2-local-grid img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: var(--card-radius);
+    box-shadow: var(--card-shadow);
+}
+
+@media (max-width: 575.98px) {
+    .v2-local-grid img { height: 220px; }
+}
+
+/* ---------- Meet Jack ---------- */
+.v2-jack-photo-wrap { position: relative; }
+
+.v2-jack-photo {
+    width: 100%;
+    border-radius: var(--card-radius);
+    box-shadow: 0 25px 55px rgba(0, 10, 30, 0.35);
+}
+
+.v2-jack-tag {
+    position: absolute;
+    bottom: -1.5rem;
+    right: -1.25rem;
+    background: #fff;
+    border-radius: 16px;
+    padding: 1.1rem 1.4rem;
+    box-shadow: 0 20px 40px rgba(0, 10, 30, 0.25);
+    text-align: center;
+    min-width: 130px;
+}
+
+.v2-jack-tag-num {
+    display: block;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 800;
+    font-size: 1.9rem;
+    color: var(--v2-blue);
+    line-height: 1;
+}
+
+.v2-jack-tag-label {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--v2-muted);
+    margin-top: 0.3rem;
+}
+
+@media (max-width: 767.98px) {
+    .v2-jack-tag { position: static; margin: 1.25rem auto 0; display: inline-block; }
+    .v2-jack-photo-wrap { text-align: center; }
+}
+
+/* ---------- Areas (quiet utility section) ---------- */
+/* Linked pills (area has its own page) look like buttons and invite a click */
+a.v2-area-pill {
+    background: var(--card-bg);
+    color: var(--v2-blue);
+    box-shadow: var(--card-shadow);
+    transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+a.v2-area-pill:hover, a.v2-area-pill:focus-visible {
+    background: var(--v2-soft-blue);
+    box-shadow: 0 6px 18px rgba(0, 30, 80, 0.16);
+    transform: translateY(-1px);
+}
+
+/* Plain pills (no page yet) are flat text, not a fake button */
+span.v2-area-pill {
+    background: transparent;
+    color: var(--v2-muted);
+    box-shadow: none;
+}
+
+/* Contact form card: white, not another layer of dark blue.
+   Scoped to .v2-section#contact (not a bare #contact) so this doesn't
+   override the dark frosted-glass contact form on the other, not-yet-
+   converted pages that also use id="contact" (every area page). */
+.v2-section#contact .contact-form {
+    background: var(--card-bg);
+    border-radius: var(--card-radius);
+    box-shadow: var(--card-shadow);
+}
+
+.v2-section#contact .contact-form .form-label {
+    color: #333;
+}
+
+.v2-section#contact .contact-form .form-control,
+.v2-section#contact .contact-form .form-select {
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #222;
+}
+
+.v2-section#contact .contact-form .form-control::placeholder {
+    color: #888;
+}
+
+.v2-section#contact .contact-form .form-control:focus,
+.v2-section#contact .contact-form .form-select:focus {
+    background: #fff;
+    border-color: var(--v2-blue);
+    box-shadow: 0 0 0 3px rgba(0, 74, 173, 0.15);
+    color: #222;
+}
+
+.v2-section#contact .contact-form .form-select option {
+    background: #fff;
+    color: #222;
 }

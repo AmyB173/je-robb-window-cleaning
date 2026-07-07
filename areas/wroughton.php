@@ -6,28 +6,34 @@ include '../includes/header.php';
 
 $v2_services = [
   [
-    'img'   => '/assets/images/clean-domestic-window.webp',
-    'alt'   => 'Window cleaning service in Wroughton',
-    'label' => 'Window Cleaning',
-    'desc'  => "I use a pure water fed pole system that reaches upstairs windows safely from the ground. Frames and sills cleaned every visit, not just the glass.",
+    'img'     => '/assets/images/skylight-clear-blue.webp',
+    'alt'     => 'Skylight cleaning service in Wroughton',
+    'label'   => 'Window Cleaning',
+    'desc'    => "I use a pure water fed pole system that reaches upstairs windows safely from the ground. Frames and sills cleaned every visit, not just the glass.",
+    'imgpos'  => 'center 70%',
+    'imgnote' => 'TODO: file is 1.16MB, still well over the README image budget (500KB for hero-sized images) - needs another compression pass.',
   ],
   [
-    'img'   => '/assets/images/clean-fascia-domestic.webp',
-    'alt'   => 'Fascia cleaning service in Wroughton',
-    'label' => 'Fascia &amp; Soffit Cleaning',
-    'desc'  => "I bring fascias, soffits and gutter lines back to white, usually alongside a window clean so there's no extra visit to arrange.",
+    'img'     => '/assets/images/fascias-2.webp',
+    'alt'     => 'Fascia cleaning service in Wroughton',
+    'label'   => 'Fascia &amp; Soffit Cleaning',
+    'desc'    => "I bring fascias, soffits and gutter lines back to white, usually alongside a window clean so there's no extra visit to arrange.",
+    'imgpos'  => 'center 15%',
+    'imgnote' => 'TODO: file is 3.2MB, barely smaller than the original .jpg - looks like a format conversion rather than a resize. Needs an actual resize/recompression pass.',
   ],
   [
-    'img'   => '/assets/images/gutter-empty.webp',
-    'alt'   => 'Gutter emptying service in Wroughton',
-    'label' => 'Gutter Emptying',
-    'desc'  => "I clear leaves and moss from the gutter with a vacuum system, so rainwater runs off the roof the way it should.",
+    'img'     => '/assets/images/gutter-empty.webp',
+    'imgnote' => 'TODO: replace with a clearer gutter-emptying action shot when available - current photo shows the vacuum unit and cleared debris rather than the gutter itself.',
+    'alt'     => 'Gutter emptying service in Wroughton',
+    'label'   => 'Gutter Emptying',
+    'desc'    => "I clear leaves and moss from the gutter with a vacuum system, so rainwater runs off the roof the way it should.",
   ],
   [
-    'img'   => '/assets/images/greenhouse-full.webp',
-    'alt'   => 'Conservatory and greenhouse cleaning in Wroughton',
-    'label' => 'Conservatories and Greenhouses',
-    'desc'  => "I clean glass roofs and panels inside and out, letting the light back in.",
+    'img'     => '/assets/images/greenhouse-full.webp',
+    'alt'     => 'Conservatory and greenhouse cleaning in Wroughton',
+    'label'   => 'Conservatories and Greenhouses',
+    'desc'    => "I clean glass roofs and panels inside and out, letting the light back in.",
+    'imgnote' => 'TODO: source file is 4080x3072 (3.25MB!) - re-export around 1200px wide, it is far over the README image budget and was the slowest image to decode during testing.',
   ],
 ];
 ?>
@@ -69,6 +75,9 @@ $v2_services = [
 <!-- ============ HERO ============ -->
 <section class="v2-hero" id="home">
   <div class="container">
+    <nav class="v2-hero-breadcrumb" aria-label="breadcrumb">
+      <a href="/">Home</a><span class="v2-hero-breadcrumb-sep" aria-hidden="true">/</span><span>Areas</span><span class="v2-hero-breadcrumb-sep" aria-hidden="true">/</span><span aria-current="page">Wroughton</span>
+    </nav>
     <div class="row align-items-center g-5">
       <div class="col-lg-6">
         <p class="v2-hero-eyebrow">Your Neighbour &middot; Your Window Cleaner</p>
@@ -115,6 +124,10 @@ $v2_services = [
   </div>
 </section>
 
+<div class="v2-divider" style="background: var(--v2-soft-blue);" aria-hidden="true">
+  <svg viewBox="0 0 1440 40" preserveAspectRatio="none"><path d="M0,16 C360,40 1080,0 1440,18 L1440,40 L0,40 Z" fill="#003580"></path></svg>
+</div>
+
 <!-- ============ MEET JACK: I Live Here Too ============ -->
 <section class="v2-section section-dark" id="about-jack">
   <div class="container">
@@ -146,6 +159,10 @@ $v2_services = [
     </div>
   </div>
 </section>
+
+<div class="v2-divider" style="background: #004aad;" aria-hidden="true">
+  <svg viewBox="0 0 1440 40" preserveAspectRatio="none"><path d="M0,24 C360,0 1080,40 1440,20 L1440,40 L0,40 Z" fill="var(--v2-soft-teal)"></path></svg>
+</div>
 
 <!-- ============ WROUGHTON PROPERTIES / LOCAL KNOWLEDGE ============ -->
 <section class="v2-section" id="local-knowledge" style="background: var(--v2-soft-teal);">
@@ -262,6 +279,10 @@ include '../includes/v2-services.php';
 $area_name = 'Wroughton';
 include '../includes/nearby-areas.php';
 ?>
+
+<div class="v2-divider" style="background: var(--bg-section-light);" aria-hidden="true">
+  <svg viewBox="0 0 1440 40" preserveAspectRatio="none"><path d="M0,16 C360,40 1080,0 1440,18 L1440,40 L0,40 Z" fill="#003580"></path></svg>
+</div>
 
 <!-- ============ CONTACT: final CTA ============ -->
 <section class="v2-section section-dark" id="contact">

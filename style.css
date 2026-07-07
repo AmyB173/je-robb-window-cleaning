@@ -1343,6 +1343,27 @@ box-shadow: 0 6px 20px rgba(252, 195, 26, 0.4);
     overflow: hidden;
 }
 
+.v2-hero-breadcrumb {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 1.5rem;
+}
+
+.v2-hero-breadcrumb a {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+}
+
+.v2-hero-breadcrumb a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.v2-hero-breadcrumb .v2-hero-breadcrumb-sep {
+    margin: 0 0.45em;
+    opacity: 0.5;
+}
+
 .v2-hero-eyebrow {
     font-size: 0.85rem;
     font-weight: 700;
